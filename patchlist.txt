@@ -747,7 +747,7 @@
 0:0xF9ADA t2_mov(1,2,<ib_h>)
 0:0xF9910 t2_mov(1,1,<ib_w>)
 0:0xF9914 t2_mov(1,2,<ib_h>)
-0:0xF9946 t2_mov(1,2,<ib_w>)
+0:0xF9946 t2_mov(1,2,</,<*,<ib_w>,10222>,10000>)
 0:0xF994A t2_mov(1,3,<ib_h>)
 
 # The Legend of Heroes: Trails of Cold Steel [US 1.01]
@@ -757,7 +757,7 @@
 0:0xF99F6 t2_mov(1,2,<ib_h>)
 0:0xF982C t2_mov(1,1,<ib_w>)
 0:0xF9830 t2_mov(1,2,<ib_h>)
-0:0xF9862 t2_mov(1,2,<ib_w>)
+0:0xF9862 t2_mov(1,2,</,<*,<ib_w>,10222>,10000>)
 0:0xF9864 t2_mov(1,3,<ib_h>)
 
 # Eiyuu Densetsu: Sen no Kisek [JP 1.03]
@@ -767,7 +767,7 @@
 0:0xF971E t2_mov(1,2,<ib_h>)
 0:0xF9554 t2_mov(1,1,<ib_w>)
 0:0xF9558 t2_mov(1,2,<ib_h>)
-0:0xF958A t2_mov(1,2,<ib_w>)
+0:0xF958A t2_mov(1,2,</,<*,<ib_w>,10222>,10000>)
 0:0xF958E t2_mov(1,3,<ib_h>)
 
 # The Legend of Heroes: Trails of Cold Steel [ASIA 1.03]
@@ -777,7 +777,7 @@
 0:0xF9B36 t2_mov(1,2,<ib_h>)
 0:0xF996C t2_mov(1,1,<ib_w>)
 0:0xF9970 t2_mov(1,2,<ib_h>)
-0:0xF99A2 t2_mov(1,2,<ib_w>)
+0:0xF99A2 t2_mov(1,2,</,<*,<ib_w>,10222>,10000>)
 0:0xF99A6 t2_mov(1,3,<ib_h>)
 
 # The Legend of Heroes: Trails of Cold Steel II [EU 1.00]
@@ -785,7 +785,7 @@
 @IB
 0:0x139B8C t2_mov(1,1,<ib_w>)
 0:0x139B90 t2_mov(1,2,<ib_h>)
-0:0x1399EC t2_mov(1,1,<ib_w>)
+0:0x1399EC t2_mov(1,1,</,<*,<ib_w>,10222>,10000>)
 0:0x1399F0 t2_mov(1,2,<ib_h>)
 0:0x1399AC t2_mov(1,1,<ib_w>)
 0:0x1399B0 t2_mov(1,2,<ib_h>)
@@ -795,7 +795,7 @@
 @IB
 0:0x139AA4 t2_mov(1,1,<ib_w>)
 0:0x139AA8 t2_mov(1,2,<ib_h>)
-0:0x139904 t2_mov(1,1,<ib_w>)
+0:0x139904 t2_mov(1,1,</,<*,<ib_w>,10222>,10000>)
 0:0x139908 t2_mov(1,2,<ib_h>)
 0:0x1398C4 t2_mov(1,1,<ib_w>)
 0:0x1398C8 t2_mov(1,2,<ib_h>)
@@ -805,7 +805,7 @@
 @IB
 0:0x1395C4 t2_mov(1,1,<ib_w>)
 0:0x1395C8 t2_mov(1,2,<ib_h>)
-0:0x139422 t2_mov(1,1,<ib_w>)
+0:0x139422 t2_mov(1,1,</,<*,<ib_w>,10222>,10000>)
 0:0x139426 t2_mov(1,2,<ib_h>)
 0:0x1393DE t2_mov(1,1,<ib_w>)
 0:0x1393E2 t2_mov(1,2,<ib_h>)
@@ -815,7 +815,7 @@
 @IB
 0:0x139BE8 t2_mov(1,1,<ib_w>)
 0:0x139BEC t2_mov(1,2,<ib_h>)
-0:0x139A48 t2_mov(1,1,<ib_w>)
+0:0x139A48 t2_mov(1,1,</,<*,<ib_w>,10222>,10000>)
 0:0x139A4C t2_mov(1,2,<ib_h>)
 0:0x139A08 t2_mov(1,1,<ib_w>)
 0:0x139A0C t2_mov(1,2,<ib_h>)
