@@ -31,7 +31,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![](https://placehold.it/20/eeee22/000000?text=+) | LittleBigPlanet | PCSF00021 <br/> PCSA00017 <br/> PCSC00013 <br/> PCSD00006 | Internal res. | 720x408 | [#24](https://github.com/Electry/VitaGrafix/issues/24) |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Miracle Girls Festival | PCSG00610 | Internal res. | 720x408 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | MotoGP 13 | PCSB00316 <br/> PCSE00409 | Internal res. | 704x448 | |
-| ![](https://placehold.it/20/22bb22/000000?text=+) | MotoGP 14 | PCSE00529 | Internal res. | 704x448 | |
+| ![](https://placehold.it/20/22bb22/000000?text=+) | MotoGP 14 | PCSB00498 <br/> PCSE00529 | Internal res. | 704x448 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | MUD - FIM Motocross World Championship | PCSB00182 | Internal res. | 704x448 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | MXGP: The Official Motocross Videogame | PCSB00470 <br/> PCSE00530 | Internal res. | 704x448 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Ninja Gaiden Sigma 2 Plus | PCSB00294 <br/> PCSE00233 <br/> PCSG00157 | 2x Internal res. | 864x480, 640x416 | |
