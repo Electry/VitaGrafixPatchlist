@@ -952,3 +952,41 @@
 0:0xFB442 t2_mov(1,1,0xA00000)
 0:0xCD394 t2_mov(1,4,<ib_w>)
 0:0xCD39A t2_mov(1,5,<ib_h>)
+
+# LEGO The Hobbit [EU 1.02]
+[PCSB00503,eboot.bin,0x49FEA6D2]
+@IB
+0:0xDF608 t2_mov(1,1,0xA00000)
+0:0xB315E t2_mov(1,3,<ib_w>)
+0:0xB3164 t2_mov(1,4,<ib_h>)
+# Fix touchscreen pos calc in sub_810DD958()
+0:0xDD9C4 t2_mov(0,3,640)
+0:0xDD9D0 t2_mov(0,2,368)
+0:0xDD9D8 nop()
+0:0xDD9DE nop()
+0:0xDD9E0 bytes(01 EE 90 2A)
+# Fix back touchpad
+0:0xDDB6A t2_mov(0,2,368)
+0:0xDDB72 t2_mov(0,3,640)
+0:0xDDB76 nop()
+0:0xDDB7E nop()
+0:0xDDB84 bytes(00 EE 90 2A)
+
+# LEGO The Hobbit [US 1.00]
+[PCSE00390,eboot.bin,0x2D2DE73B]
+@IB
+0:0xDF574 t2_mov(1,1,0xA00000)
+0:0xB30CA t2_mov(1,3,<ib_w>)
+0:0xB30D0 t2_mov(1,4,<ib_h>)
+# Fix touchscreen pos calc in sub_810DD8C4()
+0:0xDD930 t2_mov(0,3,640)
+0:0xDD93C t2_mov(0,2,368)
+0:0xDD944 nop()
+0:0xDD94A nop()
+0:0xDD94C bytes(01 EE 90 2A)
+# Fix back touchpad
+0:0xDDAD6 t2_mov(0,2,368)
+0:0xDDADE t2_mov(0,3,640)
+0:0xDDAE2 nop()
+0:0xDDAEA nop()
+0:0xDDAF0 bytes(00 EE 90 2A)

@@ -31,6 +31,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![](https://placehold.it/20/eeee22/000000?text=+) | LEGO Harry Potter: Years 5–7 | PCSB00103 <br/> PCSE00057 | Framebuffer | 640x368 | [#3](https://github.com/Electry/VitaGrafixPatchlist/issues/3) |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | LEGO Jurassic World | PCSB00703 <br/> PCSE00587 | Internal res. | 640x368 | [#1](https://github.com/Electry/VitaGrafixPatchlist/issues/1) |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | LEGO Star Wars: The Force Awakens | PCSB00877 <br/> PCSE00791 | Internal res. | 640x368 | |
+| ![](https://placehold.it/20/22bb22/000000?text=+) | LEGO The Hobbit | PCSB00503 <br/> PCSE00390 | Internal res. | 640x368 | [#1](https://github.com/Electry/VitaGrafixPatchlist/issues/1) |
 | ![](https://placehold.it/20/eeee22/000000?text=+) | LittleBigPlanet | PCSF00021 <br/> PCSA00017 <br/> PCSC00013 <br/> PCSD00006 | Internal res. | 720x408 | [#24](https://github.com/Electry/VitaGrafix/issues/24) |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Miracle Girls Festival | PCSG00610 | Internal res. | 720x408 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | MotoGP 13 | PCSB00316 <br/> PCSE00409 | Internal res. | 704x448 | |
