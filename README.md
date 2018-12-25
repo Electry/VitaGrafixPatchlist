@@ -49,6 +49,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![](https://placehold.it/20/eeee22/000000?text=+) | The Amazing Spider-Man | PCSB00428 | Internal res. <br/> FPS cap | 704x400 <br/> 60 | [#122](https://github.com/Electry/VitaGrafix/issues/122) |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | The Legend of Heroes: Trails of Cold Steel <br/> Eiyuu Densetsu: Sen no Kiseki | PCSB00866 <br/> PCSE00786 <br/> PCSG00195 <br/> PCSH00074 | Internal res. | 720x408 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | The Legend of Heroes: Trails of Cold Steel II <br/> Eiyuu Densetsu: Sen no Kiseki II | PCSB01016 <br/> PCSE00896 <br/> PCSG00354 <br/> PCSH00075 | Internal res. | 720x408 | |
+| ![](https://placehold.it/20/22bb22/000000?text=+) | The LEGO Movie Videogame | PCSB00553 <br/> PCSE00353 | Internal res. | 640x368 | [#1](https://github.com/Electry/VitaGrafixPatchlist/issues/1) |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Utawarerumono: Mask of Deception / Itsuwari no Kamen | PCSB01093 <br/> PCSE00959 <br/> PCSG00617 | Internal res. | 672x384 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Utawarerumono: Mask of Truth / Futari no Hakuoro | PCSB01145 <br/> PCSE01102 <br/> PCSG00838 | Internal res. | 672x384 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Utawarerumono: Chiriyuku Mono he no Komoriuta | PCSG01079 | Internal res. | 672x384 | |

@@ -881,3 +881,39 @@
 @IB
 0:0xCCFF3A t2_mov(1,1,<ib_w>)
 0:0xCCFF42 t2_mov(1,1,<ib_h>)
+
+# The LEGO Movie Videogame [EU 1.00]
+[PCSB00553,eboot.bin,0x13E568EA]
+@IB
+0:0xAB790 t2_mov(1,2,<ib_w>)
+0:0xAB796 t2_mov(1,3,<ib_h>)
+# Fix touchscreen pos calc in sub_810D337E()
+0:0xD33DE t2_mov(0,3,640)
+0:0xD33EA t2_mov(0,2,368)
+0:0xD33F2 nop()
+0:0xD33F8 nop()
+0:0xD33FA bytes(01 EE 90 2A)
+# Fix back touchpad
+0:0xD3580 t2_mov(0,2,368)
+0:0xD3588 t2_mov(0,3,640)
+0:0xD358C nop()
+0:0xD3594 nop()
+0:0xD359A bytes(00 EE 90 2A)
+
+# The LEGO Movie Videogame [US 1.02]
+[PCSE00353,eboot.bin,0x3B221402]
+@IB
+0:0xB6DB8 t2_mov(1,2,<ib_w>)
+0:0xB6DBE t2_mov(1,3,<ib_h>)
+# Fix touchscreen pos calc in sub_810E09C8()
+0:0xE0A34 t2_mov(0,3,640)
+0:0xE0A40 t2_mov(0,2,368)
+0:0xE0A48 nop()
+0:0xE0A4E nop()
+0:0xE0A50 bytes(01 EE 90 2A)
+# Fix back touchpad
+0:0xE0BDA t2_mov(0,2,368)
+0:0xE0BE2 t2_mov(0,3,640)
+0:0xE0BE6 nop()
+0:0xE0BEE nop()
+0:0xE0BF4 bytes(00 EE 90 2A)
