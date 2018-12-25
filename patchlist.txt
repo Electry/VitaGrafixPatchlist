@@ -990,3 +990,17 @@
 0:0xDDAE2 nop()
 0:0xDDAEA nop()
 0:0xDDAF0 bytes(00 EE 90 2A)
+
+# LEGO Ninjago: Shadow of Ronin [EU 1.00]
+[PCSB00706,eboot.bin,0xB178EFFD]
+@IB
+0:0xFC40E t2_mov(1,1,0x800000)
+0:0xCD618 t2_mov(1,4,<ib_w>)
+0:0xCD61E t2_mov(1,5,<ib_h>)
+
+# LEGO Ninjago: Shadow of Ronin [US 1.01]
+[PCSE00534,eboot.bin,0xD6EAF718]
+@IB
+0:0xFC41A t2_mov(1,1,0x800000)
+0:0xCD618 t2_mov(1,4,<ib_w>)
+0:0xCD61E t2_mov(1,5,<ib_h>)
