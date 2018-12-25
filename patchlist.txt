@@ -917,3 +917,15 @@
 0:0xE0BE6 nop()
 0:0xE0BEE nop()
 0:0xE0BF4 bytes(00 EE 90 2A)
+
+# LEGO Harry Potter: Years 5–7 [EU 1.00]
+[PCSB00103,eboot.bin,0x10842FA7]
+@FB
+0:0xB0EBC t2_mov(1,0,<fb_w>)
+0:0xB0EC2 t2_mov(1,1,<fb_h>)
+
+# LEGO Harry Potter: Years 5–7 [US 1.01]
+[PCSE00057,eboot.bin,0xE9D1D998]
+@FB
+0:0xB0F08 t2_mov(1,0,<fb_w>)
+0:0xB0F0E t2_mov(1,1,<fb_h>)
