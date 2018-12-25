@@ -929,3 +929,17 @@
 @FB
 0:0xB0F08 t2_mov(1,0,<fb_w>)
 0:0xB0F0E t2_mov(1,1,<fb_h>)
+
+# LEGO Jurassic World [EU 1.00]
+[PCSB00703,eboot.bin,0xE8AFEE20]
+@IB
+0:0x101B34 t2_mov(1,1,0xA00000)
+0:0xD1E4C t2_mov(1,4,<ib_w>)
+0:0xD1E52 t2_mov(1,5,<ib_h>)
+
+# LEGO Jurassic World [US 1.00]
+[PCSE00587,eboot.bin,0xAFB89A72]
+@IB
+0:0x101B28 t2_mov(1,1,0xA00000)
+0:0xD1E40 t2_mov(1,4,<ib_w>)
+0:0xD1E46 t2_mov(1,5,<ib_h>)
