@@ -1004,3 +1004,17 @@
 0:0xFC41A t2_mov(1,1,0x800000)
 0:0xCD618 t2_mov(1,4,<ib_w>)
 0:0xCD61E t2_mov(1,5,<ib_h>)
+
+# LEGO Marvel's Avengers [EU 1.00]
+[PCSB00764,eboot.bin,0x356EBF5C]
+@IB
+0:0x196124 t2_mov(1,1,0x800000)
+0:0x165AEE t2_mov(1,4,<ib_w>)
+0:0x165AF4 t2_mov(1,5,<ib_h>)
+
+# LEGO Marvel's Avengers [US 1.00]
+[PCSE00670,eboot.bin,0xC87160F3]
+@IB
+0:0x19611C t2_mov(1,1,0x800000)
+0:0x165AE6 t2_mov(1,4,<ib_w>)
+0:0x165AEC t2_mov(1,5,<ib_h>)
