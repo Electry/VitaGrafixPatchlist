@@ -54,6 +54,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Sly Cooper 3: Honor Among Thieves | PCSF00271 <br/> PCSF00338 <br/> PCSA00095 <br/> PCSA00098 <br/> | Framebuffer <br/> FPS cap | 960x544 <br/> 30 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Sly Cooper: Thieves in Time | PCSF00156 <br/> PCSF00206 <br/> PCSF00207 <br/> PCSF00208 <br/> PCSF00209 <br/> PCSA00068 | FPS cap | 30 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Soul Sacrifice | PCSF00178 <br/> PCSA00092 <br/> PCSD00065 <br/> PCSC00039 | Internal res. | 720x408 | |
+| ![](https://placehold.it/20/eeee22/000000?text=+) | Soul Sacrifice Delta | PCSF00532 <br/> PCSA00152 <br/> PCSD00079 <br/> PCSC00049 | Internal res. | 720x408 | [#2](https://github.com/Electry/VitaGrafixPatchlist/issues/2) |
 | ![](https://placehold.it/20/eeee22/000000?text=+) | The Amazing Spider-Man | PCSB00428 | Internal res. <br/> FPS cap | 704x400 <br/> 60 | [#122](https://github.com/Electry/VitaGrafix/issues/122) |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | The Legend of Heroes: Trails of Cold Steel <br/> Eiyuu Densetsu: Sen no Kiseki | PCSB00866 <br/> PCSE00786 <br/> PCSG00195 <br/> PCSH00074 | Internal res. | 720x408 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | The Legend of Heroes: Trails of Cold Steel II <br/> Eiyuu Densetsu: Sen no Kiseki II | PCSB01016 <br/> PCSE00896 <br/> PCSG00354 <br/> PCSH00075 | Internal res. | 720x408 | |

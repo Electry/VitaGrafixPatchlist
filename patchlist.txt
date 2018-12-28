@@ -1074,3 +1074,19 @@
 @IB
 0:0x5293D6 t2_mov(1,1,<ib_w>)
 0:0x5293DC t2_mov(1,1,<ib_h>)
+
+# Soul Sacrifice Delta [EU 1.30]
+[PCSF00532,eboot.bin,0xA01008DF]
+# Soul Sacrifice Delta [US 1.30]
+[PCSA00152,eboot.bin,0xD66AEBF4]
+@IB
+0:0x8282A6 t2_mov(1,1,<ib_w>)
+0:0x8282AC t2_mov(1,1,<ib_h>)
+
+# Soul Sacrifice Delta [ASIA 1.30]
+[PCSD00079,eboot.bin,0xAE2CCD8C]
+# Soul Sacrifice Delta [JP 1.30]
+[PCSC00049,eboot.bin,0x7607439D]
+@IB
+0:0x82823E t2_mov(1,1,<ib_w>)
+0:0x828244 t2_mov(1,1,<ib_h>)
