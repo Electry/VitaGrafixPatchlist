@@ -1054,3 +1054,23 @@
 0:0xF3BA8 nop()
 0:0xF3BB0 nop()
 0:0xF3BB2 bytes(00 EE 90 2A)
+
+# Soul Sacrifice [EU 1.30]
+[PCSF00178,eboot.bin,0xA0374454]
+# Soul Sacrifice [US 1.30]
+[PCSA00092,eboot.bin,0x1A6AC246]
+@IB
+0:0x52C9F2 t2_mov(1,1,<ib_w>)
+0:0x52C9F8 t2_mov(1,1,<ib_h>)
+
+# Soul Sacrifice [ASIA 1.32]
+[PCSD00065,eboot.bin,0x406FCC54]
+@IB
+0:0x5251CE t2_mov(1,1,<ib_w>)
+0:0x5251D4 t2_mov(1,1,<ib_h>)
+
+# Soul Sacrifice [JP 1.33]
+[PCSC00039,eboot.bin,0xAA214AD2]
+@IB
+0:0x5293D6 t2_mov(1,1,<ib_w>)
+0:0x5293DC t2_mov(1,1,<ib_h>)
