@@ -756,7 +756,7 @@
 0:0xF9946 t2_mov(1,2,</,<*,<ib_w>,10222>,10000>)
 0:0xF994A t2_mov(1,3,<ib_h>)
 
-# The Legend of Heroes: Trails of Cold Steel [US 1.01]
+# The Legend of Heroes: Trails of Cold Steel [US 1.02]
 [PCSE00786,eboot.bin]
 @IB
 0:0xF99F2 t2_mov(1,1,<ib_w>)
@@ -764,10 +764,10 @@
 0:0xF982C t2_mov(1,1,<ib_w>)
 0:0xF9830 t2_mov(1,2,<ib_h>)
 0:0xF9862 t2_mov(1,2,</,<*,<ib_w>,10222>,10000>)
-0:0xF9864 t2_mov(1,3,<ib_h>)
+0:0xF9866 t2_mov(1,3,<ib_h>)
 
-# Eiyuu Densetsu: Sen no Kisek [JP 1.03]
-[PCSE00786,eboot.bin]
+# Eiyuu Densetsu: Sen no Kiseki [JP 1.03]
+[PCSG00195,eboot.bin]
 @IB
 0:0xF971A t2_mov(1,1,<ib_w>)
 0:0xF971E t2_mov(1,2,<ib_h>)
@@ -777,7 +777,7 @@
 0:0xF958E t2_mov(1,3,<ib_h>)
 
 # The Legend of Heroes: Trails of Cold Steel [ASIA 1.03]
-[PCSE00786,eboot.bin]
+[PCSH00074,eboot.bin]
 @IB
 0:0xF9B32 t2_mov(1,1,<ib_w>)
 0:0xF9B36 t2_mov(1,2,<ib_h>)
