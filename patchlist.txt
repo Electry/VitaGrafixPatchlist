@@ -215,6 +215,11 @@
 0:0x1F3144 t2_mov(1,5,<ib_h>)
 1:0x4650 uint32(<ib_w>)
 1:0x4654 uint32(<ib_h>)
+# Fix touchscreen/touchpad pos calc
+0:0x223AF6 t2_mov(0,0,640)
+0:0x223AFA nop() *3
+0:0x223B36 t2_mov(0,0,368)
+0:0x223B3A nop() *3
 
 # LEGO Star Wars: The Force Awakens [US 1.00]
 [PCSE00791,eboot.bin]
@@ -224,6 +229,11 @@
 0:0x1F3164 t2_mov(1,5,<ib_h>)
 1:0x4508 uint32(<ib_w>)
 1:0x450C uint32(<ib_h>)
+# Fix touchscreen/touchpad pos calc
+0:0x223B16 t2_mov(0,0,640)
+0:0x223B1A nop() *3
+0:0x223B56 t2_mov(0,0,368)
+0:0x223B5A nop() *3
 
 # World of Final Fantasy [EU 1.03]
 [PCSB00951,eboot.bin]
@@ -936,6 +946,13 @@
 0:0x101B34 t2_mov(1,1,0xA00000)
 0:0xD1E4C t2_mov(1,4,<ib_w>)
 0:0xD1E52 t2_mov(1,5,<ib_h>)
+1:0x3318 uint32(<ib_w>)
+1:0x331C uint32(<ib_h>)
+# Fix touchscreen/touchpad pos calc
+0:0x101466 t2_mov(0,0,640)
+0:0x10146A nop() *3
+0:0x1014A6 t2_mov(0,0,368)
+0:0x1014AA nop() *3
 
 # LEGO Jurassic World [US 1.00]
 [PCSE00587,eboot.bin,0xAFB89A72]
@@ -943,15 +960,41 @@
 0:0x101B28 t2_mov(1,1,0xA00000)
 0:0xD1E40 t2_mov(1,4,<ib_w>)
 0:0xD1E46 t2_mov(1,5,<ib_h>)
+1:0x32A0 uint32(<ib_w>)
+1:0x32A4 uint32(<ib_h>)
+# Fix touchscreen/touchpad pos calc
+0:0x10145A t2_mov(0,0,640)
+0:0x10145E nop() *3
+0:0x10149A t2_mov(0,0,368)
+0:0x10149E nop() *3
 
 # LEGO Batman 3: Beyond Gotham [EU 1.01]
 [PCSB00563,eboot.bin,0x91AE1FF9]
+@IB
+0:0xFB442 t2_mov(1,1,0x800000)
+0:0xCD394 t2_mov(1,4,<ib_w>)
+0:0xCD39A t2_mov(1,5,<ib_h>)
+1:0x2E5C uint32(<ib_w>)
+1:0x2E60 uint32(<ib_h>)
+# Fix touchscreen/touchpad pos calc
+0:0xFADB6 t2_mov(0,0,640)
+0:0xFADBA nop() *3
+0:0xFADF6 t2_mov(0,0,368)
+0:0xFADFA nop() *3
+
 # LEGO Batman 3: Beyond Gotham [US 1.01]
 [PCSE00442,eboot.bin,0xEBB7DA06]
 @IB
-0:0xFB442 t2_mov(1,1,0xA00000)
+0:0xFB442 t2_mov(1,1,0x800000)
 0:0xCD394 t2_mov(1,4,<ib_w>)
 0:0xCD39A t2_mov(1,5,<ib_h>)
+1:0x2DE4 uint32(<ib_w>)
+1:0x2DE8 uint32(<ib_h>)
+# Fix touchscreen/touchpad pos calc
+0:0xFADB6 t2_mov(0,0,640)
+0:0xFADBA nop() *3
+0:0xFADF6 t2_mov(0,0,368)
+0:0xFADFA nop() *3
 
 # LEGO The Hobbit [EU 1.02]
 [PCSB00503,eboot.bin,0x49FEA6D2]
@@ -997,6 +1040,13 @@
 0:0xFC40E t2_mov(1,1,0x800000)
 0:0xCD618 t2_mov(1,4,<ib_w>)
 0:0xCD61E t2_mov(1,5,<ib_h>)
+1:0x34A0 uint32(<ib_w>)
+1:0x34A4 uint32(<ib_h>)
+# Fix touchscreen/touchpad pos calc
+0:0xFBD34 t2_mov(0,0,640)
+0:0xFBD38 nop() *3
+0:0xFBD74 t2_mov(0,0,368)
+0:0xFBD78 nop() *3
 
 # LEGO Ninjago: Shadow of Ronin [US 1.01]
 [PCSE00534,eboot.bin,0xD6EAF718]
@@ -1004,6 +1054,13 @@
 0:0xFC41A t2_mov(1,1,0x800000)
 0:0xCD618 t2_mov(1,4,<ib_w>)
 0:0xCD61E t2_mov(1,5,<ib_h>)
+1:0x33FC uint32(<ib_w>)
+1:0x3400 uint32(<ib_h>)
+# Fix touchscreen/touchpad pos calc
+0:0xFBD40 t2_mov(0,0,640)
+0:0xFBD44 nop() *3
+0:0xFBD80 t2_mov(0,0,368)
+0:0xFBD84 nop() *3
 
 # LEGO Marvel's Avengers [EU 1.00]
 [PCSB00764,eboot.bin,0x356EBF5C]
@@ -1011,6 +1068,13 @@
 0:0x196124 t2_mov(1,1,0x800000)
 0:0x165AEE t2_mov(1,4,<ib_w>)
 0:0x165AF4 t2_mov(1,5,<ib_h>)
+1:0x38D0 uint32(<ib_w>)
+1:0x38D4 uint32(<ib_h>)
+# Fix touchscreen/touchpad pos calc
+0:0x195A56 t2_mov(0,0,640)
+0:0x195A5A nop() *3
+0:0x195A96 t2_mov(0,0,368)
+0:0x195A9A nop() *3
 
 # LEGO Marvel's Avengers [US 1.00]
 [PCSE00670,eboot.bin,0xC87160F3]
@@ -1018,6 +1082,13 @@
 0:0x19611C t2_mov(1,1,0x800000)
 0:0x165AE6 t2_mov(1,4,<ib_w>)
 0:0x165AEC t2_mov(1,5,<ib_h>)
+1:0x3858 uint32(<ib_w>)
+1:0x3862 uint32(<ib_h>)
+# Fix touchscreen/touchpad pos calc
+0:0x195A4E t2_mov(0,0,640)
+0:0x195A52 nop() *3
+0:0x195A8E t2_mov(0,0,368)
+0:0x195A92 nop() *3
 
 # LEGO Marvel Super Heroes: Universe in Peril [EU 1.00]
 [PCSB00315,eboot.bin,0xA9235749]
