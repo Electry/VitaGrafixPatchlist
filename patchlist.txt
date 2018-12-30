@@ -897,6 +897,8 @@
 @IB
 0:0xAB790 t2_mov(1,2,<ib_w>)
 0:0xAB796 t2_mov(1,3,<ib_h>)
+1:0x2F48 uint32(<ib_w>)
+1:0x2F4C uint32(<ib_h>)
 # Fix touchscreen pos calc in sub_810D337E()
 0:0xD33DE t2_mov(0,3,640)
 0:0xD33EA t2_mov(0,2,368)
@@ -915,6 +917,8 @@
 @IB
 0:0xB6DB8 t2_mov(1,2,<ib_w>)
 0:0xB6DBE t2_mov(1,3,<ib_h>)
+1:0x2EE4 uint32(<ib_w>)
+1:0x2EE8 uint32(<ib_h>)
 # Fix touchscreen pos calc in sub_810E09C8()
 0:0xE0A34 t2_mov(0,3,640)
 0:0xE0A40 t2_mov(0,2,368)
@@ -1002,6 +1006,8 @@
 0:0xDF608 t2_mov(1,1,0xA00000)
 0:0xB315E t2_mov(1,3,<ib_w>)
 0:0xB3164 t2_mov(1,4,<ib_h>)
+1:0x2CA8 uint32(<ib_w>)
+1:0x2CAC uint32(<ib_h>)
 # Fix touchscreen pos calc in sub_810DD958()
 0:0xDD9C4 t2_mov(0,3,640)
 0:0xDD9D0 t2_mov(0,2,368)
@@ -1021,6 +1027,8 @@
 0:0xDF574 t2_mov(1,1,0xA00000)
 0:0xB30CA t2_mov(1,3,<ib_w>)
 0:0xB30D0 t2_mov(1,4,<ib_h>)
+1:0x2C30 uint32(<ib_w>)
+1:0x2C34 uint32(<ib_h>)
 # Fix touchscreen pos calc in sub_810DD8C4()
 0:0xDD930 t2_mov(0,3,640)
 0:0xDD93C t2_mov(0,2,368)
@@ -1095,6 +1103,8 @@
 @IB
 0:0xCE276 t2_mov(1,2,<ib_w>)
 0:0xCE27C t2_mov(1,3,<ib_h>)
+1:0x2B60 uint32(<ib_w>)
+1:0x2B64 uint32(<ib_h>)
 # Fix touchscreen pos calc in sub_810F3A2A()
 0:0xF3A8A t2_mov(0,3,640)
 0:0xF3A96 t2_mov(0,2,368)
@@ -1113,6 +1123,8 @@
 @IB
 0:0xCE1FE t2_mov(1,2,<ib_w>)
 0:0xCE204 t2_mov(1,3,<ib_h>)
+1:0x2AE8 uint32(<ib_w>)
+1:0x2AEC uint32(<ib_h>)
 # Fix touchscreen pos calc in sub_810F39B2()
 0:0xF3A12 t2_mov(0,3,640)
 0:0xF3A1E t2_mov(0,2,368)
