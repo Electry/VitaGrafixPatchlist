@@ -751,7 +751,7 @@
 0:0x6C91A2 t2_mov(0,0,<ib_h>)
 
 # Fate/EXTELLA LINK [ASIA 1.02]
-[PCSG01091,eboot.bin]
+[PCSH10121,eboot.bin]
 @IB
 0:0x6CEF98 t2_mov(0,0,<ib_w>)
 0:0x6CEF9E t2_mov(0,0,<ib_h>)
