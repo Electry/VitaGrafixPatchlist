@@ -1191,3 +1191,131 @@
 0:0x2F8C6A t1_mov(1,<msaa>)
 # Lighting accumulation buffer
 0:0x2F8B72 t1_mov(0,<msaa>)
+
+# Ys: Memories of Celceta [EU 1.00]
+[PCSB00497,eboot.bin,0x4F6CDE39]
+# Ys: Memories of Celceta [US 1.00]
+[PCSE00245,eboot.bin,0x87BCEF3B]
+@IB
+# Render Targets
+0:0xCD240 t2_mov(1,1,<ib_w>)
+0:0xCD248 t2_mov(1,1,<ib_h>)
+0:0xCD25E t2_mov(1,1,<ib_w>)
+0:0xCD266 t2_mov(1,2,<ib_h>)
+0:0xCD2C2 bytes(38 69)
+0:0xCD2C8 t2_mov(1,1,</,<ib_w>,2>)
+0:0xCD2BA t2_mov(1,2,</,<ib_h>,2>)
+0:0xCD2E8 t1_mov(1,</,<ib_w>,4>)
+0:0xCD2DC t1_mov(2,</,<ib_h>,4>)
+0:0xCD306 t1_mov(1,</,<ib_w>,4>)
+0:0xCD2FA t1_mov(2,</,<ib_h>,4>)
+# 3D & Lighting
+0:0xBE30C t1_movt(0,<r,<to_fl,<ib_w>>,16>)
+0:0xBE31E t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+0:0xBE330 t1_movt(2,<r,<to_fl,</,<ib_w>,2>>,16>)
+0:0xBE342 t1_movt(2,<r,<to_fl,</,<ib_h>,2>>,16>)
+0:0xBE40A t1_movt(4,<r,<to_fl,</,<ib_w>,4>>,16>)
+0:0xBE414 t1_movt(4,<r,<to_fl,</,<ib_h>,4>>,16>)
+0:0xBE53E t1_movt(5,<r,<to_fl,</,<ib_w>,4>>,16>)
+0:0xBE54E t1_movt(5,<r,<to_fl,</,<ib_h>,4>>,16>)
+0:0xBE91A t1_movt(0,<r,<to_fl,<ib_w>>,16>)
+0:0xBE926 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+0:0xBE96E t1_movt(1,<r,<to_fl,<ib_w>>,16>)
+0:0xBE986 t1_movt(2,<r,<to_fl,<ib_h>>,16>)
+0:0xBE99E t1_movt(2,<r,<to_fl,<ib_h>>,16>)
+# Post-processing
+0:0xC60B4 t2_mov(1,3,<ib_w>)
+0:0xC609E t2_mov(1,14,<ib_h>)
+0:0xC614C t1_movt(0,<r,<to_fl,<ib_w>>,16>)
+0:0xC617A t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+0:0xC650A t1_movt(4,<r,<to_fl,<ib_w>>,16>)
+0:0xC6514 t1_movt(4,<r,<to_fl,<ib_h>>,16>)
+0:0xC6A18 t1_movt(2,<r,<to_fl,<ib_w>>,16>)
+0:0xC6A2A t1_movt(2,<r,<to_fl,<ib_h>>,16>)
+# Unk
+0:0xAD65C t1_movt(0,<r,<to_fl,<ib_w>>,16>)
+0:0xAD68A t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+
+# Ys: Memories of Celceta [ASIA 1.00]
+[PCSH00181,eboot.bin,0xE3BC452F]
+@IB
+# Render Targets
+0:0xD1DB0 t2_mov(1,1,<ib_w>)
+0:0xD1DB8 t2_mov(1,1,<ib_h>)
+0:0xD1DD6 t2_mov(1,1,<ib_w>)
+0:0xD1DDE t2_mov(1,2,<ib_h>)
+0:0xD1E4E bytes(38 69)
+0:0xD1E38 t2_mov(1,1,</,<ib_w>,2>)
+0:0xD1E3C t2_mov(1,2,</,<ib_h>,2>)
+0:0xD1E58 t1_mov(1,</,<ib_w>,4>)
+0:0xD1E5C t1_mov(2,</,<ib_h>,4>)
+0:0xD1E78 t1_mov(1,</,<ib_w>,4>)
+0:0xD1E7C t1_mov(2,</,<ib_h>,4>)
+# 3D & Lighting
+0:0xC2AA2 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
+0:0xC2AB4 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+0:0xC2AC6 t1_movt(2,<r,<to_fl,</,<ib_w>,2>>,16>)
+0:0xC2AD8 t1_movt(2,<r,<to_fl,</,<ib_h>,2>>,16>)
+0:0xC2BA0 t1_movt(4,<r,<to_fl,</,<ib_w>,4>>,16>)
+0:0xC2BAA t1_movt(4,<r,<to_fl,</,<ib_h>,4>>,16>)
+0:0xC2CD4 t1_movt(5,<r,<to_fl,</,<ib_w>,4>>,16>)
+0:0xC2CE4 t1_movt(5,<r,<to_fl,</,<ib_h>,4>>,16>)
+0:0xC30B0 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
+0:0xC30BA t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+0:0xC3104 t1_movt(1,<r,<to_fl,<ib_w>>,16>)
+0:0xC311C t1_movt(2,<r,<to_fl,<ib_h>>,16>)
+0:0xC3134 t1_movt(2,<r,<to_fl,<ib_h>>,16>)
+# Post-processing
+0:0xCA98C t2_mov(1,3,<ib_w>)
+0:0xCA976 t2_mov(1,14,<ib_h>)
+0:0xCAA24 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
+0:0xCAA52 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+0:0xCADE2 t1_movt(4,<r,<to_fl,<ib_w>>,16>)
+0:0xCADEC t1_movt(4,<r,<to_fl,<ib_h>>,16>)
+0:0xCB310 t1_movt(2,<r,<to_fl,<ib_w>>,16>)
+0:0xCB322 t1_movt(2,<r,<to_fl,<ib_h>>,16>)
+# Unk
+0:0xB1712 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
+0:0xB1740 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+
+# Ys: Memories of Celceta [JP 1.02]
+[PCSG00105,eboot.bin,0x55D819BD]
+@IB
+# Render Targets
+0:0xCD6AA t2_mov(1,1,<ib_w>)
+0:0xCD6B2 t2_mov(1,1,<ib_h>)
+0:0xCD6D0 t2_mov(1,1,<ib_w>)
+0:0xCD6D8 t2_mov(1,2,<ib_h>)
+0:0xCD748 bytes(38 69)
+0:0xCD732 t2_mov(1,1,</,<ib_w>,2>)
+0:0xCD736 t2_mov(1,2,</,<ib_h>,2>)
+0:0xCD752 t1_mov(1,</,<ib_w>,4>)
+0:0xCD756 t1_mov(2,</,<ib_h>,4>)
+0:0xCD772 t1_mov(1,</,<ib_w>,4>)
+0:0xCD776 t1_mov(2,</,<ib_h>,4>)
+# 3D & Lighting
+0:0xBE680 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
+0:0xBE692 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+0:0xBE6A4 t1_movt(2,<r,<to_fl,</,<ib_w>,2>>,16>)
+0:0xBE6B6 t1_movt(2,<r,<to_fl,</,<ib_h>,2>>,16>)
+0:0xBE77E t1_movt(4,<r,<to_fl,</,<ib_w>,4>>,16>)
+0:0xBE788 t1_movt(4,<r,<to_fl,</,<ib_h>,4>>,16>)
+0:0xBE8B2 t1_movt(5,<r,<to_fl,</,<ib_w>,4>>,16>)
+0:0xBE8C2 t1_movt(5,<r,<to_fl,</,<ib_h>,4>>,16>)
+0:0xBEC8E t1_movt(0,<r,<to_fl,<ib_w>>,16>)
+0:0xBEC98 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+0:0xBECE2 t1_movt(1,<r,<to_fl,<ib_w>>,16>)
+0:0xBECFA t1_movt(2,<r,<to_fl,<ib_h>>,16>)
+0:0xBED12 t1_movt(2,<r,<to_fl,<ib_h>>,16>)
+# Post-processing
+0:0xC64E8 t2_mov(1,3,<ib_w>)
+0:0xC64D2 t2_mov(1,14,<ib_h>)
+0:0xC6580 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
+0:0xC65AE t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+0:0xC693E t1_movt(4,<r,<to_fl,<ib_w>>,16>)
+0:0xC6948 t1_movt(4,<r,<to_fl,<ib_h>>,16>)
+0:0xC6E4C t1_movt(2,<r,<to_fl,<ib_w>>,16>)
+0:0xC6E5E t1_movt(2,<r,<to_fl,<ib_h>>,16>)
+# Unk
+0:0xAD958 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
+0:0xAD986 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
