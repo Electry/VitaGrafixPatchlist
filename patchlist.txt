@@ -1173,3 +1173,21 @@
 @IB
 0:0x82823E t2_mov(1,1,<ib_w>)
 0:0x828244 t2_mov(1,1,<ib_h>)
+
+# Need for Speed: Most Wanted [EU 1.01]
+[PCSB00183,eboot.bin,0x36DC8D31]
+# Need for Speed: Most Wanted [US 1.01]
+[PCSE00089,eboot.bin,0x36DC8D31]
+# Need for Speed: Most Wanted [JP 1.01]
+[PCSG00106,eboot.bin,0x36DC8D31]
+@IB
+0:0x2F8D60 t2_mov(1,1,<ib_w>)
+0:0x2F8D68 t2_mov(1,1,<ib_h>)
+# What are these ?!
+0:0x54DCB2 t2_mov(1,2,<if_gt,<*,<ib_w>,<ib_h>>,<*,840,476>,<if_eq,<msaa_enabled>,1,<if_eq,<msaa>,2,0xB00000,<if_eq,<msaa>,1,0xD00000,0xE00000>>,0xB00000>,<if_gt,<*,<ib_w>,<ib_h>>,<*,720,408>>,<if_eq,<msaa_enabled>,1,<if_eq,<msaa>,2,0xD00000,<if_eq,<msaa>,1,0xE00000,0xF00000>>,0xD00000>,<if_gt,<*,<ib_w>,<ib_h>>,<*,640,368>>,<if_eq,<msaa_enabled>,1,<if_eq,<msaa>,2,0xF00000,0x1000000>,0xF00000>,0x1000000>>>)
+1:0x331C uint32(<if_gt,<*,<ib_w>,<ib_h>>,<*,840,476>,<if_eq,<msaa_enabled>,1,<if_eq,<msaa>,2,0x15AA000,<if_eq,<msaa>,1,0x13AA000,0x12AA000>>,0x15AA000>,<if_gt,<*,<ib_w>,<ib_h>>,<*,720,408>>,<if_eq,<msaa_enabled>,1,<if_eq,<msaa>,2,0x13AA000,<if_eq,<msaa>,1,0x12AA000,0x11AA000>>,0x13AA000>,<if_gt,<*,<ib_w>,<ib_h>>,<*,640,368>>,<if_eq,<msaa_enabled>,1,<if_eq,<msaa>,2,0x11AA000,0x10AA000>,0x11AA000>,0x10AA000>>>)
+@MSAA
+# GBuffer
+0:0x2F8C6A t1_mov(1,<msaa>)
+# Lighting accumulation buffer
+0:0x2F8B72 t1_mov(0,<msaa>)
