@@ -498,6 +498,8 @@
 @FPS
 >sceDisplaySetFrameBuf_withWait()
 
+# The Amazing Spider-Man [US 1.00]
+[PCSE00333,eboot.bin]
 # The Amazing Spider-Man [EU 1.00]
 [PCSB00428,eboot.bin]
 @IB
