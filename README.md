@@ -19,6 +19,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Dead or Alive Xtreme 3: Venus | PCSG00773 <br/> PCSH00250 <br/> PCSH00281 | 2x Internal res. | 736x416, 640x368 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Dragon Ball Z: Battle of Z | PCSB00396 <br/> PCSE00305 <br/> PCSG00213 | Internal res. | 704x448 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Dragon Quest Builders | PCSB00981 <br/> PCSE00912 <br/> PCSG00697 <br/> PCSH00221 | Internal res. <br/> FPS cap | 720x408 <br/> 60 | |
+| ![](https://placehold.it/20/22bb22/000000?text=+) | Dungeon Hunter: Alliance | PCSB00041 <br/> PCSE00008 | Internal res. | 702x408 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Fate/EXTELLA LINK (The Umbral Star) | PCSG01091 <br/> PCSH10121 | Internal res. | 720x408 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | F1 2011 | PCSB00027 | Internal res. | 640x384 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | God of War Collection | PCSF00438 <br/> PCSA00126 <br/> PCSC00059 | Framebuffer <br/> FPS cap | 720x408 <br/> 30 | |

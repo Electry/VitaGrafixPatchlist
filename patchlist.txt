@@ -1467,3 +1467,11 @@
 0:0x1115DE t2_mov(1,1,<fb_h>)
 0:0x1132E6 t2_mov(1,3,<fb_w>)
 0:0x1132D2 t2_mov(1,0,<fb_h>)
+
+# Dungeon Hunter: Alliance [EU 1.00]
+[PCSB00041,eboot.bin,0x68447424]
+# Dungeon Hunter: Alliance [US 1.00]
+[PCSE00008,eboot.bin,0x0FC000EE]
+@IB
+0:0x82DDE t3_mov(5,<ib_w>)
+0:0x82E32 t2_mov(1,11,<ib_h>)
