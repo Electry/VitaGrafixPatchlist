@@ -1232,8 +1232,6 @@
 0:0xC617A t1_movt(0,<r,<to_fl,<ib_h>>,16>)
 0:0xC650A t1_movt(4,<r,<to_fl,<ib_w>>,16>)
 0:0xC6514 t1_movt(4,<r,<to_fl,<ib_h>>,16>)
-0:0xC6A18 t1_movt(2,<r,<to_fl,<ib_w>>,16>)
-0:0xC6A2A t1_movt(2,<r,<to_fl,<ib_h>>,16>)
 # Unk
 0:0xAD65C t1_movt(0,<r,<to_fl,<ib_w>>,16>)
 0:0xAD68A t1_movt(0,<r,<to_fl,<ib_h>>,16>)
@@ -1274,8 +1272,6 @@
 0:0xCAA52 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
 0:0xCADE2 t1_movt(4,<r,<to_fl,<ib_w>>,16>)
 0:0xCADEC t1_movt(4,<r,<to_fl,<ib_h>>,16>)
-0:0xCB310 t1_movt(2,<r,<to_fl,<ib_w>>,16>)
-0:0xCB322 t1_movt(2,<r,<to_fl,<ib_h>>,16>)
 # Unk
 0:0xB1712 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
 0:0xB1740 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
@@ -1316,8 +1312,6 @@
 0:0xC65AE t1_movt(0,<r,<to_fl,<ib_h>>,16>)
 0:0xC693E t1_movt(4,<r,<to_fl,<ib_w>>,16>)
 0:0xC6948 t1_movt(4,<r,<to_fl,<ib_h>>,16>)
-0:0xC6E4C t1_movt(2,<r,<to_fl,<ib_w>>,16>)
-0:0xC6E5E t1_movt(2,<r,<to_fl,<ib_h>>,16>)
 # Unk
 0:0xAD958 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
 0:0xAD986 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
@@ -1475,3 +1469,4 @@
 @IB
 0:0x82DDE t3_mov(5,<ib_w>)
 0:0x82E32 t2_mov(1,11,<ib_h>)
+
