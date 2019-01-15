@@ -29,7 +29,7 @@
 [PCSE00120,eboot.bin]
 @IB
 1:0xDBCEC fl32(<ib_w>)
-1:0xDBDF0 fl32(<ib_h>)
+1:0xDBCF0 fl32(<ib_h>)
 
 # Persona 4 Golden [JP 1.01]
 [PCSG00004,eboot.bin]
