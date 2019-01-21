@@ -1470,3 +1470,8 @@
 0:0x82DDE t3_mov(5,<ib_w>)
 0:0x82E32 t2_mov(1,11,<ib_h>)
 
+# Resogun [US 1.01]
+[PCSA00103,eboot.bin]
+@FB
+0:0x165A28 t2_mov(1,0,<fb_w>)
+0:0x165A2E t2_mov(1,0,<fb_h>)
