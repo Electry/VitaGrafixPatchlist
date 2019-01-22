@@ -1470,3 +1470,26 @@
 0:0x82DDE t3_mov(5,<ib_w>)
 0:0x82E32 t2_mov(1,11,<ib_h>)
 
+# J-Stars Victory Vs+ [ASIA 1.00]
+[PCSH00136,eboot.bin]
+@IB
+0:0x2BD01E t2_mov(1,4,0xF00000) 
+0:0x2BCF62 t2_mov(1,14,0x6100000) 
+1:0x485F8 uint32(<ib_w>)
+1:0x485FC uint32(<ib_h>)
+
+# Fate/EXTELLA [ASIA 1.01]
+[PCSH00299,eboot.bin]
+@IB
+0:0x4ED268 t2_mov(0,0,<ib_w>)
+0:0x4ED26E t2_mov(0,0,<ib_h>)
+
+# San Goku Shi 13 with Power-Up Kit [ASIA 1.02]
+[PCSH00308,eboot.bin]
+@IB
+0:0x10B3C24 uint32(<ib_w>)
+0:0x10B3C28 uint32(<ib_w>)
+0:0x10B3C2C uint32(<ib_w>)
+0:0x10B3C34 uint32(<ib_h>)
+0:0x10B3C38 uint32(<ib_h>)
+0:0x10B3C3C uint32(<ib_h>)
