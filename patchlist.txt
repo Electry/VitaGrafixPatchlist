@@ -160,7 +160,7 @@
 0:0xB1D480 t2_mov(1,5,<ib_h>)
 
 # MXGP: The Official Motocross Videogame [US 1.00]
-[PCSB00470,eboot.bin]
+[PCSE00530,eboot.bin]
 @IB
 0:0xB1D36A t2_mov(1,0,<ib_w>)
 0:0xB1D370 t2_mov(1,5,<ib_h>)
