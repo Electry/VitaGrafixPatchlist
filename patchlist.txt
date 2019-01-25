@@ -1541,8 +1541,3 @@ Atelier Lydie & Suelle: Fushigi na Kaiga no Renkinjutsushi [JP 1.06]
 @IB
 0:0x32FBF4 t2_mov(1,0,<ib_w>)
 0:0x32FBFA t2_mov(1,0,>ib_h>)
-
-
-
-
-
