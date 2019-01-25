@@ -1,4 +1,4 @@
-# Killzone Mercenary [EU 1.12]
+﻿# Killzone Mercenary [EU 1.12]
 [PCSF00243,eboot.bin]
 # Killzone Mercenary [EU 1.12]
 [PCSF00403,eboot.bin]
@@ -1479,3 +1479,70 @@
 1:0xFD90 uint32(0x8500000)
 @FPS
 0:0x27172E nop() *2
+
+#Blue Reflection: Maboroshi ni Mau Shojo no Ken [JP 1.05]
+[PCSG00987,eboot.bin]
+@IB
+0:0x2F8B72 t2_mov(1,0,<ib_w>)
+0:0x317172 t2_mov(1,0,<ib_h>)
+
+#Atelier Shallie Plus: Alchemist of the Dusk Sea [US 1.00]
+[PCSE00998,eboot.bin]
+@IB
+0:0x300B2C t2_mov(1,1,<ib_w>)
+0:0x300B30 t2_mov(1,2,<ib_h>)
+0:0x300A5A t2_mov(1,1,<ib_w>)
+0:0x300A60 t2_mov(1,2,<ib_h>)
+
+#Atelier Shallie Plus: Alchemists of the Dusk Sea [JP 1.05]
+[PCSG00821,eboot.bin]
+@IB
+0:0x300670 t2_mov(1,1,<ib_w>)
+0:0x300674 t2_mov(1,2,<ib_h>)
+0:0x30059E t2_mov(1,1,<ib_w>)
+0:0x3005A4 t2_mov(1,2,<ib_h>)
+
+#Atelier Sophie: The Alchemist of the Mysterious Book [US 1.01]
+[PCSE00892,eboot.bin]
+@IB
+0:0x358E70 t2_mov(1,1,<ib_w>)
+0:0x358E7C t2_mov(1,2,<ib_h>)
+0:0x358E94 t2_mov(1,1,<ib_w>)
+0:0x358E98 t2_mov(1,2,<ib_h>)
+0:0x354BDC t2_mov(1,3,<ib_w>)
+0:0xB61DC t2_mov(1,1,<ib_h>)
+1:0x uint32(<ib_h>)
+
+#Atelier Sophie: The Alchemist of the Mysterious Book [ASIA 1.01]
+[PCSH00220,eboot.bin]
+@IB
+0:0x357F04 t2_mov(1,1,<ib_w>)
+0:0x357F10 t2_mov(1,2,<ib_h>)
+0:0x357F28 t2_mov(1,1,<ib_w>)
+0:0x357F2C t2_mov(1,2,<ib_h>)
+0:0x353C70 t2_mov(1,3,<ib_w>)
+0:0xB5F44 t2_mov(1,1,<ib_h>)
+1:0xB3714 uint32(<ib_h>)'
+
+#Atelier Firis: The Alchemist and the Mysterious Journey [US 1.01]
+[PCSE01044,eboot.bin]
+@IB
+0:0x35E0B8 t2_mov(1,0,<ib_w>)
+0:0x35E0BE t2_mov(1,0,<ib_h>)
+
+Atelier Firis: The Alchemist and the Mysterious Journey [ASIA 1.01]
+[PCSH10026,eboot.bin]
+@IB
+0:0x35DE48 t2_mov(1,0,<ib_w>)
+0:0x35DE4E t2_mov(1,0,<ib_h>)
+
+Atelier Lydie & Suelle: Fushigi na Kaiga no Renkinjutsushi [JP 1.06]
+[PCSG01116,eboot.bin]
+@IB
+0:0x32FBF4 t2_mov(1,0,<ib_w>)
+0:0x32FBFA t2_mov(1,0,>ib_h>)
+
+
+
+
+
