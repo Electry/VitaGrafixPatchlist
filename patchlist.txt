@@ -1470,7 +1470,6 @@
 0:0x82DDE t3_mov(5,<ib_w>)
 0:0x82E32 t2_mov(1,11,<ib_h>)
 
-
 # RESOGUN [JP 1.00]
 [PCSC00088,eboot.bin]
 @FB
