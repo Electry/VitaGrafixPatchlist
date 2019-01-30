@@ -160,7 +160,7 @@
 0:0xB1D480 t2_mov(1,5,<ib_h>)
 
 # MXGP: The Official Motocross Videogame [US 1.00]
-[PCSB00470,eboot.bin]
+[PCSE00530,eboot.bin]
 @IB
 0:0xB1D36A t2_mov(1,0,<ib_w>)
 0:0xB1D370 t2_mov(1,5,<ib_h>)
@@ -1470,6 +1470,7 @@
 0:0x82DDE t3_mov(5,<ib_w>)
 0:0x82E32 t2_mov(1,11,<ib_h>)
 
+
 # RESOGUN [JP 1.00]
 [PCSC00088,eboot.bin]
 @FB
@@ -1488,4 +1489,13 @@
 0:0x165AC4 t2_mov(1,0,<fb_w>)
 0:0x165ACA t2_mov(1,0,<fb_h>)
 
+# Valhalla Knights 3 GOLD [JP 1.05]
+[PCSG00307,eboot.bin,0x2A62D92D]
+@IB
+0:0x0C5840 t2_mov(1,3,<ib_w>)
+0:0x0C584E t2_mov(1,6,<ib_h>)
+0:0x28AE10 t2_mov(1,14,0x900000)
+1:0xFD90 uint32(0x8500000)
+@FPS
+0:0x27172E nop() *2
 
