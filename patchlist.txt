@@ -347,7 +347,7 @@
 0:0x2828C4 t2_mov(0,1,<ib_w>)
 0:0x2828CA t2_mov(0,2,<ib_h>)
 0:0x28207C t2_mov(1,2,<ib_w>)
-0:0x282082 t2_mov(1,3,<ib_h>)
+0:0x282084 t2_mov(1,3,<ib_h>)
 @FPS
 0:0x136C4 t1_mov(0,<vblank>)
 0:0x13948 bytes(F7 EE 00 0A)
