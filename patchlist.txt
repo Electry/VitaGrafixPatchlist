@@ -1471,19 +1471,19 @@
 0:0x82E32 t2_mov(1,11,<ib_h>)
 
 # RESOGUN [JP 1.00]
-[PCSC00088,eboot.bin]
+[PCSC00088,eboot.bin,0x9C16CEBD]
 @FB
 0:0x165A08 t2_mov(1,0,<fb_w>)
 0:0x165A0E t2_mov(1,0,<fb_h>)
 
 # RESOGUN [US 1.01]
-[PCSA00103,eboot.bin]
+[PCSA00103,eboot.bin,0x871F1F8C]
 @FB
 0:0x165A28 t2_mov(1,0,<fb_w>)
 0:0x165A2E t2_mov(1,0,<fb_h>)
 
 # RESOGUN [EU 1.01]
-[PCSF00262,eboot.bin]
+[PCSF00262,eboot.bin,0x67CD2E83]
 @FB
 0:0x165AC4 t2_mov(1,0,<fb_w>)
 0:0x165ACA t2_mov(1,0,<fb_h>)
