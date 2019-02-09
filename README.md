@@ -51,6 +51,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![](https://placehold.it/20/eeee22/000000?text=+) | Ratchet & Clank 3 / Up Your Arsenal | PCSF00486 <br/> PCSF00482 <br/> PCSA00133 | Framebuffer | 720x408 | [#121](https://github.com/Electry/VitaGrafix/issues/121) |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Ratchet & Clank: QForce / Full Frontal Assault | PCSF00191 <br/> PCSA00086 | Framebuffer | 720x408 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Resident Evil: Revelations 2 | PCSF00728 <br/> PCSE00608 <br/> PCSG00594 | Internal res. | 720x408 | |
+| ![](https://placehold.it/20/22bb22/000000?text=+) | RESOGUN | PCSF00262 <br/> PCSA00103 <br/> PCSC00088 | Framebuffer | 720x408 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Ridge Racer | PCSB00048 <br/> PCSE00001 <br/> PCSG00001 | Internal res. | 720x408 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Sly Cooper and the Thievius Raccoonus | PCSF00269 <br/> PCSF00338 <br/> PCSA00095 <br/> PCSA00096 <br/> | Framebuffer <br/> FPS cap | 720x408 <br/> 30 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Sly Cooper 2: Band of Thieves | PCSF00270 <br/> PCSF00338 <br/> PCSA00095 <br/> PCSA00097 <br/> | Framebuffer <br/> FPS cap | 960x544 <br/> 30 | |
