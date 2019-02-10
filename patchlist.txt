@@ -1530,3 +1530,17 @@
 0:0x2362A4 t2_mov(1,1,0x900000)
 0:0x2362EA t2_mov(1,1,0x900000)
 1:0xA4F0 uint32(0x8800000)
+
+# Fate/EXTELLA: The Umbral Star [US 1.01]
+[PCSE00928,eboot.bin,0xEF934DB7]
+# Fate/EXTELLA [ASIA 1.01]
+[PCSH00299,eboot.bin,0x4E5BE9F4]
+@IB
+0:0x4ED268 t2_mov(0,0,<ib_w>)
+0:0x4ED26E t2_mov(0,0,<ib_h>)
+
+# Fate/EXTELLA [JP 1.03]
+[PCSG00600,eboot.bin,0xB3BD9279]
+@IB
+0:0x4E8B9C t2_mov(0,0,<ib_w>)
+0:0x4E8BA2 t2_mov(0,0,<ib_h>)
