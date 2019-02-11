@@ -1544,3 +1544,23 @@
 @IB
 0:0x4E8B9C t2_mov(0,0,<ib_w>)
 0:0x4E8BA2 t2_mov(0,0,<ib_h>)
+
+# One Piece: Burning Blood [EU 1.08]
+[PCSB00893,eboot.bin,0x7E194F84]
+@IB
+0:0x46513C t2_mov(1,3,0xB00000)
+1:0x8DC0 uint32(<ib_w>)
+1:0x8DC4 uint32(<ib_h>)
+
+# One Piece: Burning Blood [US 1.08]
+[PCSE00808,eboot.bin,0xFF8DE562]
+0:0x4650A4 t2_mov(1,3,0xB00000)
+1:0x8DC0 uint32(<ib_w>)
+1:0x8DC4 uint32(<ib_h>)
+
+# One Piece: Burning Blood [ASIA 1.08]
+[PCSH00202,eboot.bin,0x378EE338]
+@IB
+0:0x465170 t2_mov(1,3,0xB00000)
+1:0x8DC0 uint32(<ib_w>)
+1:0x8DC4 uint32(<ib_h>)

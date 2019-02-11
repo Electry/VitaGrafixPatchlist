@@ -46,6 +46,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![](https://placehold.it/20/22bb22/000000?text=+) | MXGP: The Official Motocross Videogame | PCSB00470 <br/> PCSE00530 | Internal res. | 704x448 | |
 | ![](https://placehold.it/20/eeee22/000000?text=+) | Need for Speed: Most Wanted | PCSB00183 <br/> PCSE00089 <br/> PCSG00106 | Internal res. <br/> MSAA | 640x368 <br/> 4x | [#7](https://github.com/Electry/VitaGrafixPatchlist/issues/7) |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Ninja Gaiden Sigma 2 Plus | PCSB00294 <br/> PCSE00233 <br/> PCSG00157 | 2x Internal res. | 864x480, 640x416 | |
+| ![](https://placehold.it/20/22bb22/000000?text=+) | One Piece: Burning Blood | PCSB00893 <br/> PCSE00808 <br/> PCSH00202 | Internal res. | 704x384 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Persona 4 Golden | PCSB00245 <br/> PCSE00120 <br/> PCSG00004 <br/> PCSG00563 <br/> PCSH00021 | Internal res. | 840x476 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Ratchet & Clank | PCSF00484 <br/> PCSF00482 <br/> PCSA00133 | Framebuffer | 720x408 | |
 | ![](https://placehold.it/20/eeee22/000000?text=+) | Ratchet & Clank 2: Locked and Loaded / Going Commando | PCSF00485 <br/> PCSF00482 <br/> PCSA00133 | Framebuffer | 720x408 | [#121](https://github.com/Electry/VitaGrafix/issues/121) |
