@@ -1483,8 +1483,10 @@
 #Blue Reflection: Maboroshi ni Mau Shojo no Ken [JP 1.05]
 [PCSG00987,eboot.bin]
 @IB
-0:0x2F8B72 t2_mov(1,0,<ib_w>)
+0:0x31716C t2_mov(1,0,<ib_w>)
 0:0x317172 t2_mov(1,0,<ib_h>)
+@MSAA
+0:0x71DFD8 uint32(<msaa>)
 
 #Atelier Shallie Plus: Alchemist of the Dusk Sea [US 1.00]
 [PCSE00998,eboot.bin]
@@ -1511,7 +1513,7 @@
 0:0x358E98 t2_mov(1,2,<ib_h>)
 0:0x354BDC t2_mov(1,3,<ib_w>)
 0:0xB61DC t2_mov(1,1,<ib_h>)
-1:0x uint32(<ib_h>)
+1:0xB3704 uint(<ib_h>)
 
 #Atelier Sophie: The Alchemist of the Mysterious Book [ASIA 1.01]
 [PCSH00220,eboot.bin]
@@ -1540,4 +1542,4 @@
 [PCSG01116,eboot.bin]
 @IB
 0:0x32FBF4 t2_mov(1,0,<ib_w>)
-0:0x32FBFA t2_mov(1,0,>ib_h>)
+0:0x32FBFA t2_mov(1,0,<ib_h>)
