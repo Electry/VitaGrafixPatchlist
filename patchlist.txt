@@ -582,6 +582,14 @@
 0:0x19054 t2_mov(1,14,0xC00000)
 0:0x1D62 t2_mov(1,0,<fb_w>)
 0:0x1D66 t2_mov(1,1,<fb_h>)
+0:0x9A463C t2_mov(1,1,<fb_w>)
+0:0x9A4646 t2_mov(1,3,<fb_h>)
+0:0x9A5320 t2_mov(1,2,<fb_w>)
+0:0x9A5326 t2_mov(1,3,<fb_h>)
+0:0xA564A6 t1_movt(4,<r,<to_fl,</,<*,<fb_w>,544>,720>>,16>)
+0:0xA564AE nop() *3
+0:0xA564E8 t1_movt(1,<r,<to_fl,</,<*,<fb_w>,88>,720>>,16>)
+0:0xA56540 t1_movt(1,<r,<to_fl,<fb_h>>,16>)
 [PCSF00486,eboot.bin]
 [PCSF00482,rc3.self,0xcf835e57]
 [PCSA00133,rc3.self,0xcf835e57]
@@ -589,6 +597,18 @@
 0:0x19F34 t2_mov(1,14,0xC00000)
 0:0x2B98 t2_mov(1,0,<fb_w>)
 0:0x2B9C t2_mov(1,1,<fb_h>)
+0:0xE5F8C t2_mov(1,3,<fb_w>)
+0:0xE5F92 t2_mov(1,2,<fb_h>)
+0:0xF53D4 t2_mov(1,1,<fb_w>)
+0:0xF53DC t2_mov(1,2,<fb_h>)
+0:0x1E9B7C t2_mov(1,3,<fb_w>)
+0:0x1E9B82 t2_mov(1,4,<fb_h>)
+0:0x21EF5E t2_mov(1,2,<fb_w>)
+0:0x21EF64 t2_mov(1,1,<fb_h>)
+0:0x200B30 t1_movt(4,<r,<to_fl,</,<*,<fb_w>,544>,720>>,16>)
+0:0x200B38 nop() *3
+0:0x200B72 t1_movt(1,<r,<to_fl,</,<*,<fb_w>,88>,720>>,16>)
+0:0x200BCA t1_movt(1,<r,<to_fl,<fb_h>>,16>)
 
 # Ninja Gaiden Sigma 2 Plus [EU 1.00]
 [PCSB00294,eboot.bin]
