@@ -416,6 +416,14 @@
 0:0x231A86 t2_mov(1,14,<ib_w>)
 0:0x231A8C t2_mov(1,12,<ib_h>)
 
+# Hatsune Miku: Project Diva X [JP 1.00]
+[PCSG00683,eboot.bin]
+@IB
+0:0x230D42 t2_mov(1,2,<ib_w>)
+0:0x230D48 t2_mov(1,3,<ib_h>)
+0:0x231A6E t2_mov(1,14,<ib_w>)
+0:0x231A74 t2_mov(1,12,<ib_h>)
+
 # MotoGP 13 [EU 1.02]
 [PCSB00316,eboot.bin]
 @IB
