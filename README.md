@@ -27,7 +27,9 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![](https://placehold.it/20/eeee22/000000?text=+) | Hatsune Miku: Project Diva f | PCSB00419 <br/> PCSE00326 <br/> PCSG00074 | Internal res. <br/> FPS cap | 640x352 <br/> 30 | [#120](https://github.com/Electry/VitaGrafix/issues/120), [#81](https://github.com/Electry/VitaGrafix/issues/81) |
 | ![](https://placehold.it/20/eeee22/000000?text=+) | Hatsune Miku: Project Diva f 2nd | PCSB00554 <br/> PCSE00434 <br/> PCSG00205 <br/> PCSH00088 | Internal res. <br/> FPS cap | 720x408 <br/> 30 | [#120](https://github.com/Electry/VitaGrafix/issues/120), [#80](https://github.com/Electry/VitaGrafix/issues/80) |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Hatsune Miku: Project Diva X | PCSB01007 <br/> PCSE00867 <br/> PCSH00176 | Internal res. | 720x408 | |
-| ![](https://placehold.it/20/22bb22/000000?text=+) | Jak and Daxter Collection | PCSF00247 <br/> PCSF00248 <br/> PCSF00249 <br/> PCSF00250 <br/> PCSA00080 | Framebuffer | 720x408 | |
+| ![](https://placehold.it/20/22bb22/000000?text=+) | Jak and Daxter: The Precursor Legacy | PCSF00247 <br/> PCSF00248 <br/> PCSA00080 | Framebuffer <br/> FPS cap | 720x408 <br/> 20 | |
+| ![](https://placehold.it/20/22bb22/000000?text=+) | Jak II | PCSF00247 <br/> PCSF00249 <br/> PCSA00080 | Framebuffer | 720x408 | |
+| ![](https://placehold.it/20/22bb22/000000?text=+) | Jak 3 | PCSF00247 <br/> PCSF00250 <br/> PCSA00080 | Framebuffer | 720x408 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | Killzone: Mercenary | PCSF00243 <br/> PCSF00403 <br/> PCSA00107 <br/> PCSC00045 <br/> PCSD00071 | Internal res. <br/> FPS cap | Dynamic <br/> 30 | |
 | ![](https://placehold.it/20/22bb22/000000?text=+) | LEGO Batman 3: Beyond Gotham | PCSB00563 <br/> PCSE00442 | Internal res. | 640x368 | |
 | ![](https://placehold.it/20/eeee22/000000?text=+) | LEGO Harry Potter: Years 5–7 | PCSB00103 <br/> PCSE00057 | Framebuffer | 640x368 | [#3](https://github.com/Electry/VitaGrafixPatchlist/issues/3) |

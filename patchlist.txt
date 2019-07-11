@@ -326,6 +326,9 @@
 @FB
 0:0x1B250 t2_mov(1,0,<fb_w>)
 0:0x1B260 t2_mov(1,0,<fb_h>)
+@FPS
+0:0x1BA2E t1_mov(1,<-,<vblank>,1>)
+0:0x1B4B8 t1_mov(0,<vblank>)
 [PCSF00249,eboot.bin]
 [PCSF00247,Jak2.self,0x15059015]
 [PCSA00080,Jak2.self,0x15059015]
