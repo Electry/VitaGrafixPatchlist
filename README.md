@@ -1,7 +1,7 @@
 # patchlist.txt
 Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - a taiHEN plugin that allows you to change resolution and FPS cap of some of the PlayStation Vita games.
 
-**Required VitaGrafix:** v4.0 Alpha-2 (or newer)
+**Required VitaGrafix:** v5.0.0 (or newer)
 
 
 ## Installation

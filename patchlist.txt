@@ -1,3 +1,11 @@
+#
+# patchlist.txt
+#    list of game patches for VitaGrafix
+#
+# https://github.com/Electry/VitaGrafixPatchlist
+# Required version: v5.0.0 or newer
+#
+
 # Killzone Mercenary [EU 1.12]
 [PCSF00243,eboot.bin]
 # Killzone Mercenary [EU 1.12]
