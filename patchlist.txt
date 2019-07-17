@@ -573,7 +573,7 @@
 [PCSF00484,eboot.bin]
 [PCSF00482,rc1.self,0x0a02a884]
 # The Ratchet & Clank Trilogy [US 1.00]
-[PCSA00133,rc1.self,0x0a02a884]
+[PCSA00133,rc1.self,0xd06e468a]
 @FB
 0:0x1A024 t2_mov(1,14,0xC00000)
 0:0x2D12 t2_mov(1,0,<fb_w>)
