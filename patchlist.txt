@@ -198,14 +198,18 @@
 0:0x1685B4 t2_mov(1,2,<ib_h>)
 
 # Borderlands 2 [EU 1.07]
-[PCSF00570,eboot.bin]
+[PCSF00570, eboot.bin, 0x8440E1AE]
 # Borderlands 2 [EU 1.07]
-[PCSF00576,eboot.bin]
+[PCSF00576, eboot.bin, 0x8440E1AE]
 # Borderlands 2 [US 1.09]
-[PCSE00383,eboot.bin]
+[PCSE00383, eboot.bin, 0x8440E1AE]
 @FB
-1:0x24A94 uint32(<fb_w>)
-1:0x24A98 uint32(<fb_h>)
+1:0x24A94 uint32(fb_w) . uint32(fb_h)
+0:0x36C6EC t2_mov(0, 1, align(fb_w, 64))
+0:0x4AA12C C2 F6 0C BB r
+0:0x36C748 B8 F5 34 7F 00 D1 r
+0:0x36C74E t3_mov(0, 768)
+0:0x36C752 00 FB 03 F4 3D F1 EB BC r
 
 # Asphalt: Injection [EU 1.00]
 [PCSB00040,eboot.bin]

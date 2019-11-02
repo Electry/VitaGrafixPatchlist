@@ -14,7 +14,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | - | ------------- | ------------- | ------------------ | ------------- | ------------------- |
 | ![][NOISSUES] | Assassin's Creed III: Liberation | PCSB00074 <br/> PCSE00053 | Internal res. <br/> FPS cap. | 720x408 <br/> 30 | |
 | ![][NOISSUES] | Asphalt: Injection | PCSB00040 <br/> PCSE00007 | Internal res. | 720x408 | |
-| ![][PLAYABLE] | Borderlands 2 | PCSF00570 <br/> PCSF00576 <br/> PCSE00383 | Framebuffer | 960x544 | [#119](https://github.com/Electry/VitaGrafix/issues/119) |
+| ![][NOISSUES] | Borderlands 2 | PCSF00570 <br/> PCSF00576 <br/> PCSE00383 | Framebuffer | 960x544 | |
 | ![][NOISSUES] | Dead or Alive 5 Plus | PCSB00296 <br/> PCSE00235 <br/> PCSG00167 | Internal res. | 720x408 | |
 | ![][NOISSUES] | Dead or Alive Xtreme 3: Venus | PCSG00773 <br/> PCSH00250 <br/> PCSH00281 | 2x Internal res. | 736x416, 640x368 | |
 | ![][NOISSUES] | Dragon Ball Z: Battle of Z | PCSB00396 <br/> PCSE00305 <br/> PCSG00213 | Internal res. | 704x448 | |
