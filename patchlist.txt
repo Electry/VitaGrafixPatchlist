@@ -6,203 +6,193 @@
 # Required version: v5.0.0 or newer
 #
 
-# Killzone Mercenary [EU 1.12]
-[PCSF00243,eboot.bin]
-# Killzone Mercenary [EU 1.12]
-[PCSF00403,eboot.bin]
-# Killzone Mercenary [US 1.12]
-[PCSA00107,eboot.bin,0x0F9D3B7C]
-# Killzone Mercenary [JP 1.12]
-[PCSC00045,eboot.bin]
-# Killzone Mercenary [ASIA 1.12]
-[PCSD00071,eboot.bin]
+# Killzone Mercenary
+[PCSF00243, eboot.bin, 0x8659827D] # [EU 1.12]
+[PCSF00403, eboot.bin, 0x6C74F8E9] # [EU 1.12]
+[PCSA00107, eboot.bin, 0x0F9D3B7C] # [US 1.12]
+[PCSC00045, eboot.bin, 0x0C47E0C8] # [JP 1.12]
+[PCSD00071, eboot.bin, 0x8870DB01] # [ASIA 1.12]
 @IB
-0:0x15A5C8 nop() *4
-1:0xD728 uint32(<ib_w>)
-1:0xD72C uint32(<ib_h>)
-1:0xD730 uint32(<ib_w>)
-1:0xD734 uint32(<ib_h>)
+0:0x15A5C8 nop *4
+1:0xD728 uint32(ib_w)
+1:0xD72C uint32(ib_h)
+1:0xD730 uint32(ib_w)
+1:0xD734 uint32(ib_h)
 @FPS
-0:0x9706A4 uint32(<vblank>)
+0:0x9706A4 uint32(vblank)
 >sceCtrlReadBufferPositive_peekPatched()
 >sceCtrlReadBufferPositive2_peekPatched()
 
 # Persona 4 Golden [EU 1.00]
-[PCSB00245,eboot.bin]
+[PCSB00245, eboot.bin, 0x4BB9AE7C]
 @IB
-1:0xDBCFC fl32(<ib_w>)
-1:0xDBD00 fl32(<ib_h>)
+1:0xDBCFC fl32(ib_w)
+1:0xDBD00 fl32(ib_h)
 
 # Persona 4 Golden [US 1.00]
-[PCSE00120,eboot.bin]
+[PCSE00120, eboot.bin, 0xB8EBED65]
 @IB
-1:0xDBCEC fl32(<ib_w>)
-1:0xDBCF0 fl32(<ib_h>)
+1:0xDBCEC fl32(ib_w)
+1:0xDBCF0 fl32(ib_h)
 
-# Persona 4 Golden [JP 1.01]
-[PCSG00004,eboot.bin]
-# Persona 4 Golden [JP 1.00]
-[PCSG00563,eboot.bin]
+# Persona 4 Golden
+[PCSG00004, eboot.bin, 0x8C503A79] # [JP 1.01]
+[PCSG00563, eboot.bin, 0x8C503A79] # [JP 1.00]
 @IB
-1:0xDBD9C fl32(<ib_w>)
-1:0xDBDA0 fl32(<ib_h>)
+1:0xDBD9C fl32(ib_w)
+1:0xDBDA0 fl32(ib_h)
 
 # Persona 4 Golden [ASIA 1.00]
-[PCSH00021,eboot.bin]
+[PCSH00021, eboot.bin, 0x96BBD787]
 @IB
-1:0xF1C50 fl32(<ib_w>)
-1:0xF1C54 fl32(<ib_h>)
+1:0xF1C50 fl32(ib_w)
+1:0xF1C54 fl32(ib_h)
 
 # WRC 3: FIA World Rally Championship [EU 1.01]
-[PCSB00204,eboot.bin]
+[PCSB00204, eboot.bin, 0x27C05300]
 @IB
-0:0xAC430A t2_mov(1,5,<ib_w>)
-0:0xAC4310 t2_mov(1,6,<ib_h>)
+0:0xAC430A t2_mov(1, 5, ib_w)
+0:0xAC4310 t2_mov(1, 6, ib_h)
 
 # WRC 4: FIA World Rally Championship [EU 1.01]
-[PCSB00345,eboot.bin]
+[PCSB00345, eboot.bin, 0x29E282EB]
 @IB
-0:0xAC297C t2_mov(1,0,<ib_w>)
-0:0xAC2982 t2_mov(1,4,<ib_h>)
+0:0xAC297C t2_mov(1, 0, ib_w)
+0:0xAC2982 t2_mov(1, 4, ib_h)
 
 # WRC 4: FIA World Rally Championship [US 1.00]
-[PCSE00411,eboot.bin]
+[PCSE00411, eboot.bin, 0x6DBA55F1]
 @IB
-0:0xAC46C4 t2_mov(1,0,<ib_w>)
-0:0xAC46CA t2_mov(1,4,<ib_h>)
+0:0xAC46C4 t2_mov(1, 0, ib_w)
+0:0xAC46CA t2_mov(1, 4, ib_h)
 
 # God of War Collection [EU 1.00]
-[PCSF00438,GOW1.self,0x8638ffed]
+[PCSF00438, GOW1.self, 0x8638FFED]
 @FB
-0:0x9E212 t2_mov(1,4,<fb_w>)
-0:0x9E21A t2_mov(1,2,<fb_h>)
-0:0x9F0F0 t2_mov(1,0,<fb_w>)
-0:0x9F0F8 t2_mov(1,1,<fb_h>)
-0:0xA31C6 t2_mov(1,7,<fb_w>)
-0:0xA31CC t2_mov(1,1,<fb_h>)
-0:0xCEF06 t2_mov(1,0,<fb_w>)
-0:0xCEF0E t2_mov(1,2,<fb_h>)
-0:0xA1098 t2_mov(1,14,<fb_h>)
+0:0x9E212 t2_mov(1, 4, fb_w)
+0:0x9E21A t2_mov(1, 2, fb_h)
+0:0x9F0F0 t2_mov(1, 0, fb_w)
+0:0x9F0F8 t2_mov(1, 1, fb_h)
+0:0xA31C6 t2_mov(1, 7, fb_w)
+0:0xA31CC t2_mov(1, 1, fb_h)
+0:0xCEF06 t2_mov(1, 0, fb_w)
+0:0xCEF0E t2_mov(1, 2, fb_h)
+0:0xA1098 t2_mov(1, 14, fb_h)
 @FPS
-0:0x9E228 t1_mov(0,<vblank>)
-[PCSF00438,GOW2.self,0x6531f96a]
+0:0x9E228 t1_mov(0, vblank)
+[PCSF00438, GOW2.self, 0x6531F96A]
 @FB
-0:0xCDAE6 t2_mov(1,4,<fb_w>)
-0:0xCDAEE t2_mov(1,2,<fb_h>)
-0:0xCE9C4 t2_mov(1,0,<fb_w>)
-0:0xCE9CC t2_mov(1,1,<fb_h>)
-0:0xD2DBA t2_mov(1,7,<fb_w>)
-0:0xD2DC0 t2_mov(1,1,<fb_h>)
-0:0xFF782 t2_mov(1,0,<fb_w>)
-0:0xFF78A t2_mov(1,2,<fb_h>)
-0:0xD0C8C t2_mov(1,14,<fb_h>)
+0:0xCDAE6 t2_mov(1, 4, fb_w)
+0:0xCDAEE t2_mov(1, 2, fb_h)
+0:0xCE9C4 t2_mov(1, 0, fb_w)
+0:0xCE9CC t2_mov(1, 1, fb_h)
+0:0xD2DBA t2_mov(1, 7, fb_w)
+0:0xD2DC0 t2_mov(1, 1, fb_h)
+0:0xFF782 t2_mov(1, 0, fb_w)
+0:0xFF78A t2_mov(1, 2, fb_h)
+0:0xD0C8C t2_mov(1, 14, fb_h)
 @FPS
-0:0xCDAFC t1_mov(0,<vblank>)
+0:0xCDAFC t1_mov(0, vblank)
 
 # God of War Collection [US 1.00]
-[PCSA00126,GOW1.self,0x126f65c5]
+[PCSA00126, GOW1.self, 0x126F65C5]
 @FB
-0:0x9E36E t2_mov(1,4,<fb_w>)
-0:0x9E376 t2_mov(1,2,<fb_h>)
-0:0x9F24C t2_mov(1,0,<fb_w>)
-0:0x9F254 t2_mov(1,1,<fb_h>)
-0:0xA3322 t2_mov(1,7,<fb_w>)
-0:0xA3328 t2_mov(1,1,<fb_h>)
-0:0xCF062 t2_mov(1,0,<fb_w>)
-0:0xCF06A t2_mov(1,2,<fb_h>)
-0:0xA11F4 t2_mov(1,14,<fb_h>)
+0:0x9E36E t2_mov(1, 4, fb_w)
+0:0x9E376 t2_mov(1, 2, fb_h)
+0:0x9F24C t2_mov(1, 0, fb_w)
+0:0x9F254 t2_mov(1, 1, fb_h)
+0:0xA3322 t2_mov(1, 7, fb_w)
+0:0xA3328 t2_mov(1, 1, fb_h)
+0:0xCF062 t2_mov(1, 0, fb_w)
+0:0xCF06A t2_mov(1, 2, fb_h)
+0:0xA11F4 t2_mov(1, 14, fb_h)
 @FPS
-0:0x9E384 t1_mov(0,<vblank>)
-[PCSA00126,GOW2.self,0x0064ec7e]
+0:0x9E384 t1_mov(0, vblank)
+[PCSA00126, GOW2.self, 0x0064EC7E]
 @FB
-0:0xCD9AE t2_mov(1,4,<fb_w>)
-0:0xCD9B6 t2_mov(1,2,<fb_h>)
-0:0xCE88C t2_mov(1,0,<fb_w>)
-0:0xCE894 t2_mov(1,1,<fb_h>)
-0:0xD2C82 t2_mov(1,7,<fb_w>)
-0:0xD2C88 t2_mov(1,1,<fb_h>)
-0:0xFF64A t2_mov(1,0,<fb_w>)
-0:0xFF652 t2_mov(1,2,<fb_h>)
-0:0xD0B54 t2_mov(1,14,<fb_h>)
+0:0xCD9AE t2_mov(1, 4, fb_w)
+0:0xCD9B6 t2_mov(1, 2, fb_h)
+0:0xCE88C t2_mov(1, 0, fb_w)
+0:0xCE894 t2_mov(1, 1, fb_h)
+0:0xD2C82 t2_mov(1, 7, fb_w)
+0:0xD2C88 t2_mov(1, 1, fb_h)
+0:0xFF64A t2_mov(1, 0, fb_w)
+0:0xFF652 t2_mov(1, 2, fb_h)
+0:0xD0B54 t2_mov(1, 14, fb_h)
 @FPS
-0:0xCD9C4 t1_mov(0,<vblank>)
+0:0xCD9C4 t1_mov(0, vblank)
 
 # God of War Collection [JP 1.00]
-[PCSC00059,GOW1.self,0x990f8128]
+[PCSC00059, GOW1.self, 0x990F8128]
 @FB
-0:0x9E1E6 t2_mov(1,4,<fb_w>)
-0:0x9E1EE t2_mov(1,2,<fb_h>)
-0:0x9F0C4 t2_mov(1,0,<fb_w>)
-0:0x9F0CC t2_mov(1,1,<fb_h>)
-0:0xA319A t2_mov(1,7,<fb_w>)
-0:0xA31A0 t2_mov(1,1,<fb_h>)
-0:0xCEEDA t2_mov(1,0,<fb_w>)
-0:0xCEEE2 t2_mov(1,2,<fb_h>)
-0:0xA106C t2_mov(1,14,<fb_h>)
+0:0x9E1E6 t2_mov(1, 4, fb_w)
+0:0x9E1EE t2_mov(1, 2, fb_h)
+0:0x9F0C4 t2_mov(1, 0, fb_w)
+0:0x9F0CC t2_mov(1, 1, fb_h)
+0:0xA319A t2_mov(1, 7, fb_w)
+0:0xA31A0 t2_mov(1, 1, fb_h)
+0:0xCEEDA t2_mov(1, 0, fb_w)
+0:0xCEEE2 t2_mov(1, 2, fb_h)
+0:0xA106C t2_mov(1, 14, fb_h)
 @FPS
-0:0x9E1FC t1_mov(0,<vblank>)
-[PCSC00059,GOW2.self,0x395a00f6]
+0:0x9E1FC t1_mov(0, vblank)
+[PCSC00059, GOW2.self, 0x395A00F6]
 @FB
-0:0xCD7DA t2_mov(1,4,<fb_w>)
-0:0xCD7E2 t2_mov(1,2,<fb_h>)
-0:0xCE6B8 t2_mov(1,0,<fb_w>)
-0:0xCE6C0 t2_mov(1,1,<fb_h>)
-0:0xD2AAE t2_mov(1,7,<fb_w>)
-0:0xD2AB4 t2_mov(1,1,<fb_h>)
-0:0xFF476 t2_mov(1,0,<fb_w>)
-0:0xFF47E t2_mov(1,2,<fb_h>)
-0:0xD0980 t2_mov(1,14,<fb_h>)
+0:0xCD7DA t2_mov(1, 4, fb_w)
+0:0xCD7E2 t2_mov(1, 2, fb_h)
+0:0xCE6B8 t2_mov(1, 0, fb_w)
+0:0xCE6C0 t2_mov(1, 1, fb_h)
+0:0xD2AAE t2_mov(1, 7, fb_w)
+0:0xD2AB4 t2_mov(1, 1, fb_h)
+0:0xFF476 t2_mov(1, 0, fb_w)
+0:0xFF47E t2_mov(1, 2, fb_h)
+0:0xD0980 t2_mov(1, 14, fb_h)
 @FPS
-0:0xCD7F0 t1_mov(0,<vblank>)
+0:0xCD7F0 t1_mov(0, vblank)
 
 # MUD - FIM Motocross World Championship [EU 1.00]
-[PCSB00182,eboot.bin]
+[PCSB00182, eboot.bin, 0x216C1258]
 @IB
-0:0x9B8B52 t2_mov(1,5,<ib_w>)
-0:0x9B8B58 t2_mov(1,6,<ib_h>)
+0:0x9B8B52 t2_mov(1, 5, ib_w)
+0:0x9B8B58 t2_mov(1, 6, ib_h)
 
 # MXGP: The Official Motocross Videogame [EU 1.00]
-[PCSB00470,eboot.bin]
+[PCSB00470, eboot.bin, 0xE4028AA3]
 @IB
-0:0xB1D47A t2_mov(1,0,<ib_w>)
-0:0xB1D480 t2_mov(1,5,<ib_h>)
+0:0xB1D47A t2_mov(1, 0, ib_w)
+0:0xB1D480 t2_mov(1, 5, ib_h)
 
 # MXGP: The Official Motocross Videogame [US 1.00]
-[PCSE00530,eboot.bin]
+[PCSE00530, eboot.bin, 0xD33CA0EC]
 @IB
-0:0xB1D36A t2_mov(1,0,<ib_w>)
-0:0xB1D370 t2_mov(1,5,<ib_h>)
+0:0xB1D36A t2_mov(1, 0, ib_w)
+0:0xB1D370 t2_mov(1, 5, ib_h)
 
 # F1 2011 [EU 1.00]
-[PCSB00027,eboot.bin]
+[PCSB00027, eboot.bin, 0xCE789828]
 @IB
-0:0x10F0AA t2_mov(1,1,<ib_w>)
-0:0x10F0AE t2_mov(1,2,<ib_h>)
+0:0x10F0AA t2_mov(1, 1, ib_w)
+0:0x10F0AE t2_mov(1, 2, ib_h)
 
-# LittleBigPlanet [EU 1.22]
-[PCSF00021,eboot.bin]
-# LittleBigPlanet [US 1.22]
-[PCSA00017,eboot.bin]
-# LittleBigPlanet [JP 1.22]
-[PCSC00013,eboot.bin]
-# LittleBigPlanet [ASIA 1.22]
-[PCSD00006,eboot.bin]
+# LittleBigPlanet
+[PCSF00021, eboot.bin, 0x0714AF6B] # [EU 1.22]
+[PCSA00017, eboot.bin, 0x0714AF6B] # [US 1.22]
+[PCSC00013, eboot.bin, 0x0714AF6B] # [JP 1.22]
+[PCSD00006, eboot.bin, 0x0714AF6B] # [ASIA 1.22]
 @IB
-0:0x168546 t2_mov(1,1,<ib_w>)
-0:0x16854A t2_mov(1,2,<ib_h>)
-0:0x16856A t2_mov(1,1,<ib_w>)
-0:0x16856E t2_mov(1,2,<ib_h>)
-0:0x168582 t2_mov(1,1,<ib_w>)
-0:0x16858A t2_mov(1,2,<ib_h>)
-0:0x1685B0 t2_mov(1,1,<ib_w>)
-0:0x1685B4 t2_mov(1,2,<ib_h>)
+0:0x168546 t2_mov(1, 1, ib_w)
+0:0x16854A t2_mov(1, 2, ib_h)
+0:0x16856A t2_mov(1, 1, ib_w)
+0:0x16856E t2_mov(1, 2, ib_h)
+0:0x168582 t2_mov(1, 1, ib_w)
+0:0x16858A t2_mov(1, 2, ib_h)
+0:0x1685B0 t2_mov(1, 1, ib_w)
+0:0x1685B4 t2_mov(1, 2, ib_h)
 
-# Borderlands 2 [EU 1.07]
-[PCSF00570, eboot.bin, 0x8440E1AE]
-# Borderlands 2 [EU 1.07]
-[PCSF00576, eboot.bin, 0x8440E1AE]
-# Borderlands 2 [US 1.09]
-[PCSE00383, eboot.bin, 0x8440E1AE]
+# Borderlands 2
+[PCSF00570, eboot.bin, 0x8440E1AE] # [EU 1.07]
+[PCSF00576, eboot.bin, 0x8440E1AE] # [EU 1.07]
+[PCSE00383, eboot.bin, 0x8440E1AE] # [US 1.09]
 @FB
 1:0x24A94 uint32(fb_w) . uint32(fb_h)
 0:0x36C6EC t2_mov(0, 1, align(fb_w, 64))
@@ -211,1002 +201,927 @@
 0:0x36C74E t3_mov(0, 768)
 0:0x36C752 00 FB 03 F4 3D F1 EB BC r
 
-# Asphalt: Injection [EU 1.00]
-[PCSB00040,eboot.bin]
-# Asphalt: Injection [US 1.00]
-[PCSE00007,eboot.bin]
+# Asphalt: Injection
+[PCSB00040, eboot.bin, 0x61A666FB] # [EU 1.00]
+[PCSE00007, eboot.bin, 0xA8F00ABD] # [US 1.00]
 @IB
-1:0x5A2C uint32(<ib_w>)
-1:0x5A30 uint32(<ib_h>)
+1:0x5A2C uint32(ib_w)
+1:0x5A30 uint32(ib_h)
 
 # LEGO Star Wars: The Force Awakens [EU 1.00]
-[PCSB00877,eboot.bin]
+[PCSB00877, eboot.bin, 0x0C927256]
 @IB
-0:0x2241C4 t2_mov(1,1,0xA00000)
-0:0x1F313E t2_mov(1,4,<ib_w>)
-0:0x1F3144 t2_mov(1,5,<ib_h>)
-1:0x4650 uint32(<ib_w>)
-1:0x4654 uint32(<ib_h>)
-# Fix touchscreen/touchpad pos calc
-0:0x223AF6 t2_mov(0,0,640)
-0:0x223AFA nop() *3
-0:0x223B36 t2_mov(0,0,368)
-0:0x223B3A nop() *3
+0:0x2241C4 t2_mov(1, 1, 0xA00000)
+0:0x1F313E t2_mov(1, 4, ib_w)
+0:0x1F3144 t2_mov(1, 5, ib_h)
+1:0x4650 uint32(ib_w)
+1:0x4654 uint32(ib_h)
+0:0x223AF6 t2_mov(0, 0, 640) . (nop *3)
+0:0x223B36 t2_mov(0, 0, 368) . (nop *3)
 
 # LEGO Star Wars: The Force Awakens [US 1.00]
-[PCSE00791,eboot.bin]
+[PCSE00791, eboot.bin, 0x405C0E5E]
 @IB
-0:0x2241E4 t2_mov(1,1,0xA00000)
-0:0x1F315E t2_mov(1,4,<ib_w>)
-0:0x1F3164 t2_mov(1,5,<ib_h>)
-1:0x4508 uint32(<ib_w>)
-1:0x450C uint32(<ib_h>)
-# Fix touchscreen/touchpad pos calc
-0:0x223B16 t2_mov(0,0,640)
-0:0x223B1A nop() *3
-0:0x223B56 t2_mov(0,0,368)
-0:0x223B5A nop() *3
+0:0x2241E4 t2_mov(1, 1, 0xA00000)
+0:0x1F315E t2_mov(1, 4, ib_w)
+0:0x1F3164 t2_mov(1, 5, ib_h)
+1:0x4508 uint32(ib_w)
+1:0x450C uint32(ib_h)
+0:0x223B16 t2_mov(0, 0, 640) . (nop *3)
+0:0x223B56 t2_mov(0, 0, 368) . (nop *3)
 
 # World of Final Fantasy [EU 1.03]
-[PCSB00951,eboot.bin]
+[PCSB00951, eboot.bin, 0xCD1EA543]
 @IB
-0:0x429568 t2_mov(1,1,0x5400000)
-0:0x22C9E6 t2_mov(1,5,<ib_w>)
-0:0x22C9EC t2_mov(1,0,<ib_h>)
+0:0x429568 t2_mov(1, 1, 0x5400000)
+0:0x22C9E6 t2_mov(1, 5, ib_w)
+0:0x22C9EC t2_mov(1, 0, ib_h)
 
 # World of Final Fantasy [US 1.03]
-[PCSE00880,eboot.bin]
+[PCSE00880, eboot.bin, 0xB38C2C5B]
 @IB
-0:0x429580 t2_mov(1,1,0x5400000)
-0:0x22C9FE t2_mov(1,5,<ib_w>)
-0:0x22CA04 t2_mov(1,0,<ib_h>)
+0:0x429580 t2_mov(1, 1, 0x5400000)
+0:0x22C9FE t2_mov(1, 5, ib_w)
+0:0x22CA04 t2_mov(1, 0, ib_h)
 
 # World of Final Fantasy [ASIA 1.03]
-[PCSH00223,eboot.bin]
+[PCSH00223, eboot.bin, 0x54CCA75F]
 @IB
-0:0x429598 t2_mov(1,1,0x5400000)
-0:0x22CA16 t2_mov(1,5,<ib_w>)
-0:0x22CA1C t2_mov(1,0,<ib_h>)
+0:0x429598 t2_mov(1, 1, 0x5400000)
+0:0x22CA16 t2_mov(1, 5, ib_w)
+0:0x22CA1C t2_mov(1, 0, ib_h)
 
-# World of Final Fantasy [JP ?]
-[PCSG00709,eboot.bin]
+# World of Final Fantasy [JP 1.03]
+[PCSG00709, eboot.bin, 0x8D3086B3]
 @IB
-0:0x429560 t2_mov(1,1,0x5400000)
-0:0x22C9DE t2_mov(1,5,<ib_w>)
-0:0x22C9E4 t2_mov(1,0,<ib_h>)
+0:0x429560 t2_mov(1, 1, 0x5400000)
+0:0x22C9DE t2_mov(1, 5, ib_w)
+0:0x22C9E4 t2_mov(1, 0, ib_h)
 
-# Ridge Racer [EU 1.02]
-[PCSB00048,eboot.bin]
-# Ridge Racer [US 1.02]
-[PCSE00001,eboot.bin]
-# Ridge Racer [JP 1.04]
-[PCSG00001,eboot.bin]
+# Ridge Racer
+[PCSB00048, eboot.bin, 0xBD286F0F] # [EU 1.02]
+[PCSE00001, eboot.bin, 0x7E9EDCA3] # [US 1.02]
+[PCSG00001, eboot.bin, 0xEB2D8835] # [JP 1.04]
 @IB
-1:0x53E4 uint32(<ib_w>)
-1:0x53E8 uint32(<ib_h>)
+1:0x53E4 uint32(ib_w)
+1:0x53E8 uint32(ib_h)
 
 # Utawarerumono: Mask of Deception [EU 1.00]
-[PCSB01093,eboot.bin]
+[PCSB01093, eboot.bin, 0x2312FDE0]
 @IB
-0:0x119AA0 a1_mov(0,1,<ib_w>)
-0:0x119AB8 a1_mov(0,0,<ib_h>)
+0:0x119AA0 a1_mov(0, 1, ib_w)
+0:0x119AB8 a1_mov(0, 0, ib_h)
 
 # Utawarerumono: Mask of Deception [US 1.00]
-[PCSE00959,eboot.bin]
+[PCSE00959, eboot.bin, 0xCBA0BA49]
 @IB
-0:0x11D1BC a1_mov(0,1,<ib_w>)
-0:0x11D1D4 a1_mov(0,0,<ib_h>)
+0:0x11D1BC a1_mov(0, 1, ib_w)
+0:0x11D1D4 a1_mov(0, 0, ib_h)
 
 # Utawarerumono: Itsuwari no Kamen [JP 1.02]
-[PCSG00617,eboot.bin]
+[PCSG00617, eboot.bin, 0xE415725A]
 @IB
-0:0x119058 a1_mov(0,0,<ib_w>)
-0:0x11905C a1_mov(0,1,<ib_h>)
-0:0x11907C a1_mov(0,0,<ib_w>)
-0:0x119080 a1_mov(0,1,<ib_h>)
+0:0x119058 a1_mov(0, 0, ib_w)
+0:0x11905C a1_mov(0, 1, ib_h)
+0:0x11907C a1_mov(0, 0, ib_w)
+0:0x119080 a1_mov(0, 1, ib_h)
 
-# Dead or Alive 5 Plus [EU 1.01]
-[PCSB00296,eboot.bin]
-# Dead or Alive 5 Plus [US 1.01]
-[PCSE00235,eboot.bin]
-# Dead or Alive 5 Plus [JP 1.01]
-[PCSG00167,eboot.bin]
+# Dead or Alive 5 Plus
+[PCSB00296, eboot.bin, 0xA1B33BC8] # [EU 1.01]
+[PCSE00235, eboot.bin, 0xA1B33BC8] # [US 1.01]
+[PCSG00167, eboot.bin, 0xA1B33BC8] # [JP 1.01]
 @IB
-0:0x5B0DC4 t2_mov(1,1,<ib_w>)
-0:0x5B0DCA t2_mov(1,1,<ib_h>)
-0:0x5B0DD0 t2_mov(1,1,<ib_w>)
-0:0x5B0DD6 t2_mov(1,1,<ib_h>)
+0:0x5B0DC4 t2_mov(1, 1, ib_w)
+0:0x5B0DCA t2_mov(1, 1, ib_h)
+0:0x5B0DD0 t2_mov(1, 1, ib_w)
+0:0x5B0DD6 t2_mov(1, 1, ib_h)
 
 # Miracle Girls Festival [JP 1.00]
-[PCSG00610,eboot.bin]
+[PCSG00610, eboot.bin, 0x2A0BE571]
 @IB
-0:0x158EB0 t2_mov(1,2,<ib_w>)
-0:0x158EB8 t2_mov(1,3,<ib_h>)
-0:0x159EAE t2_mov(1,2,<ib_w>)
-0:0x159EB6 t2_mov(1,4,<ib_h>)
-0:0x15D32A t2_mov(1,3,<ib_w>)
-0:0x15D32E t2_mov(1,14,<ib_h>)
-0:0x15D6C4 t2_mov(1,7,<ib_w>)
-0:0x15D6C8 t2_mov(1,14,<ib_h>)
+0:0x158EB0 t2_mov(1, 2,  ib_w)
+0:0x158EB8 t2_mov(1, 3,  ib_h)
+0:0x159EAE t2_mov(1, 2,  ib_w)
+0:0x159EB6 t2_mov(1, 4,  ib_h)
+0:0x15D32A t2_mov(1, 3,  ib_w)
+0:0x15D32E t2_mov(1, 14, ib_h)
+0:0x15D6C4 t2_mov(1, 7,  ib_w)
+0:0x15D6C8 t2_mov(1, 14, ib_h)
 
-# The Jak and Daxter Trilogy [EU 1.00]
-[PCSF00248,eboot.bin]
-# The Jak and Daxter Trilogy [EU 1.00]
-[PCSF00247,Jak1.self,0x109d6ad5]
-# Jak and Daxter Collection [US 1.00]
-[PCSA00080,Jak1.self,0x109d6ad5]
+# Jak and Daxter: The Precursor Legacy
+[PCSF00248, eboot.bin, 0x109D6AD5] # [EU 1.00]
+[PCSF00247, Jak1.self, 0x109D6AD5] # [EU 1.00]
+[PCSA00080, Jak1.self, 0x109D6AD5] # [US 1.00]
 @FB
-0:0x1B250 t2_mov(1,0,<fb_w>)
-0:0x1B260 t2_mov(1,0,<fb_h>)
+0:0x1B250 t2_mov(1, 0, fb_w)
+0:0x1B260 t2_mov(1, 0, fb_h)
 @FPS
-0:0x1BA2E t1_mov(1,<-,<vblank>,1>)
-0:0x1B4B8 t1_mov(0,<vblank>)
-[PCSF00249,eboot.bin]
-[PCSF00247,Jak2.self,0x15059015]
-[PCSA00080,Jak2.self,0x15059015]
-@FB
-0:0x211F2 t2_mov(1,0,<fb_w>)
-0:0x211FA t2_mov(1,0,<fb_h>)
-[PCSF00250,eboot.bin]
-[PCSF00247,Jak3.self,0x790ebad9]
-[PCSA00080,Jak3.self,0x790ebad9]
-@FB
-0:0x26096 t2_mov(1,0,<fb_w>)
-0:0x2609E t2_mov(1,0,<fb_h>)
+0:0x1BA2E t1_mov(1, vblank - 1)
+0:0x1B4B8 t1_mov(0, vblank)
 
-# Hatsune Miku: Project Diva f [EU 1.00]
-[PCSB00419,eboot.bin]
-# Hatsune Miku: Project Diva f [US 1.00]
-[PCSE00326,eboot.bin]
+# Jak II
+[PCSF00249, eboot.bin, 0x15059015] # [EU 1.00]
+[PCSF00247, Jak2.self, 0x15059015] # [EU 1.00]
+[PCSA00080, Jak2.self, 0x15059015] # [US 1.00]
+@FB
+0:0x211F2 t2_mov(1, 0, fb_w)
+0:0x211FA t2_mov(1, 0, fb_h)
+
+# Jak 3
+[PCSF00250, eboot.bin, 0x790EBAD9] # [EU 1.00]
+[PCSF00247, Jak3.self, 0x790EBAD9] # [EU 1.00]
+[PCSA00080, Jak3.self, 0x790EBAD9] # [US 1.00]
+@FB
+0:0x26096 t2_mov(1, 0, fb_w)
+0:0x2609E t2_mov(1, 0, fb_h)
+
+# Hatsune Miku: Project Diva f
+[PCSB00419, eboot.bin, 0x544807B3] # [EU 1.00]
+[PCSE00326, eboot.bin, 0x1BA9AC18] # [US 1.00]
 @IB
-0:0x2828C4 t2_mov(0,1,<ib_w>)
-0:0x2828CA t2_mov(0,2,<ib_h>)
-0:0x28207C t2_mov(1,2,<ib_w>)
-0:0x282084 t2_mov(1,3,<ib_h>)
+0:0x2828C4 t2_mov(0, 1, ib_w)
+0:0x2828CA t2_mov(0, 2, ib_h)
+0:0x28207C t2_mov(1, 2, ib_w)
+0:0x282084 t2_mov(1, 3, ib_h)
 @FPS
-0:0x136C4 t1_mov(0,<vblank>)
-0:0x13948 bytes(F7 EE 00 0A)
+0:0x136C4 t1_mov(0, vblank)
+0:0x13948 F7EE000A r
 
 # Hatsune Miku: Project Diva f [JP 1.01]
-[PCSG00074,eboot.bin]
+[PCSG00074, eboot.bin, 0xD3BDB4F5]
 @IB
-0:0x257AC0 t2_mov(0,1,<ib_w>)
-0:0x257ABA t2_mov(0,2,<ib_h>)
-0:0x257150 t2_mov(1,2,<ib_w>)
-0:0x257158 t2_mov(1,3,<ib_h>)
+0:0x257AC0 t2_mov(0, 1, ib_w)
+0:0x257ABA t2_mov(0, 2, ib_h)
+0:0x257150 t2_mov(1, 2, ib_w)
+0:0x257158 t2_mov(1, 3, ib_h)
 @FPS
-0:0x12582 t1_mov(0,<vblank>)
-0:0x12814 bytes(F7 EE 00 0A)
+0:0x12582 t1_mov(0, vblank)
+0:0x12814 F7EE000A r
 
-# Hatsune Miku: Project Diva f 2nd [EU 1.00]
-[PCSB00554,eboot.bin]
-# Hatsune Miku: Project Diva f 2nd [US 1.00]
-[PCSE00434,eboot.bin]
+# Hatsune Miku: Project Diva f 2nd
+[PCSB00554, eboot.bin, 0xDB737975] # [EU 1.00]
+[PCSE00434, eboot.bin, 0x31DAC716] # [US 1.00]
 @IB
-0:0x25E34A t2_mov(0,3,<ib_w>)
-0:0x25E352 t2_mov(0,4,<ib_h>)
-0:0x25D500 t2_mov(1,5,<ib_w>)
-0:0x25D508 t2_mov(1,6,<ib_h>)
+0:0x25E34A t2_mov(0, 3, ib_w)
+0:0x25E352 t2_mov(0, 4, ib_h)
+0:0x25D500 t2_mov(1, 5, ib_w)
+0:0x25D508 t2_mov(1, 6, ib_h)
 @FPS
-0:0xA994 t1_mov(0,<vblank>)
-0:0xAAF2 bytes(F7 EE 00 0A)
+0:0xA994 t1_mov(0, vblank)
+0:0xAAF2 F7EE000A r
 
 # Hatsune Miku: Project Diva f 2nd [JP 1.01]
-[PCSG00205,eboot.bin]
+[PCSG00205, eboot.bin, 0x4AAABD3D]
 @IB
-0:0x25A6B6 t2_mov(0,3,<ib_w>)
-0:0x25A6BE t2_mov(0,4,<ib_h>)
-0:0x25986C t2_mov(1,5,<ib_w>)
-0:0x259874 t2_mov(1,6,<ib_h>)
+0:0x25A6B6 t2_mov(0, 3, ib_w)
+0:0x25A6BE t2_mov(0, 4, ib_h)
+0:0x25986C t2_mov(1, 5, ib_w)
+0:0x259874 t2_mov(1, 6, ib_h)
 @FPS
-0:0xA95C t1_mov(0,<vblank>)
-0:0xAABA bytes(F7 EE 00 0A)
+0:0xA95C t1_mov(0, vblank)
+0:0xAABA F7EE000A r
 
 # Hatsune Miku: Project Diva f 2nd [ASIA 1.00]
-[PCSH00088,eboot.bin]
+[PCSH00088, eboot.bin, 0xB499AC54]
 @IB
-0:0x25E4CA t2_mov(0,3,<ib_w>)
-0:0x25E4D2 t2_mov(0,4,<ib_h>)
-0:0x25D680 t2_mov(1,5,<ib_w>)
-0:0x25D688 t2_mov(1,6,<ib_h>)
+0:0x25E4CA t2_mov(0, 3, ib_w)
+0:0x25E4D2 t2_mov(0, 4, ib_h)
+0:0x25D680 t2_mov(1, 5, ib_w)
+0:0x25D688 t2_mov(1, 6, ib_h)
 @FPS
-0:0xA994 t1_mov(0,<vblank>)
-0:0xAAF2 bytes(F7 EE 00 0A)
+0:0xA994 t1_mov(0, vblank)
+0:0xAAF2 F7EE000A r
 
-# Hatsune Miku: Project Diva X [EU 1.00]
-[PCSB01007,eboot.bin]
-# Hatsune Miku: Project Diva X [US 1.00]
-[PCSE00867,eboot.bin]
+# Hatsune Miku: Project Diva X
+[PCSB01007, eboot.bin, 0x0A3FF027] # [EU 1.00]
+[PCSE00867, eboot.bin, 0x0A3FF027] # [US 1.00]
 @IB
-0:0x2643BA t2_mov(1,2,<ib_w>)
-0:0x2643C0 t2_mov(1,3,<ib_h>)
-0:0x2653D2 t2_mov(1,14,<ib_w>)
-0:0x2653D8 t2_mov(1,12,<ib_h>)
+0:0x2643BA t2_mov(1, 2,  ib_w)
+0:0x2643C0 t2_mov(1, 3,  ib_h)
+0:0x2653D2 t2_mov(1, 14, ib_w)
+0:0x2653D8 t2_mov(1, 12, ib_h)
 
 # Hatsune Miku: Project Diva X [ASIA 1.00]
-[PCSH00176,eboot.bin]
+[PCSH00176, eboot.bin, 0x5C1C7A68]
 @IB
-0:0x230D5A t2_mov(1,2,<ib_w>)
-0:0x230D60 t2_mov(1,3,<ib_h>)
-0:0x231A86 t2_mov(1,14,<ib_w>)
-0:0x231A8C t2_mov(1,12,<ib_h>)
+0:0x230D5A t2_mov(1, 2,  ib_w)
+0:0x230D60 t2_mov(1, 3,  ib_h)
+0:0x231A86 t2_mov(1, 14, ib_w)
+0:0x231A8C t2_mov(1, 12, ib_h)
 
 # Hatsune Miku: Project Diva X [JP 1.00]
-[PCSG00683,eboot.bin]
+[PCSG00683, eboot.bin, 0xCAF82C1B]
 @IB
-0:0x230D42 t2_mov(1,2,<ib_w>)
-0:0x230D48 t2_mov(1,3,<ib_h>)
-0:0x231A6E t2_mov(1,14,<ib_w>)
-0:0x231A74 t2_mov(1,12,<ib_h>)
+0:0x230D42 t2_mov(1, 2,  ib_w)
+0:0x230D48 t2_mov(1, 3,  ib_h)
+0:0x231A6E t2_mov(1, 14, ib_w)
+0:0x231A74 t2_mov(1, 12, ib_h)
 
 # MotoGP 13 [EU 1.02]
-[PCSB00316,eboot.bin]
+[PCSB00316, eboot.bin, 0x0BCB4421]
 @IB
-0:0xAA57A4 t2_mov(1,0,<ib_w>)
-0:0xAA57AA t2_mov(1,5,<ib_h>)
+0:0xAA57A4 t2_mov(1, 0, ib_w)
+0:0xAA57AA t2_mov(1, 5, ib_h)
 
 # MotoGP 13 [US 1.00]
-[PCSE00409,eboot.bin]
+[PCSE00409, eboot.bin, 0xC88435BD]
 @IB
-0:0xAA622C t2_mov(1,0,<ib_w>)
-0:0xAA6232 t2_mov(1,5,<ib_h>)
+0:0xAA622C t2_mov(1, 0, ib_w)
+0:0xAA6232 t2_mov(1, 5, ib_h)
 
 # MotoGP 14 [EU 1.01]
-[PCSB00498,eboot.bin,0x7467CF36]
+[PCSB00498, eboot.bin, 0x7467CF36]
 @IB
-0:0x52B58A t2_mov(1,0,<ib_w>)
-0:0x52B590 t2_mov(1,4,<ib_h>)
+0:0x52B58A t2_mov(1, 0, ib_w)
+0:0x52B590 t2_mov(1, 4, ib_h)
 
 # MotoGP 14 [US 1.00]
-[PCSE00529,eboot.bin]
+[PCSE00529, eboot.bin, 0x0BCBC928]
 @IB
-0:0x52B5EA t2_mov(1,0,<ib_w>)
-0:0x52B5F0 t2_mov(1,4,<ib_h>)
+0:0x52B5EA t2_mov(1, 0, ib_w)
+0:0x52B5F0 t2_mov(1, 4, ib_h)
 
 # WRC 5: FIA World Rally Championship [EU 1.00]
-[PCSB00762,eboot.bin]
+[PCSB00762, eboot.bin, 0xEBAC5899]
 @FB
-0:0x18C002 nop() *2
-0:0x18C04E nop()
-0:0x18C010 t2_mov(1,0,<fb_w>)
-0:0x18C022 t2_mov(0,6,<fb_h>)
+0:0x18C002 nop *2
+0:0x18C04E nop
+0:0x18C010 t2_mov(1, 0, fb_w)
+0:0x18C022 t2_mov(0, 6, fb_h)
 
 # Utawarerumono: Mask of Truth [EU 1.00]
-[PCSB01145,eboot.bin]
+[PCSB01145, eboot.bin, 0x1E7004BB]
 @IB
-0:0x15143C a1_mov(0,0,<ib_w>)
-0:0x151444 a1_mov(0,1,<ib_h>)
+0:0x15143C a1_mov(0, 0, ib_w)
+0:0x151444 a1_mov(0, 1, ib_h)
 
 # Utawarerumono: Mask of Truth [US 1.00]
-[PCSE01102,eboot.bin]
+[PCSE01102, eboot.bin, 0xD7BF5875]
 @IB
-0:0x154AA8 a1_mov(0,0,<ib_w>)
-0:0x154AB0 a1_mov(0,1,<ib_h>)
+0:0x154AA8 a1_mov(0, 0, ib_w)
+0:0x154AB0 a1_mov(0, 1, ib_h)
 
 # Utawarerumono: Futari no Hakuoro [JP 1.04]
-[PCSG00838,eboot.bin]
+[PCSG00838, eboot.bin, 0x7AF4E467]
 @IB
-0:0x152698 a1_mov(0,0,<ib_w>)
-0:0x1526A0 a1_mov(0,1,<ib_h>)
+0:0x152698 a1_mov(0, 0, ib_w)
+0:0x1526A0 a1_mov(0, 1, ib_h)
 
 # Dragon Quest Builders [EU 1.00]
-[PCSB00981,eboot.bin]
+[PCSB00981, eboot.bin, 0x1F8CD7CE]
 @IB
-0:0x271F62 t2_mov(1,0,<ib_w>)
-0:0x271F5C t2_mov(1,3,<ib_h>)
+0:0x271F62 t2_mov(1, 0, ib_w)
+0:0x271F5C t2_mov(1, 3, ib_h)
 @FPS
 >sceDisplaySetFrameBuf_withWait()
 
 # Dragon Quest Builders [US 1.00]
-[PCSE00912,eboot.bin]
+[PCSE00912, eboot.bin, 0x1C5AA1D1]
 @IB
-0:0x271F5E t2_mov(1,0,<ib_w>)
-0:0x271F58 t2_mov(1,3,<ib_h>)
+0:0x271F5E t2_mov(1, 0, ib_w)
+0:0x271F58 t2_mov(1, 3, ib_h)
 @FPS
 >sceDisplaySetFrameBuf_withWait()
 
 # Dragon Quest Builders [JP 1.03]
-[PCSG00697,eboot.bin]
+[PCSG00697, eboot.bin, 0x7087C461]
 @IB
-0:0x26AC1E t2_mov(1,0,<ib_w>)
-0:0x26AC18 t2_mov(1,3,<ib_h>)
+0:0x26AC1E t2_mov(1, 0, ib_w)
+0:0x26AC18 t2_mov(1, 3, ib_h)
 @FPS
 >sceDisplaySetFrameBuf_withWait()
 
 # Dragon Quest Builders [ASIA 1.00]
-[PCSH00221,eboot.bin]
+[PCSH00221, eboot.bin, 0x7E953878]
 @IB
-0:0x26BD42 t2_mov(1,0,<ib_w>)
-0:0x26BD3C t2_mov(1,3,<ib_h>)
+0:0x26BD42 t2_mov(1, 0, ib_w)
+0:0x26BD3C t2_mov(1, 3, ib_h)
 @FPS
 >sceDisplaySetFrameBuf_withWait()
 
-# The Amazing Spider-Man [US 1.00]
-[PCSE00333,eboot.bin]
-# The Amazing Spider-Man [EU 1.00]
-[PCSB00428,eboot.bin]
+# The Amazing Spider-Man
+[PCSE00333, eboot.bin, 0x1D3E0BEB] # [US 1.00]
+[PCSB00428, eboot.bin, 0xE5988D4F] # [EU 1.00]
 @IB
-0:0x16CD7E t2_mov(1,1,<ib_w>)
-0:0x16CD82 t2_mov(1,0,<ib_h>)
+0:0x16CD7E t2_mov(1, 1, ib_w)
+0:0x16CD82 t2_mov(1, 0, ib_h)
 @FPS
 >sceDisplaySetFrameBuf_withWait()
 
-# The Sly Trilogy [EU 1.00]
-[PCSF00269,eboot.bin]
-[PCSF00338,Sly1.self,0x15bca5ba]
+# Sly Cooper and the Thievius Raccoonus
+[PCSF00269, eboot.bin, 0x15BCA5BA] # [EU 1.00]
+[PCSF00338, Sly1.self, 0x15BCA5BA] # [EU 1.00]
 @FB
-0:0xE0A40 t2_mov(1,1,<fb_w>)
-0:0xE0A46 t2_mov(1,1,<fb_h>)
+0:0xE0A40 t2_mov(1, 1, fb_w)
+0:0xE0A46 t2_mov(1, 1, fb_h)
 @FPS
-0:0x10C04C t1_mov(0,<vblank>)
-[PCSF00270,eboot.bin]
-[PCSF00338,Sly2.self,0x7288e791]
-@FB
-0:0x1155FC t2_mov(1,1,<fb_w>)
-0:0x115602 t2_mov(1,1,<fb_h>)
-@FPS
-0:0x12E63C t1_mov(0,<vblank>)
-[PCSF00271,eboot.bin]
-@FB
-0:0x1692AC t2_mov(1,1,<fb_w>)
-0:0x1692B2 t2_mov(1,1,<fb_h>)
-@FPS
-0:0x1822EC t1_mov(0,<vblank>)
+0:0x10C04C t1_mov(0, vblank)
 
-# The Sly Trilogy [US 1.00]
-[PCSA00096,eboot.bin]
-[PCSA00095,Sly1.self,0x605d1db1]
+# Sly Cooper and the Thievius Raccoonus
+[PCSA00096, eboot.bin, 0x605D1DB1] # [US 1.00]
+[PCSA00095, Sly1.self, 0x605D1DB1] # [US 1.00]
 @FB
-0:0xE0AF8 t2_mov(1,1,<fb_w>)
-0:0xE0AFE t2_mov(1,1,<fb_h>)
+0:0xE0AF8 t2_mov(1, 1, fb_w)
+0:0xE0AFE t2_mov(1, 1, fb_h)
 @FPS
-0:0x10C104 t1_mov(0,<vblank>)
-[PCSA00097,eboot.bin]
-[PCSA00095,Sly2.self,0xdcd6b8bc]
-@FB
-0:0x1155F8 t2_mov(1,1,<fb_w>)
-0:0x1155FE t2_mov(1,1,<fb_h>)
-@FPS
-0:0x12E638 t1_mov(0,<vblank>)
-[PCSA00098,eboot.bin]
-@FB
-0:0x1692A8 t2_mov(1,1,<fb_w>)
-0:0x1692AE t2_mov(1,1,<fb_h>)
-@FPS
-0:0x1822E8 t1_mov(0,<vblank>)
+0:0x10C104 t1_mov(0, vblank)
 
-# Sly Cooper: Thieves in Time [EU 1.01]
-[PCSF00156,eboot.bin]
-[PCSF00206,eboot.bin]
-[PCSF00207,eboot.bin]
-[PCSF00208,eboot.bin]
-[PCSF00209,eboot.bin]
+# Sly Cooper 2: Band of Thieves
+[PCSF00270, eboot.bin, 0x7288E791] # [EU 1.00]
+[PCSF00338, Sly2.self, 0x7288E791] # [EU 1.00]
+@FB
+0:0x1155FC t2_mov(1, 1, fb_w)
+0:0x115602 t2_mov(1, 1, fb_h)
 @FPS
-0:0x3228AC t1_mov(0,<vblank>)
+0:0x12E63C t1_mov(0, vblank)
+
+# Sly Cooper 2: Band of Thieves
+[PCSA00097, eboot.bin, 0xDCD6B8BC] # [US 1.00]
+[PCSA00095, Sly2.self, 0xDCD6B8BC] # [US 1.00]
+@FB
+0:0x1155F8 t2_mov(1, 1, fb_w)
+0:0x1155FE t2_mov(1, 1, fb_h)
+@FPS
+0:0x12E638 t1_mov(0, vblank)
+
+# Sly Cooper 3: Honor Among Thieves [EU 1.00]
+[PCSF00271, eboot.bin, 0xCE18232F]
+@FB
+0:0x1692AC t2_mov(1, 1, fb_w)
+0:0x1692B2 t2_mov(1, 1, fb_h)
+@FPS
+0:0x1822EC t1_mov(0, vblank)
+
+# Sly Cooper 3: Honor Among Thieves [US 1.00]
+[PCSA00098, eboot.bin, 0xAC2A8892]
+@FB
+0:0x1692A8 t2_mov(1, 1, fb_w)
+0:0x1692AE t2_mov(1, 1, fb_h)
+@FPS
+0:0x1822E8 t1_mov(0, vblank)
+
+# Sly Cooper: Thieves in Time
+[PCSF00156, eboot.bin, 0xFAC82F85] # [EU 1.01]
+[PCSF00206, eboot.bin, 0x56380F69] # [EU 1.01]
+[PCSF00207, eboot.bin, 0xFFF2D9ED] # [EU 1.01]
+[PCSF00208, eboot.bin, 0xB67BAF52] # [EU 1.01]
+[PCSF00209, eboot.bin, 0x10EF2E89] # [EU 1.01]
+@FPS
+0:0x3228AC t1_mov(0, vblank)
 
 # Sly Cooper: Thieves in Time [US 1.01]
-[PCSA00068,eboot.bin]
+[PCSA00068, eboot.bin, 0x008B0E65]
 @FPS
-0:0x3228E4 t1_mov(0,<vblank>)
+0:0x3228E4 t1_mov(0, vblank)
 
-# The Ratchet & Clank Trilogy [EU 1.00]
-[PCSF00484,eboot.bin]
-[PCSF00482,rc1.self,0x0a02a884]
-# The Ratchet & Clank Trilogy [US 1.00]
-[PCSA00133,rc1.self,0xd06e468a]
+# Ratchet & Clank
+[PCSF00484, eboot.bin, 0x0A02A884] # [EU 1.00]
+[PCSF00482, rc1.self,  0x0A02A884] # [EU 1.00]
+[PCSA00133, rc1.self,  0xD06E468A] # [US 1.00]
 @FB
-0:0x1A024 t2_mov(1,14,0xC00000)
-0:0x2D12 t2_mov(1,0,<fb_w>)
-0:0x2D16 t2_mov(1,1,<fb_h>)
-[PCSF00485,eboot.bin]
-[PCSF00482,rc2.self,0x7a1d621c]
-[PCSA00133,rc2.self,0x7a1d621c]
-@FB
-0:0x19054 t2_mov(1,14,0xC00000)
-0:0x1D62 t2_mov(1,0,<fb_w>)
-0:0x1D66 t2_mov(1,1,<fb_h>)
-0:0x9A463C t2_mov(1,1,<fb_w>)
-0:0x9A4646 t2_mov(1,3,<fb_h>)
-0:0x9A5320 t2_mov(1,2,<fb_w>)
-0:0x9A5326 t2_mov(1,3,<fb_h>)
-0:0xA564A6 t1_movt(4,<r,<to_fl,</,<*,<fb_w>,544>,720>>,16>)
-0:0xA564AE nop() *3
-0:0xA564E8 t1_movt(1,<r,<to_fl,</,<*,<fb_w>,88>,720>>,16>)
-0:0xA56540 t1_movt(1,<r,<to_fl,<fb_h>>,16>)
-[PCSF00486,eboot.bin]
-[PCSF00482,rc3.self,0xcf835e57]
-[PCSA00133,rc3.self,0xcf835e57]
-@FB
-0:0x19F34 t2_mov(1,14,0xC00000)
-0:0x2B98 t2_mov(1,0,<fb_w>)
-0:0x2B9C t2_mov(1,1,<fb_h>)
-0:0xE5F8C t2_mov(1,3,<fb_w>)
-0:0xE5F92 t2_mov(1,2,<fb_h>)
-0:0xF53D4 t2_mov(1,1,<fb_w>)
-0:0xF53DC t2_mov(1,2,<fb_h>)
-0:0x1E9B7C t2_mov(1,3,<fb_w>)
-0:0x1E9B82 t2_mov(1,4,<fb_h>)
-0:0x21EF5E t2_mov(1,2,<fb_w>)
-0:0x21EF64 t2_mov(1,1,<fb_h>)
-0:0x200B30 t1_movt(4,<r,<to_fl,</,<*,<fb_w>,544>,720>>,16>)
-0:0x200B38 nop() *3
-0:0x200B72 t1_movt(1,<r,<to_fl,</,<*,<fb_w>,88>,720>>,16>)
-0:0x200BCA t1_movt(1,<r,<to_fl,<fb_h>>,16>)
+0:0x1A024 t2_mov(1, 14, 0xC00000)
+0:0x2D12 t2_mov(1, 0, fb_w)
+0:0x2D16 t2_mov(1, 1, fb_h)
 
-# Ninja Gaiden Sigma 2 Plus [EU 1.00]
-[PCSB00294,eboot.bin]
-# Ninja Gaiden Sigma 2 Plus [US 1.00]
-[PCSE00233,eboot.bin]
+# Ratchet & Clank 2: Locked and Loaded / Going Commando
+[PCSF00485, eboot.bin, 0x7A1D621C] # [EU 1.00]
+[PCSF00482, rc2.self,  0x7A1D621C] # [EU 1.00]
+[PCSA00133, rc2.self,  0x7A1D621C] # [US 1.00]
+@FB
+0:0x19054 t2_mov(1, 14, 0xC00000)
+0:0x1D62   t2_mov(1, 0, fb_w)
+0:0x1D66   t2_mov(1, 1, fb_h)
+0:0x9A463C t2_mov(1, 1, fb_w)
+0:0x9A4646 t2_mov(1, 3, fb_h)
+0:0x9A5320 t2_mov(1, 2, fb_w)
+0:0x9A5326 t2_mov(1, 3, fb_h)
+0:0xA564A6 t1_movt(4, (fb_w * 544 / 720.0) >> 16)
+0:0xA564AE nop *3
+0:0xA564E8 t1_movt(1, (fb_w * 88 / 720.0) >> 16)
+0:0xA56540 t1_movt(1, float(fb_h) >> 16)
+
+# Ratchet & Clank 3 / Up Your Arsenal
+[PCSF00486, eboot.bin, 0xCF835E57] # [EU 1.00]
+[PCSF00482, rc3.self,  0xCF835E57] # [EU 1.00]
+[PCSA00133, rc3.self,  0xCF835E57] # [US 1.00]
+@FB
+0:0x19F34 t2_mov(1, 14, 0xC00000)
+0:0x2B98   t2_mov(1, 0, fb_w)
+0:0x2B9C   t2_mov(1, 1, fb_h)
+0:0xE5F8C  t2_mov(1, 3, fb_w)
+0:0xE5F92  t2_mov(1, 2, fb_h)
+0:0xF53D4  t2_mov(1, 1, fb_w)
+0:0xF53DC  t2_mov(1, 2, fb_h)
+0:0x1E9B7C t2_mov(1, 3, fb_w)
+0:0x1E9B82 t2_mov(1, 4, fb_h)
+0:0x21EF5E t2_mov(1, 2, fb_w)
+0:0x21EF64 t2_mov(1, 1, fb_h)
+0:0x200B30 t1_movt(4, (fb_w * 544 / 720.0) >> 16)
+0:0x200B38 nop *3
+0:0x200B72 t1_movt(1, (fb_w * 88 / 720.0) >> 16)
+0:0x200BCA t1_movt(1, float(fb_h) >> 16)
+
+# Ninja Gaiden Sigma 2 Plus
+[PCSB00294, eboot.bin, 0x4C9B46C4] # [EU 1.00]
+[PCSE00233, eboot.bin, 0x9194A548] # [US 1.00]
 @IB
-0:0x54A8A t2_mov(1,0,<ib_w,0>)
-0:0x54A8E t2_mov(1,1,<ib_h,0>)
-0:0x54A92 bytes(0E 90 0F 91)
-0:0x54A96 t2_mov(1,0,<ib_w,1>)
-0:0x54A9A t2_mov(1,1,<ib_h,1>)
-0:0x54A9E bytes(10 90 11 91 12 90)
-0:0x54AA4 nop() *2
+0:0x54A8A t2_mov(1, 0, ib_wi(0))
+0:0x54A8E t2_mov(1, 1, ib_hi(0))
+0:0x54A92 0E900F91 r
+0:0x54A96 t2_mov(1, 0, ib_wi(1))
+0:0x54A9A t2_mov(1, 1, ib_hi(1))
+0:0x54A9E 109011911290 r . (nop *2)
 
 # Ninja Gaiden Sigma 2 Plus [JP 1.00]
-[PCSG00157,eboot.bin]
+[PCSG00157, eboot.bin, 0x897AD547]
 @IB
-0:0x5393E t2_mov(1,0,<ib_w,0>)
-0:0x53942 t2_mov(1,1,<ib_h,0>)
-0:0x53946 bytes(0E 90 0F 91)
-0:0x5394A t2_mov(1,0,<ib_w,1>)
-0:0x5394E t2_mov(1,1,<ib_h,1>)
-0:0x53952 bytes(10 90 11 91 12 90)
-0:0x53958 nop() *2
+0:0x5393E t2_mov(1, 0, ib_wi(0))
+0:0x53942 t2_mov(1, 1, ib_hi(0))
+0:0x53946 0E900F91 r
+0:0x5394A t2_mov(1, 0, ib_wi(1))
+0:0x5394E t2_mov(1, 1, ib_hi(1))
+0:0x53952 109011911290 r . (nop *2)
 
-# Ratchet & Clank: QForce [EU 1.01]
-[PCSF00191,eboot.bin]
-# Ratchet & Clank: Full Frontal Assault [US 1.01]
-[PCSA00086,eboot.bin]
+# Ratchet & Clank: QForce / Full Frontal Assault
+[PCSF00191, eboot.bin, 0x26E4BF15] # [EU 1.01]
+[PCSA00086, eboot.bin, 0x26E4BF15] # [US 1.01]
 @FB
-0:0x5557C2 t2_mov(1,3,<fb_w>)
-0:0x5557CA t2_mov(1,4,<fb_h>)
+0:0x5557C2 t2_mov(1, 3, fb_w)
+0:0x5557CA t2_mov(1, 4, fb_h)
 
 # Utawarerumono: Chiriyuku Mono he no Komoriuta [JP 1.02]
-[PCSG01079,eboot.bin]
+[PCSG01079, eboot.bin, 0x9F4464E5]
 @IB
-0:0x137808 a1_mov(0,0,<ib_w>)
-0:0x137810 a1_mov(0,1,<ib_h>)
+0:0x137808 a1_mov(0, 0, ib_w)
+0:0x137810 a1_mov(0, 1, ib_h)
 
 # Dragon Ball Z: Battle of Z [EU 1.01]
-[PCSB00396,eboot.bin]
+[PCSB00396, eboot.bin, 0x1592C04C]
 @IB
-0:0x63E8D0 a1_mov(0,0,<ib_w>)
-0:0x63E8D8 a1_mov(0,1,<ib_h>)
-0:0x63CE94 a1_mov(0,0,<ib_w>)
-0:0x63CE9C a1_mov(0,1,<ib_h>)
-0:0x63D200 a1_mov(0,2,<ib_w>)
-0:0x63D208 a1_mov(0,3,<ib_h>)
-0:0x63DA1C a1_mov(0,3,<ib_w>)
-0:0x63DA24 a1_mov(0,5,<ib_h>)
-0:0x63FF1C a1_mov(0,3,<ib_w>)
-0:0x63FF24 a1_mov(0,6,<ib_h>)
+0:0x63E8D0 a1_mov(0, 0, ib_w)
+0:0x63E8D8 a1_mov(0, 1, ib_h)
+0:0x63CE94 a1_mov(0, 0, ib_w)
+0:0x63CE9C a1_mov(0, 1, ib_h)
+0:0x63D200 a1_mov(0, 2, ib_w)
+0:0x63D208 a1_mov(0, 3, ib_h)
+0:0x63DA1C a1_mov(0, 3, ib_w)
+0:0x63DA24 a1_mov(0, 5, ib_h)
+0:0x63FF1C a1_mov(0, 3, ib_w)
+0:0x63FF24 a1_mov(0, 6, ib_h)
 
 # Dragon Ball Z: Battle of Z [US 1.01]
-[PCSE00305,eboot.bin]
+[PCSE00305, eboot.bin, 0x2EB183FF]
 @IB
-0:0x63E8A0 a1_mov(0,0,<ib_w>)
-0:0x63E8A8 a1_mov(0,1,<ib_h>)
-0:0x63CE64 a1_mov(0,0,<ib_w>)
-0:0x63CE6C a1_mov(0,1,<ib_h>)
-0:0x63D1D0 a1_mov(0,2,<ib_w>)
-0:0x63D1D8 a1_mov(0,3,<ib_h>)
-0:0x63D9EC a1_mov(0,3,<ib_w>)
-0:0x63D9F4 a1_mov(0,5,<ib_h>)
-0:0x63FEEC a1_mov(0,3,<ib_w>)
-0:0x63FEF4 a1_mov(0,6,<ib_h>)
+0:0x63E8A0 a1_mov(0, 0, ib_w)
+0:0x63E8A8 a1_mov(0, 1, ib_h)
+0:0x63CE64 a1_mov(0, 0, ib_w)
+0:0x63CE6C a1_mov(0, 1, ib_h)
+0:0x63D1D0 a1_mov(0, 2, ib_w)
+0:0x63D1D8 a1_mov(0, 3, ib_h)
+0:0x63D9EC a1_mov(0, 3, ib_w)
+0:0x63D9F4 a1_mov(0, 5, ib_h)
+0:0x63FEEC a1_mov(0, 3, ib_w)
+0:0x63FEF4 a1_mov(0, 6, ib_h)
 
 # Dragon Ball Z: Battle of Z [JP 1.01]
-[PCSG00213,eboot.bin]
+[PCSG00213, eboot.bin, 0x0B6BA1EA]
 @IB
-0:0x63DE3C a1_mov(0,0,<ib_w>)
-0:0x63DE44 a1_mov(0,1,<ib_h>)
-0:0x63C400 a1_mov(0,0,<ib_w>)
-0:0x63C408 a1_mov(0,1,<ib_h>)
-0:0x63C76C a1_mov(0,2,<ib_w>)
-0:0x63C774 a1_mov(0,3,<ib_h>)
-0:0x63CF88 a1_mov(0,3,<ib_w>)
-0:0x63CF90 a1_mov(0,5,<ib_h>)
-0:0x63F488 a1_mov(0,3,<ib_w>)
-0:0x63F490 a1_mov(0,6,<ib_h>)
+0:0x63DE3C a1_mov(0, 0, ib_w)
+0:0x63DE44 a1_mov(0, 1, ib_h)
+0:0x63C400 a1_mov(0, 0, ib_w)
+0:0x63C408 a1_mov(0, 1, ib_h)
+0:0x63C76C a1_mov(0, 2, ib_w)
+0:0x63C774 a1_mov(0, 3, ib_h)
+0:0x63CF88 a1_mov(0, 3, ib_w)
+0:0x63CF90 a1_mov(0, 5, ib_h)
+0:0x63F488 a1_mov(0, 3, ib_w)
+0:0x63F490 a1_mov(0, 6, ib_h)
 
-# Wipeout 2048 [EU 1.04]
-[PCSF00007,eboot.bin]
-# Wipeout 2048 [US 1.04]
-[PCSA00015,eboot.bin]
+# Wipeout 2048
+[PCSF00007, eboot.bin, 0x17143672] # [EU 1.04]
+[PCSA00015, eboot.bin, 0xA6FBB425] # [US 1.04]
 @IB
-0:0x2941F8 bytes(01 2C)
-0:0x2941FC t1_mov(4,1)
-0:0x424878 uint32(<ib_w,0>)
-0:0x42487C uint32(<ib_h,0>)
-0:0x424880 uint32(<ib_w,1>)
-0:0x424884 uint32(<ib_h,1>)
-0:0x424888 uint32(<ib_w,2>)
-0:0x42488C uint32(<ib_h,2>)
-0:0x424890 uint32(<ib_w,3>)
-0:0x424894 uint32(<ib_h,3>)
-0:0x424898 uint32(<ib_w,4>)
-0:0x42489C uint32(<ib_h,4>)
-0:0x4248A0 uint32(<ib_w,5>)
-0:0x4248A4 uint32(<ib_h,5>)
-0:0x4248A8 uint32(<ib_w,6>)
-0:0x4248AC uint32(<ib_h,6>)
-0:0x4248B0 uint32(<ib_w,7>)
-0:0x4248B4 uint32(<ib_h,7>)
-0:0x4248B8 uint32(<ib_w,8>)
-0:0x4248BC uint32(<ib_h,8>)
-0:0x4248C0 uint32(<ib_w,9>)
-0:0x4248C4 uint32(<ib_h,9>)
-0:0x4248C8 uint32(<ib_w,10>)
-0:0x4248CC uint32(<ib_h,10>)
-0:0x4248D0 uint32(<ib_w,11>)
-0:0x4248D4 uint32(<ib_h,11>)
-0:0x4248D8 uint32(<ib_w,12>)
-0:0x4248DC uint32(<ib_h,12>)
-0:0x4248E0 uint32(<ib_w,13>)
-0:0x4248E4 uint32(<ib_h,13>)
+0:0x2941F8 012C r
+0:0x2941FC t1_mov(4, 1)
+0:0x424878 uint32(ib_wi(0)) . uint32(ib_hi(0))
+0:0x424880 uint32(ib_wi(1)) . uint32(ib_hi(1))
+0:0x424888 uint32(ib_wi(2)) . uint32(ib_hi(2))
+0:0x424890 uint32(ib_wi(3)) . uint32(ib_hi(3))
+0:0x424898 uint32(ib_wi(4)) . uint32(ib_hi(4))
+0:0x4248A0 uint32(ib_wi(5)) . uint32(ib_hi(5))
+0:0x4248A8 uint32(ib_wi(6)) . uint32(ib_hi(6))
+0:0x4248B0 uint32(ib_wi(7)) . uint32(ib_hi(7))
+0:0x4248B8 uint32(ib_wi(8)) . uint32(ib_hi(8))
+0:0x4248C0 uint32(ib_wi(9)) . uint32(ib_hi(9))
+0:0x4248C8 uint32(ib_wi(10)) . uint32(ib_hi(10))
+0:0x4248D0 uint32(ib_wi(11)) . uint32(ib_hi(11))
+0:0x4248D8 uint32(ib_wi(12)) . uint32(ib_hi(12))
+0:0x4248E0 uint32(ib_wi(13)) . uint32(ib_hi(13))
 @FPS
-0:0x2F5D2E nop()
+0:0x2F5D2E nop
 
-# Wipeout 2048 [JP 1.04]
-[PCSC00006,eboot.bin]
-# Wipeout 2048 [ASIA 1.04]
-[PCSD00005,eboot.bin]
+# Wipeout 2048
+[PCSC00006, eboot.bin, 0xD4C31BD2] # [JP 1.04]
+[PCSD00005, eboot.bin, 0xB4214500] # [ASIA 1.04]
 @IB
-0:0x2941FC bytes(01 2C)
-0:0x294200 t1_mov(4,1)
-0:0x424878 uint32(<ib_w,0>)
-0:0x42487C uint32(<ib_h,0>)
-0:0x424880 uint32(<ib_w,1>)
-0:0x424884 uint32(<ib_h,1>)
-0:0x424888 uint32(<ib_w,2>)
-0:0x42488C uint32(<ib_h,2>)
-0:0x424890 uint32(<ib_w,3>)
-0:0x424894 uint32(<ib_h,3>)
-0:0x424898 uint32(<ib_w,4>)
-0:0x42489C uint32(<ib_h,4>)
-0:0x4248A0 uint32(<ib_w,5>)
-0:0x4248A4 uint32(<ib_h,5>)
-0:0x4248A8 uint32(<ib_w,6>)
-0:0x4248AC uint32(<ib_h,6>)
-0:0x4248B0 uint32(<ib_w,7>)
-0:0x4248B4 uint32(<ib_h,7>)
-0:0x4248B8 uint32(<ib_w,8>)
-0:0x4248BC uint32(<ib_h,8>)
-0:0x4248C0 uint32(<ib_w,9>)
-0:0x4248C4 uint32(<ib_h,9>)
-0:0x4248C8 uint32(<ib_w,10>)
-0:0x4248CC uint32(<ib_h,10>)
-0:0x4248D0 uint32(<ib_w,11>)
-0:0x4248D4 uint32(<ib_h,11>)
-0:0x4248D8 uint32(<ib_w,12>)
-0:0x4248DC uint32(<ib_h,12>)
-0:0x4248E0 uint32(<ib_w,13>)
-0:0x4248E4 uint32(<ib_h,13>)
+0:0x2941FC 012C r
+0:0x294200 t1_mov(4, 1)
+0:0x424878 uint32(ib_wi(0)) . uint32(ib_hi(0))
+0:0x424880 uint32(ib_wi(1)) . uint32(ib_hi(1))
+0:0x424888 uint32(ib_wi(2)) . uint32(ib_hi(2))
+0:0x424890 uint32(ib_wi(3)) . uint32(ib_hi(3))
+0:0x424898 uint32(ib_wi(4)) . uint32(ib_hi(4))
+0:0x4248A0 uint32(ib_wi(5)) . uint32(ib_hi(5))
+0:0x4248A8 uint32(ib_wi(6)) . uint32(ib_hi(6))
+0:0x4248B0 uint32(ib_wi(7)) . uint32(ib_hi(7))
+0:0x4248B8 uint32(ib_wi(8)) . uint32(ib_hi(8))
+0:0x4248C0 uint32(ib_wi(9)) . uint32(ib_hi(9))
+0:0x4248C8 uint32(ib_wi(10)) . uint32(ib_hi(10))
+0:0x4248D0 uint32(ib_wi(11)) . uint32(ib_hi(11))
+0:0x4248D8 uint32(ib_wi(12)) . uint32(ib_hi(12))
+0:0x4248E0 uint32(ib_wi(13)) . uint32(ib_hi(13))
 @FPS
-0:0x2F5D32 nop()
+0:0x2F5D32 nop
 
 # Fate/EXTELLA LINK [JP 1.07]
-[PCSG01091,eboot.bin]
+[PCSG01091, eboot.bin, 0x108A839D]
 @IB
-0:0x6C919C t2_mov(0,0,<ib_w>)
-0:0x6C91A2 t2_mov(0,0,<ib_h>)
+0:0x6C919C t2_mov(0, 0, ib_w)
+0:0x6C91A2 t2_mov(0, 0, ib_h)
 
 # Fate/EXTELLA LINK [ASIA 1.02]
-[PCSH10121,eboot.bin]
+[PCSH10121, eboot.bin, 0xA0C82507]
 @IB
-0:0x6CEF98 t2_mov(0,0,<ib_w>)
-0:0x6CEF9E t2_mov(0,0,<ib_h>)
+0:0x6CEF98 t2_mov(0, 0, ib_w)
+0:0x6CEF9E t2_mov(0, 0, ib_h)
 
 # The Legend of Heroes: Trails of Cold Steel [EU 1.01]
-[PCSB00866,eboot.bin]
+[PCSB00866, eboot.bin, 0xE20FCB02]
 @IB
-0:0xF9AD6 t2_mov(1,1,<ib_w>)
-0:0xF9ADA t2_mov(1,2,<ib_h>)
-0:0xF9910 t2_mov(1,1,<ib_w>)
-0:0xF9914 t2_mov(1,2,<ib_h>)
-0:0xF9946 t2_mov(1,2,</,<*,<ib_w>,10222>,10000>)
-0:0xF994A t2_mov(1,3,<ib_h>)
+0:0xF9AD6 t2_mov(1, 1, ib_w)
+0:0xF9ADA t2_mov(1, 2, ib_h)
+0:0xF9910 t2_mov(1, 1, ib_w)
+0:0xF9914 t2_mov(1, 2, ib_h)
+0:0xF9946 t3_mov(2, uint(ib_w * (736 / 720.0)))
+0:0xF994A t2_mov(1, 3, ib_h)
 
 # The Legend of Heroes: Trails of Cold Steel [US 1.02]
-[PCSE00786,eboot.bin]
+[PCSE00786, eboot.bin, 0xB3793E83]
 @IB
-0:0xF99F2 t2_mov(1,1,<ib_w>)
-0:0xF99F6 t2_mov(1,2,<ib_h>)
-0:0xF982C t2_mov(1,1,<ib_w>)
-0:0xF9830 t2_mov(1,2,<ib_h>)
-0:0xF9862 t2_mov(1,2,</,<*,<ib_w>,10222>,10000>)
-0:0xF9866 t2_mov(1,3,<ib_h>)
+0:0xF99F2 t2_mov(1, 1, ib_w)
+0:0xF99F6 t2_mov(1, 2, ib_h)
+0:0xF982C t2_mov(1, 1, ib_w)
+0:0xF9830 t2_mov(1, 2, ib_h)
+0:0xF9862 t3_mov(2, uint(ib_w * (736 / 720.0)))
+0:0xF9866 t2_mov(1, 3, ib_h)
 
 # Eiyuu Densetsu: Sen no Kiseki [JP 1.03]
-[PCSG00195,eboot.bin]
+[PCSG00195, eboot.bin, 0xDFC34B16]
 @IB
-0:0xF971A t2_mov(1,1,<ib_w>)
-0:0xF971E t2_mov(1,2,<ib_h>)
-0:0xF9554 t2_mov(1,1,<ib_w>)
-0:0xF9558 t2_mov(1,2,<ib_h>)
-0:0xF958A t2_mov(1,2,</,<*,<ib_w>,10222>,10000>)
-0:0xF958E t2_mov(1,3,<ib_h>)
+0:0xF971A t2_mov(1, 1, ib_w)
+0:0xF971E t2_mov(1, 2, ib_h)
+0:0xF9554 t2_mov(1, 1, ib_w)
+0:0xF9558 t2_mov(1, 2, ib_h)
+0:0xF958A t3_mov(2, ib_w * 736 / 720)
+0:0xF958E t2_mov(1, 3, ib_h)
 
 # The Legend of Heroes: Trails of Cold Steel [ASIA 1.03]
-[PCSH00074,eboot.bin]
+[PCSH00074, eboot.bin, 0xAEF049DB]
 @IB
-0:0xF9B32 t2_mov(1,1,<ib_w>)
-0:0xF9B36 t2_mov(1,2,<ib_h>)
-0:0xF996C t2_mov(1,1,<ib_w>)
-0:0xF9970 t2_mov(1,2,<ib_h>)
-0:0xF99A2 t2_mov(1,2,</,<*,<ib_w>,10222>,10000>)
-0:0xF99A6 t2_mov(1,3,<ib_h>)
+0:0xF9B32 t2_mov(1, 1, ib_w)
+0:0xF9B36 t2_mov(1, 2, ib_h)
+0:0xF996C t2_mov(1, 1, ib_w)
+0:0xF9970 t2_mov(1, 2, ib_h)
+0:0xF99A2 t3_mov(2, ib_w * 736 / 720)
+0:0xF99A6 t2_mov(1, 3, ib_h)
 
 # The Legend of Heroes: Trails of Cold Steel II [EU 1.00]
-[PCSB01016,eboot.bin]
+[PCSB01016, eboot.bin, 0xBEE60BC5]
 @IB
-0:0x139B8C t2_mov(1,1,<ib_w>)
-0:0x139B90 t2_mov(1,2,<ib_h>)
-0:0x1399EC t2_mov(1,1,</,<*,<ib_w>,10222>,10000>)
-0:0x1399F0 t2_mov(1,2,<ib_h>)
-0:0x1399AC t2_mov(1,1,<ib_w>)
-0:0x1399B0 t2_mov(1,2,<ib_h>)
+0:0x139B8C t2_mov(1, 1, ib_w)
+0:0x139B90 t2_mov(1, 2, ib_h)
+0:0x1399EC t3_mov(1, ib_w * 736 / 720)
+0:0x1399F0 t2_mov(1, 2, ib_h)
+0:0x1399AC t2_mov(1, 1, ib_w)
+0:0x1399B0 t2_mov(1, 2, ib_h)
 
 # The Legend of Heroes: Trails of Cold Steel II [US 1.01]
-[PCSE00896,eboot.bin]
+[PCSE00896, eboot.bin, 0x56DB15C5]
 @IB
-0:0x139AA4 t2_mov(1,1,<ib_w>)
-0:0x139AA8 t2_mov(1,2,<ib_h>)
-0:0x139904 t2_mov(1,1,</,<*,<ib_w>,10222>,10000>)
-0:0x139908 t2_mov(1,2,<ib_h>)
-0:0x1398C4 t2_mov(1,1,<ib_w>)
-0:0x1398C8 t2_mov(1,2,<ib_h>)
+0:0x139AA4 t2_mov(1, 1, ib_w)
+0:0x139AA8 t2_mov(1, 2, ib_h)
+0:0x139904 t3_mov(1, ib_w * 736 / 720)
+0:0x139908 t2_mov(1, 2, ib_h)
+0:0x1398C4 t2_mov(1, 1, ib_w)
+0:0x1398C8 t2_mov(1, 2, ib_h)
 
 # The Legend of Heroes: Trails of Cold Steel II [JP 1.03]
-[PCSG00354,eboot.bin]
+[PCSG00354, eboot.bin, 0x2998B4C3]
 @IB
-0:0x1395C4 t2_mov(1,1,<ib_w>)
-0:0x1395C8 t2_mov(1,2,<ib_h>)
-0:0x139422 t2_mov(1,1,</,<*,<ib_w>,10222>,10000>)
-0:0x139426 t2_mov(1,2,<ib_h>)
-0:0x1393DE t2_mov(1,1,<ib_w>)
-0:0x1393E2 t2_mov(1,2,<ib_h>)
+0:0x1395C4 t2_mov(1, 1, ib_w)
+0:0x1395C8 t2_mov(1, 2, ib_h)
+0:0x139422 t3_mov(1, ib_w * 736 / 720)
+0:0x139426 t2_mov(1, 2, ib_h)
+0:0x1393DE t2_mov(1, 1, ib_w)
+0:0x1393E2 t2_mov(1, 2, ib_h)
 
 # The Legend of Heroes: Trails of Cold Steel II [ASIA 1.03]
-[PCSH00075,eboot.bin]
+[PCSH00075, eboot.bin, 0xF1242A81]
 @IB
-0:0x139BE8 t2_mov(1,1,<ib_w>)
-0:0x139BEC t2_mov(1,2,<ib_h>)
-0:0x139A48 t2_mov(1,1,</,<*,<ib_w>,10222>,10000>)
-0:0x139A4C t2_mov(1,2,<ib_h>)
-0:0x139A08 t2_mov(1,1,<ib_w>)
-0:0x139A0C t2_mov(1,2,<ib_h>)
+0:0x139BE8 t2_mov(1, 1, ib_w)
+0:0x139BEC t2_mov(1, 2, ib_h)
+0:0x139A48 t3_mov(1, ib_w * 736 / 720)
+0:0x139A4C t2_mov(1, 2, ib_h)
+0:0x139A08 t2_mov(1, 1, ib_w)
+0:0x139A0C t2_mov(1, 2, ib_h)
 
-# Assassin's Creed III: Liberation [EU 1.02]
-[PCSB00074,eboot.bin]
-# Assassin's Creed III: Liberation [US 1.02]
-[PCSE00053,eboot.bin]
+# Assassin's Creed III: Liberation
+[PCSB00074, eboot.bin, 0xBC2441CC] # [EU 1.02]
+[PCSE00053, eboot.bin, 0xBC2441CC] # [US 1.02]
 @IB
-0:0xBB4C t2_mov(1,1,0x800000)
+0:0xBB4C t2_mov(1, 1, 0x800000)
 1:0x32C uint32(0x1A00000)
 1:0x33C uint32(0x500000)
 1:0x38C uint32(0x3900000)
-0:0xE9E8 t2_mov(1,0,<ib_w>)
-0:0xE9EE t2_mov(1,0,<ib_h>)
+0:0xE9E8 t2_mov(1, 0, ib_w)
+0:0xE9EE t2_mov(1, 0, ib_h)
 @FPS
-0:0xCBC2 t1_mov(0,<vblank>)
+0:0xCBC2 t1_mov(0, vblank)
 
 # Dead or Alive Xtreme 3: Venus (Free to play) [JP 1.16]
-[PCSG00773,eboot.bin]
+[PCSG00773, eboot.bin, 0x15935EBA]
 @IB
-0:0x217B82 t2_mov(1,1,<ib_w,0>)
-0:0x217B88 t2_mov(1,1,<ib_h,0>)
-0:0x217B8E t2_mov(1,1,<ib_w,1>)
-0:0x217B94 t2_mov(1,1,<ib_h,1>)
+0:0x217B82 t2_mov(1, 1, ib_wi(0))
+0:0x217B88 t2_mov(1, 1, ib_hi(0))
+0:0x217B8E t2_mov(1, 1, ib_wi(1))
+0:0x217B94 t2_mov(1, 1, ib_hi(1))
 
 # Dead or Alive Xtreme 3: Venus [ASIA 1.15]
-[PCSH00250,eboot.bin]
+[PCSH00250, eboot.bin, 0x754CBECE]
 @IB
-0:0x217732 t2_mov(1,1,<ib_w,0>)
-0:0x217738 t2_mov(1,1,<ib_h,0>)
-0:0x21773E t2_mov(1,1,<ib_w,1>)
-0:0x217744 t2_mov(1,1,<ib_h,1>)
+0:0x217732 t2_mov(1, 1, ib_wi(0))
+0:0x217738 t2_mov(1, 1, ib_hi(0))
+0:0x21773E t2_mov(1, 1, ib_wi(1))
+0:0x217744 t2_mov(1, 1, ib_hi(1))
 
 # Dead or Alive Xtreme 3: Venus (Free to play) [ASIA 1.15]
-[PCSH00281,eboot.bin]
+[PCSH00281, eboot.bin, 0x17294EAC]
 @IB
-0:0x217F4A t2_mov(1,1,<ib_w,0>)
-0:0x217F50 t2_mov(1,1,<ib_h,0>)
-0:0x217F56 t2_mov(1,1,<ib_w,1>)
-0:0x217F5C t2_mov(1,1,<ib_h,1>)
+0:0x217F4A t2_mov(1, 1, ib_wi(0))
+0:0x217F50 t2_mov(1, 1, ib_hi(0))
+0:0x217F56 t2_mov(1, 1, ib_wi(1))
+0:0x217F5C t2_mov(1, 1, ib_hi(1))
 
 # Resident Evil: Revelations 2 [EU 1.04]
-[PCSF00728,eboot.bin]
+[PCSF00728, eboot.bin, 0x6321F4D3]
 @IB
-0:0xCCFE76 t2_mov(1,1,<ib_w>)
-0:0xCCFE7E t2_mov(1,1,<ib_h>)
+0:0xCCFE76 t2_mov(1, 1, ib_w)
+0:0xCCFE7E t2_mov(1, 1, ib_h)
 
 # Resident Evil: Revelations 2 [US 1.04]
-[PCSE00608,eboot.bin]
+[PCSE00608, eboot.bin, 0x05510E0F]
 @IB
-0:0xCCFE7A t2_mov(1,1,<ib_w>)
-0:0xCCFE82 t2_mov(1,1,<ib_h>)
+0:0xCCFE7A t2_mov(1, 1, ib_w)
+0:0xCCFE82 t2_mov(1, 1, ib_h)
 
 # Resident Evil: Revelations 2 [JP 1.04]
-[PCSG00594,eboot.bin]
+[PCSG00594, eboot.bin, 0x1AF1E91B]
 @IB
-0:0xCCFF3A t2_mov(1,1,<ib_w>)
-0:0xCCFF42 t2_mov(1,1,<ib_h>)
+0:0xCCFF3A t2_mov(1, 1, ib_w)
+0:0xCCFF42 t2_mov(1, 1, ib_h)
 
 # The LEGO Movie Videogame [EU 1.00]
-[PCSB00553,eboot.bin,0x13E568EA]
+[PCSB00553, eboot.bin, 0x13E568EA]
 @IB
-0:0xAB790 t2_mov(1,2,<ib_w>)
-0:0xAB796 t2_mov(1,3,<ib_h>)
-1:0x2F48 uint32(<ib_w>)
-1:0x2F4C uint32(<ib_h>)
-# Fix touchscreen pos calc in sub_810D337E()
-0:0xD33DE t2_mov(0,3,640)
-0:0xD33EA t2_mov(0,2,368)
-0:0xD33F2 nop()
-0:0xD33F8 nop()
-0:0xD33FA bytes(01 EE 90 2A)
-# Fix back touchpad
-0:0xD3580 t2_mov(0,2,368)
-0:0xD3588 t2_mov(0,3,640)
-0:0xD358C nop()
-0:0xD3594 nop()
-0:0xD359A bytes(00 EE 90 2A)
+0:0xAB790 t2_mov(1, 2, ib_w)
+0:0xAB796 t2_mov(1, 3, ib_h)
+1:0x2F48 uint32(ib_w)
+1:0x2F4C uint32(ib_h)
+0:0xD33DE t2_mov(0, 3, 640)
+0:0xD33EA t2_mov(0, 2, 368)
+0:0xD33F2 nop
+0:0xD33F8 nop
+0:0xD33FA 01EE902A r
+0:0xD3580 t2_mov(0, 2, 368)
+0:0xD3588 t2_mov(0, 3, 640)
+0:0xD358C nop
+0:0xD3594 nop
+0:0xD359A 00EE902A r
 
 # The LEGO Movie Videogame [US 1.02]
-[PCSE00353,eboot.bin,0x3B221402]
+[PCSE00353, eboot.bin, 0x3B221402]
 @IB
-0:0xB6DB8 t2_mov(1,2,<ib_w>)
-0:0xB6DBE t2_mov(1,3,<ib_h>)
-1:0x2EE4 uint32(<ib_w>)
-1:0x2EE8 uint32(<ib_h>)
-# Fix touchscreen pos calc in sub_810E09C8()
-0:0xE0A34 t2_mov(0,3,640)
-0:0xE0A40 t2_mov(0,2,368)
-0:0xE0A48 nop()
-0:0xE0A4E nop()
-0:0xE0A50 bytes(01 EE 90 2A)
-# Fix back touchpad
-0:0xE0BDA t2_mov(0,2,368)
-0:0xE0BE2 t2_mov(0,3,640)
-0:0xE0BE6 nop()
-0:0xE0BEE nop()
-0:0xE0BF4 bytes(00 EE 90 2A)
+0:0xB6DB8 t2_mov(1,2, ib_w)
+0:0xB6DBE t2_mov(1,3, ib_h)
+1:0x2EE4 uint32(ib_w)
+1:0x2EE8 uint32(ib_h)
+0:0xE0A34 t2_mov(0, 3, 640)
+0:0xE0A40 t2_mov(0, 2, 368)
+0:0xE0A48 nop
+0:0xE0A4E nop
+0:0xE0A50 01EE902A r
+0:0xE0BDA t2_mov(0, 2, 368)
+0:0xE0BE2 t2_mov(0, 3, 640)
+0:0xE0BE6 nop
+0:0xE0BEE nop
+0:0xE0BF4 00EE902A r
 
 # LEGO Harry Potter: Years 5–7 [EU 1.00]
-[PCSB00103,eboot.bin,0x10842FA7]
+[PCSB00103, eboot.bin, 0x10842FA7]
 @FB
-0:0xB0EBC t2_mov(1,0,<fb_w>)
-0:0xB0EC2 t2_mov(1,1,<fb_h>)
+0:0xB0EBC t2_mov(1, 0, fb_w)
+0:0xB0EC2 t2_mov(1, 1, fb_h)
 
 # LEGO Harry Potter: Years 5–7 [US 1.01]
-[PCSE00057,eboot.bin,0xE9D1D998]
+[PCSE00057, eboot.bin, 0xE9D1D998]
 @FB
-0:0xB0F08 t2_mov(1,0,<fb_w>)
-0:0xB0F0E t2_mov(1,1,<fb_h>)
+0:0xB0F08 t2_mov(1, 0, fb_w)
+0:0xB0F0E t2_mov(1, 1, fb_h)
 
 # LEGO Jurassic World [EU 1.00]
-[PCSB00703,eboot.bin,0xE8AFEE20]
+[PCSB00703, eboot.bin, 0xE8AFEE20]
 @IB
-0:0x101B34 t2_mov(1,1,0xA00000)
-0:0xD1E4C t2_mov(1,4,<ib_w>)
-0:0xD1E52 t2_mov(1,5,<ib_h>)
-1:0x3318 uint32(<ib_w>)
-1:0x331C uint32(<ib_h>)
-# Fix touchscreen/touchpad pos calc
-0:0x101466 t2_mov(0,0,640)
-0:0x10146A nop() *3
-0:0x1014A6 t2_mov(0,0,368)
-0:0x1014AA nop() *3
+0:0x101B34 t2_mov(1, 1, 0xA00000)
+0:0xD1E4C t2_mov(1, 4, ib_w)
+0:0xD1E52 t2_mov(1, 5, ib_h)
+1:0x3318 uint32(ib_w)
+1:0x331C uint32(ib_h)
+0:0x101466 t2_mov(0, 0, 640) . (nop *3)
+0:0x1014A6 t2_mov(0, 0, 368) . (nop *3)
 
 # LEGO Jurassic World [US 1.00]
-[PCSE00587,eboot.bin,0xAFB89A72]
+[PCSE00587, eboot.bin, 0xAFB89A72]
 @IB
-0:0x101B28 t2_mov(1,1,0xA00000)
-0:0xD1E40 t2_mov(1,4,<ib_w>)
-0:0xD1E46 t2_mov(1,5,<ib_h>)
-1:0x32A0 uint32(<ib_w>)
-1:0x32A4 uint32(<ib_h>)
-# Fix touchscreen/touchpad pos calc
-0:0x10145A t2_mov(0,0,640)
-0:0x10145E nop() *3
-0:0x10149A t2_mov(0,0,368)
-0:0x10149E nop() *3
+0:0x101B28 t2_mov(1, 1, 0xA00000)
+0:0xD1E40 t2_mov(1, 4, ib_w)
+0:0xD1E46 t2_mov(1, 5, ib_h)
+1:0x32A0 uint32(ib_w)
+1:0x32A4 uint32(ib_h)
+0:0x10145A t2_mov(0, 0, 640) . (nop *3)
+0:0x10149A t2_mov(0, 0, 368) . (nop *3)
 
 # LEGO Batman 3: Beyond Gotham [EU 1.01]
-[PCSB00563,eboot.bin,0x91AE1FF9]
+[PCSB00563, eboot.bin, 0x91AE1FF9]
 @IB
-0:0xFB442 t2_mov(1,1,0x800000)
-0:0xCD394 t2_mov(1,4,<ib_w>)
-0:0xCD39A t2_mov(1,5,<ib_h>)
-1:0x2E5C uint32(<ib_w>)
-1:0x2E60 uint32(<ib_h>)
-# Fix touchscreen/touchpad pos calc
-0:0xFADB6 t2_mov(0,0,640)
-0:0xFADBA nop() *3
-0:0xFADF6 t2_mov(0,0,368)
-0:0xFADFA nop() *3
+0:0xFB442 t2_mov(1, 1, 0x800000)
+0:0xCD394 t2_mov(1, 4, ib_w)
+0:0xCD39A t2_mov(1, 5, ib_h)
+1:0x2E5C uint32(ib_w)
+1:0x2E60 uint32(ib_h)
+0:0xFADB6 t2_mov(0, 0, 640) . (nop *3)
+0:0xFADF6 t2_mov(0, 0, 368) . (nop *3)
 
 # LEGO Batman 3: Beyond Gotham [US 1.01]
-[PCSE00442,eboot.bin,0xEBB7DA06]
+[PCSE00442, eboot.bin, 0xEBB7DA06]
 @IB
-0:0xFB442 t2_mov(1,1,0x800000)
-0:0xCD394 t2_mov(1,4,<ib_w>)
-0:0xCD39A t2_mov(1,5,<ib_h>)
-1:0x2DE4 uint32(<ib_w>)
-1:0x2DE8 uint32(<ib_h>)
-# Fix touchscreen/touchpad pos calc
-0:0xFADB6 t2_mov(0,0,640)
-0:0xFADBA nop() *3
-0:0xFADF6 t2_mov(0,0,368)
-0:0xFADFA nop() *3
+0:0xFB442 t2_mov(1, 1, 0x800000)
+0:0xCD394 t2_mov(1, 4, ib_w)
+0:0xCD39A t2_mov(1, 5, ib_h)
+1:0x2DE4 uint32(ib_w)
+1:0x2DE8 uint32(ib_h)
+0:0xFADB6 t2_mov(0, 0, 640) . (nop *3)
+0:0xFADF6 t2_mov(0, 0, 368) . (nop *3)
 
 # LEGO The Hobbit [EU 1.02]
-[PCSB00503,eboot.bin,0x49FEA6D2]
+[PCSB00503, eboot.bin, 0x49FEA6D2]
 @IB
-0:0xDF608 t2_mov(1,1,0xA00000)
-0:0xB315E t2_mov(1,3,<ib_w>)
-0:0xB3164 t2_mov(1,4,<ib_h>)
-1:0x2CA8 uint32(<ib_w>)
-1:0x2CAC uint32(<ib_h>)
-# Fix touchscreen pos calc in sub_810DD958()
-0:0xDD9C4 t2_mov(0,3,640)
-0:0xDD9D0 t2_mov(0,2,368)
-0:0xDD9D8 nop()
-0:0xDD9DE nop()
-0:0xDD9E0 bytes(01 EE 90 2A)
-# Fix back touchpad
-0:0xDDB6A t2_mov(0,2,368)
-0:0xDDB72 t2_mov(0,3,640)
-0:0xDDB76 nop()
-0:0xDDB7E nop()
-0:0xDDB84 bytes(00 EE 90 2A)
+0:0xDF608 t2_mov(1, 1,0xA00000)
+0:0xB315E t2_mov(1, 3, ib_w)
+0:0xB3164 t2_mov(1, 4, ib_h)
+1:0x2CA8 uint32(ib_w)
+1:0x2CAC uint32(ib_h)
+0:0xDD9C4 t2_mov(0, 3, 640)
+0:0xDD9D0 t2_mov(0, 2, 368)
+0:0xDD9D8 nop
+0:0xDD9DE nop
+0:0xDD9E0 01EE902A r
+0:0xDDB6A t2_mov(0, 2, 368)
+0:0xDDB72 t2_mov(0, 3, 640)
+0:0xDDB76 nop
+0:0xDDB7E nop
+0:0xDDB84 00EE902A r
 
 # LEGO The Hobbit [US 1.00]
-[PCSE00390,eboot.bin,0x2D2DE73B]
+[PCSE00390, eboot.bin, 0x2D2DE73B]
 @IB
-0:0xDF574 t2_mov(1,1,0xA00000)
-0:0xB30CA t2_mov(1,3,<ib_w>)
-0:0xB30D0 t2_mov(1,4,<ib_h>)
-1:0x2C30 uint32(<ib_w>)
-1:0x2C34 uint32(<ib_h>)
-# Fix touchscreen pos calc in sub_810DD8C4()
-0:0xDD930 t2_mov(0,3,640)
-0:0xDD93C t2_mov(0,2,368)
-0:0xDD944 nop()
-0:0xDD94A nop()
-0:0xDD94C bytes(01 EE 90 2A)
-# Fix back touchpad
-0:0xDDAD6 t2_mov(0,2,368)
-0:0xDDADE t2_mov(0,3,640)
-0:0xDDAE2 nop()
-0:0xDDAEA nop()
-0:0xDDAF0 bytes(00 EE 90 2A)
+0:0xDF574 t2_mov(1, 1, 0xA00000)
+0:0xB30CA t2_mov(1, 3, ib_w)
+0:0xB30D0 t2_mov(1, 4, ib_h)
+1:0x2C30 uint32(ib_w)
+1:0x2C34 uint32(ib_h)
+0:0xDD930 t2_mov(0, 3, 640)
+0:0xDD93C t2_mov(0, 2, 368)
+0:0xDD944 nop
+0:0xDD94A nop
+0:0xDD94C 01EE902A r
+0:0xDDAD6 t2_mov(0, 2, 368)
+0:0xDDADE t2_mov(0, 3, 640)
+0:0xDDAE2 nop
+0:0xDDAEA nop
+0:0xDDAF0 00EE902A r
 
 # LEGO Ninjago: Shadow of Ronin [EU 1.00]
-[PCSB00706,eboot.bin,0xB178EFFD]
+[PCSB00706, eboot.bin, 0xB178EFFD]
 @IB
-0:0xFC40E t2_mov(1,1,0x800000)
-0:0xCD618 t2_mov(1,4,<ib_w>)
-0:0xCD61E t2_mov(1,5,<ib_h>)
-1:0x34A0 uint32(<ib_w>)
-1:0x34A4 uint32(<ib_h>)
-# Fix touchscreen/touchpad pos calc
-0:0xFBD34 t2_mov(0,0,640)
-0:0xFBD38 nop() *3
-0:0xFBD74 t2_mov(0,0,368)
-0:0xFBD78 nop() *3
+0:0xFC40E t2_mov(1, 1, 0x800000)
+0:0xCD618 t2_mov(1, 4, ib_w)
+0:0xCD61E t2_mov(1, 5, ib_h)
+1:0x34A0 uint32(ib_w)
+1:0x34A4 uint32(ib_h)
+0:0xFBD34 t2_mov(0, 0, 640) . (nop *3)
+0:0xFBD74 t2_mov(0, 0, 368) . (nop *3)
 
 # LEGO Ninjago: Shadow of Ronin [US 1.01]
-[PCSE00534,eboot.bin,0xD6EAF718]
+[PCSE00534, eboot.bin, 0xD6EAF718]
 @IB
-0:0xFC41A t2_mov(1,1,0x800000)
-0:0xCD618 t2_mov(1,4,<ib_w>)
-0:0xCD61E t2_mov(1,5,<ib_h>)
-1:0x33FC uint32(<ib_w>)
-1:0x3400 uint32(<ib_h>)
-# Fix touchscreen/touchpad pos calc
-0:0xFBD40 t2_mov(0,0,640)
-0:0xFBD44 nop() *3
-0:0xFBD80 t2_mov(0,0,368)
-0:0xFBD84 nop() *3
+0:0xFC41A t2_mov(1, 1, 0x800000)
+0:0xCD618 t2_mov(1, 4, ib_w)
+0:0xCD61E t2_mov(1, 5, ib_h)
+1:0x33FC uint32(ib_w)
+1:0x3400 uint32(ib_h)
+0:0xFBD40 t2_mov(0, 0, 640) . (nop *3)
+0:0xFBD80 t2_mov(0, 0, 368) . (nop *3)
 
 # LEGO Marvel's Avengers [EU 1.00]
-[PCSB00764,eboot.bin,0x356EBF5C]
+[PCSB00764, eboot.bin, 0x356EBF5C]
 @IB
-0:0x196124 t2_mov(1,1,0x800000)
-0:0x165AEE t2_mov(1,4,<ib_w>)
-0:0x165AF4 t2_mov(1,5,<ib_h>)
-1:0x38D0 uint32(<ib_w>)
-1:0x38D4 uint32(<ib_h>)
-# Fix touchscreen/touchpad pos calc
-0:0x195A56 t2_mov(0,0,640)
-0:0x195A5A nop() *3
-0:0x195A96 t2_mov(0,0,368)
-0:0x195A9A nop() *3
+0:0x196124 t2_mov(1, 1, 0x800000)
+0:0x165AEE t2_mov(1, 4, ib_w)
+0:0x165AF4 t2_mov(1, 5, ib_h)
+1:0x38D0 uint32(ib_w)
+1:0x38D4 uint32(ib_h)
+0:0x195A56 t2_mov(0, 0, 640) . (nop *3)
+0:0x195A96 t2_mov(0, 0, 368) . (nop *3)
 
 # LEGO Marvel's Avengers [US 1.00]
-[PCSE00670,eboot.bin,0xC87160F3]
+[PCSE00670, eboot.bin, 0xC87160F3]
 @IB
-0:0x19611C t2_mov(1,1,0x800000)
-0:0x165AE6 t2_mov(1,4,<ib_w>)
-0:0x165AEC t2_mov(1,5,<ib_h>)
-1:0x3858 uint32(<ib_w>)
-1:0x3862 uint32(<ib_h>)
-# Fix touchscreen/touchpad pos calc
-0:0x195A4E t2_mov(0,0,640)
-0:0x195A52 nop() *3
-0:0x195A8E t2_mov(0,0,368)
-0:0x195A92 nop() *3
+0:0x19611C t2_mov(1, 1, 0x800000)
+0:0x165AE6 t2_mov(1, 4, ib_w)
+0:0x165AEC t2_mov(1, 5, ib_h)
+1:0x3858 uint32(ib_w)
+1:0x3862 uint32(ib_h)
+0:0x195A4E t2_mov(0, 0, 640) . (nop *3)
+0:0x195A8E t2_mov(0, 0, 368) . (nop *3)
 
 # LEGO Marvel Super Heroes: Universe in Peril [EU 1.00]
-[PCSB00315,eboot.bin,0xA9235749]
+[PCSB00315, eboot.bin, 0xA9235749]
 @IB
-0:0xCE276 t2_mov(1,2,<ib_w>)
-0:0xCE27C t2_mov(1,3,<ib_h>)
-1:0x2B60 uint32(<ib_w>)
-1:0x2B64 uint32(<ib_h>)
-# Fix touchscreen pos calc in sub_810F3A2A()
-0:0xF3A8A t2_mov(0,3,640)
-0:0xF3A96 t2_mov(0,2,368)
-0:0xF3A9E nop()
-0:0xF3AA4 nop()
-0:0xF3AA6 bytes(01 EE 90 2A)
-# Fix back touchpad
-0:0xF3C14 t2_mov(0,2,368)
-0:0xF3C1C t2_mov(0,3,640)
-0:0xF3C20 nop()
-0:0xF3C28 nop()
-0:0xF3C2A bytes(00 EE 90 2A)
+0:0xCE276 t2_mov(1, 2, ib_w)
+0:0xCE27C t2_mov(1, 3, ib_h)
+1:0x2B60 uint32(ib_w)
+1:0x2B64 uint32(ib_h)
+0:0xF3A8A t2_mov(0, 3, 640)
+0:0xF3A96 t2_mov(0, 2, 368)
+0:0xF3A9E nop
+0:0xF3AA4 nop
+0:0xF3AA6 01EE902A r
+0:0xF3C14 t2_mov(0, 2, 368)
+0:0xF3C1C t2_mov(0, 3, 640)
+0:0xF3C20 nop
+0:0xF3C28 nop
+0:0xF3C2A 00EE902A r
 
 # LEGO Marvel Super Heroes: Universe in Peril [US 1.00]
-[PCSE00250,eboot.bin,0x9644D69D]
+[PCSE00250, eboot.bin, 0x9644D69D]
 @IB
-0:0xCE1FE t2_mov(1,2,<ib_w>)
-0:0xCE204 t2_mov(1,3,<ib_h>)
-1:0x2AE8 uint32(<ib_w>)
-1:0x2AEC uint32(<ib_h>)
-# Fix touchscreen pos calc in sub_810F39B2()
-0:0xF3A12 t2_mov(0,3,640)
-0:0xF3A1E t2_mov(0,2,368)
-0:0xF3A26 nop()
-0:0xF3A2C nop()
-0:0xF3A2E bytes(01 EE 90 2A)
-# Fix back touchpad
-0:0xF3B9C t2_mov(0,2,368)
-0:0xF3BA4 t2_mov(0,3,640)
-0:0xF3BA8 nop()
-0:0xF3BB0 nop()
-0:0xF3BB2 bytes(00 EE 90 2A)
+0:0xCE1FE t2_mov(1, 2, ib_w)
+0:0xCE204 t2_mov(1, 3, ib_h)
+1:0x2AE8 uint32(ib_w)
+1:0x2AEC uint32(ib_h)
+0:0xF3A12 t2_mov(0, 3, 640)
+0:0xF3A1E t2_mov(0, 2, 368)
+0:0xF3A26 nop
+0:0xF3A2C nop
+0:0xF3A2E 01EE902A r
+0:0xF3B9C t2_mov(0, 2, 368)
+0:0xF3BA4 t2_mov(0, 3, 640)
+0:0xF3BA8 nop
+0:0xF3BB0 nop
+0:0xF3BB2 00EE902A r
 
-# Soul Sacrifice [EU 1.30]
-[PCSF00178,eboot.bin,0xA0374454]
-# Soul Sacrifice [US 1.30]
-[PCSA00092,eboot.bin,0x1A6AC246]
+# Soul Sacrifice
+[PCSF00178, eboot.bin, 0xA0374454] # [EU 1.30]
+[PCSA00092, eboot.bin, 0x1A6AC246] # [US 1.30]
 @IB
-0:0x52C9F2 t2_mov(1,1,<ib_w>)
-0:0x52C9F8 t2_mov(1,1,<ib_h>)
+0:0x52C9F2 t2_mov(1, 1, ib_w)
+0:0x52C9F8 t2_mov(1, 1, ib_h)
 
 # Soul Sacrifice [ASIA 1.32]
-[PCSD00065,eboot.bin,0x406FCC54]
+[PCSD00065, eboot.bin, 0x406FCC54]
 @IB
-0:0x5251CE t2_mov(1,1,<ib_w>)
-0:0x5251D4 t2_mov(1,1,<ib_h>)
+0:0x5251CE t2_mov(1, 1, ib_w)
+0:0x5251D4 t2_mov(1, 1, ib_h)
 
 # Soul Sacrifice [JP 1.33]
-[PCSC00039,eboot.bin,0xAA214AD2]
+[PCSC00039, eboot.bin, 0xAA214AD2]
 @IB
-0:0x5293D6 t2_mov(1,1,<ib_w>)
-0:0x5293DC t2_mov(1,1,<ib_h>)
+0:0x5293D6 t2_mov(1, 1, ib_w)
+0:0x5293DC t2_mov(1, 1, ib_h)
 
-# Soul Sacrifice Delta [EU 1.30]
-[PCSF00532,eboot.bin,0xA01008DF]
-# Soul Sacrifice Delta [US 1.30]
-[PCSA00152,eboot.bin,0xD66AEBF4]
+# Soul Sacrifice Delta
+[PCSF00532, eboot.bin, 0xA01008DF] # [EU 1.30]
+[PCSA00152, eboot.bin, 0xD66AEBF4] # [US 1.30]
 @IB
 0:0x8282A6 t2_mov(1, 1, ib_w)
 0:0x8282AC t2_mov(1, 1, ib_h)
@@ -1221,10 +1136,9 @@
 1:0x385E8 fl32(ib_w / align(ib_w, 32.0))
 1:0x385F0 fl32(ib_h / align(ib_h, 32.0))
 
-# Soul Sacrifice Delta [ASIA 1.30]
-[PCSD00079,eboot.bin,0xAE2CCD8C]
-# Soul Sacrifice Delta [JP 1.30]
-[PCSC00049,eboot.bin,0x7607439D]
+# Soul Sacrifice Delta
+[PCSD00079, eboot.bin, 0xAE2CCD8C] # [ASIA 1.30]
+[PCSC00049, eboot.bin, 0x7607439D] # [JP 1.30]
 @IB
 0:0x82823E t2_mov(1, 1, ib_w)
 0:0x828244 t2_mov(1, 1, ib_h)
@@ -1239,12 +1153,10 @@
 1:0x385E8 fl32(ib_w / align(ib_w, 32.0))
 1:0x385F0 fl32(ib_h / align(ib_h, 32.0))
 
-# Need for Speed: Most Wanted [EU 1.01]
-[PCSB00183, eboot.bin, 0x36DC8D31]
-# Need for Speed: Most Wanted [US 1.01]
-[PCSE00089, eboot.bin, 0x36DC8D31]
-# Need for Speed: Most Wanted [JP 1.01]
-[PCSG00106, eboot.bin, 0x36DC8D31]
+# Need for Speed: Most Wanted
+[PCSB00183, eboot.bin, 0x36DC8D31] # [EU 1.01]
+[PCSE00089, eboot.bin, 0x36DC8D31] # [US 1.01]
+[PCSG00106, eboot.bin, 0x36DC8D31] # [JP 1.01]
 @IB
 0:0x2F8D60 t2_mov(1, 1, ib_w)
 0:0x2F8D68 t2_mov(1, 1, ib_h)
@@ -1262,134 +1174,120 @@
 1:0x280C uint32(0x32F3000 - 5 * 1024 * 1024)
 1:0x331C uint32(0x10AA000 + 5 * 1024 * 1024)
 
-# Ys: Memories of Celceta [EU 1.00]
-[PCSB00497,eboot.bin,0x4F6CDE39]
-# Ys: Memories of Celceta [US 1.00]
-[PCSE00245,eboot.bin,0x87BCEF3B]
+# Ys: Memories of Celceta
+[PCSB00497, eboot.bin, 0x4F6CDE39] # [EU 1.00]
+[PCSE00245, eboot.bin, 0x87BCEF3B] # [US 1.00]
 @IB
 # Render Targets
-0:0xCD240 t2_mov(1,1,<ib_w>)
-0:0xCD248 t2_mov(1,1,<ib_h>)
-0:0xCD25E t2_mov(1,1,<ib_w>)
-0:0xCD266 t2_mov(1,2,<ib_h>)
-0:0xCD2C2 bytes(38 69)
-0:0xCD2C8 t2_mov(1,1,</,<ib_w>,2>)
-0:0xCD2BA t2_mov(1,2,</,<ib_h>,2>)
-0:0xCD2E8 t1_mov(1,</,<ib_w>,4>)
-0:0xCD2DC t1_mov(2,</,<ib_h>,4>)
-0:0xCD306 t1_mov(1,</,<ib_w>,4>)
-0:0xCD2FA t1_mov(2,</,<ib_h>,4>)
-# 3D & Lighting
-0:0xBE30C t1_movt(0,<r,<to_fl,<ib_w>>,16>)
-0:0xBE31E t1_movt(0,<r,<to_fl,<ib_h>>,16>)
-0:0xBE330 t1_movt(2,<r,<to_fl,</,<ib_w>,2>>,16>)
-0:0xBE342 t1_movt(2,<r,<to_fl,</,<ib_h>,2>>,16>)
-0:0xBE40A t1_movt(4,<r,<to_fl,</,<ib_w>,4>>,16>)
-0:0xBE414 t1_movt(4,<r,<to_fl,</,<ib_h>,4>>,16>)
-0:0xBE53E t1_movt(5,<r,<to_fl,</,<ib_w>,4>>,16>)
-0:0xBE54E t1_movt(5,<r,<to_fl,</,<ib_h>,4>>,16>)
-0:0xBE91A t1_movt(0,<r,<to_fl,<ib_w>>,16>)
-0:0xBE926 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
-0:0xBE96E t1_movt(1,<r,<to_fl,<ib_w>>,16>)
-0:0xBE986 t1_movt(2,<r,<to_fl,<ib_h>>,16>)
-0:0xBE99E t1_movt(2,<r,<to_fl,<ib_h>>,16>)
-# Post-processing
-0:0xC60B4 t2_mov(1,3,<ib_w>)
-0:0xC609E t2_mov(1,14,<ib_h>)
-0:0xC614C t1_movt(0,<r,<to_fl,<ib_w>>,16>)
-0:0xC617A t1_movt(0,<r,<to_fl,<ib_h>>,16>)
-0:0xC650A t1_movt(4,<r,<to_fl,<ib_w>>,16>)
-0:0xC6514 t1_movt(4,<r,<to_fl,<ib_h>>,16>)
-# Unk
-0:0xAD65C t1_movt(0,<r,<to_fl,<ib_w>>,16>)
-0:0xAD68A t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+0:0xCD240 t2_mov(1, 1, ib_w)
+0:0xCD248 t2_mov(1, 1, ib_h)
+0:0xCD25E t2_mov(1, 1, ib_w)
+0:0xCD266 t2_mov(1, 2, ib_h)
+0:0xCD2C2 3869 r
+0:0xCD2C8 t2_mov(1, 1, ib_w / 2)
+0:0xCD2BA t2_mov(1, 2, ib_h / 2)
+0:0xCD2E8 t1_mov(1, ib_w / 4)
+0:0xCD2DC t1_mov(2, ib_h / 4)
+0:0xCD306 t1_mov(1, ib_w / 4)
+0:0xCD2FA t1_mov(2, ib_h / 4)
+0:0xBE30C t1_movt(0, float(ib_w) >> 16)
+0:0xBE31E t1_movt(0, float(ib_h) >> 16)
+0:0xBE330 t1_movt(2, float(ib_w / 2) >> 16)
+0:0xBE342 t1_movt(2, float(ib_h / 2) >> 16)
+0:0xBE40A t1_movt(4, float(ib_w / 4) >> 16)
+0:0xBE414 t1_movt(4, float(ib_h / 4) >> 16)
+0:0xBE53E t1_movt(5, float(ib_w / 4) >> 16)
+0:0xBE54E t1_movt(5, float(ib_h / 4) >> 16)
+0:0xBE91A t1_movt(0, float(ib_w) >> 16)
+0:0xBE926 t1_movt(0, float(ib_h) >> 16)
+0:0xBE96E t1_movt(1, float(ib_w) >> 16)
+0:0xBE986 t1_movt(2, float(ib_h) >> 16)
+0:0xBE99E t1_movt(2, float(ib_h) >> 16)
+0:0xC60B4 t2_mov(1, 3, ib_w)
+0:0xC609E t2_mov(1, 14, ib_h)
+0:0xC614C t1_movt(0, float(ib_w) >> 16)
+0:0xC617A t1_movt(0, float(ib_h) >> 16)
+0:0xC650A t1_movt(4, float(ib_w) >> 16)
+0:0xC6514 t1_movt(4, float(ib_h) >> 16)
+0:0xAD65C t1_movt(0, float(ib_w) >> 16)
+0:0xAD68A t1_movt(0, float(ib_h) >> 16)
 
 # Ys: Memories of Celceta [ASIA 1.00]
-[PCSH00181,eboot.bin,0xE3BC452F]
+[PCSH00181, eboot.bin, 0xE3BC452F]
 @IB
-# Render Targets
-0:0xD1DB0 t2_mov(1,1,<ib_w>)
-0:0xD1DB8 t2_mov(1,1,<ib_h>)
-0:0xD1DD6 t2_mov(1,1,<ib_w>)
-0:0xD1DDE t2_mov(1,2,<ib_h>)
-0:0xD1E4E bytes(38 69)
-0:0xD1E38 t2_mov(1,1,</,<ib_w>,2>)
-0:0xD1E3C t2_mov(1,2,</,<ib_h>,2>)
-0:0xD1E58 t1_mov(1,</,<ib_w>,4>)
-0:0xD1E5C t1_mov(2,</,<ib_h>,4>)
-0:0xD1E78 t1_mov(1,</,<ib_w>,4>)
-0:0xD1E7C t1_mov(2,</,<ib_h>,4>)
-# 3D & Lighting
-0:0xC2AA2 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
-0:0xC2AB4 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
-0:0xC2AC6 t1_movt(2,<r,<to_fl,</,<ib_w>,2>>,16>)
-0:0xC2AD8 t1_movt(2,<r,<to_fl,</,<ib_h>,2>>,16>)
-0:0xC2BA0 t1_movt(4,<r,<to_fl,</,<ib_w>,4>>,16>)
-0:0xC2BAA t1_movt(4,<r,<to_fl,</,<ib_h>,4>>,16>)
-0:0xC2CD4 t1_movt(5,<r,<to_fl,</,<ib_w>,4>>,16>)
-0:0xC2CE4 t1_movt(5,<r,<to_fl,</,<ib_h>,4>>,16>)
-0:0xC30B0 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
-0:0xC30BC t1_movt(0,<r,<to_fl,<ib_h>>,16>)
-0:0xC3104 t1_movt(1,<r,<to_fl,<ib_w>>,16>)
-0:0xC311C t1_movt(2,<r,<to_fl,<ib_h>>,16>)
-0:0xC3134 t1_movt(2,<r,<to_fl,<ib_h>>,16>)
-# Post-processing
-0:0xCA98C t2_mov(1,3,<ib_w>)
-0:0xCA976 t2_mov(1,14,<ib_h>)
-0:0xCAA24 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
-0:0xCAA52 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
-0:0xCADE2 t1_movt(4,<r,<to_fl,<ib_w>>,16>)
-0:0xCADEC t1_movt(4,<r,<to_fl,<ib_h>>,16>)
-# Unk
-0:0xB1712 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
-0:0xB1740 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+0:0xD1DB0 t2_mov(1, 1, ib_w)
+0:0xD1DB8 t2_mov(1, 1, ib_h)
+0:0xD1DD6 t2_mov(1, 1, ib_w)
+0:0xD1DDE t2_mov(1, 2, ib_h)
+0:0xD1E4E 3869 r
+0:0xD1E38 t2_mov(1, 1, ib_w / 2)
+0:0xD1E3C t2_mov(1, 2, ib_h / 2)
+0:0xD1E58 t1_mov(1, ib_w / 4)
+0:0xD1E5C t1_mov(2, ib_h / 4)
+0:0xD1E78 t1_mov(1, ib_w / 4)
+0:0xD1E7C t1_mov(2, ib_h / 4)
+0:0xC2AA2 t1_movt(0, float(ib_w) >> 16)
+0:0xC2AB4 t1_movt(0, float(ib_h) >> 16)
+0:0xC2AC6 t1_movt(2, float(ib_w / 2) >> 16)
+0:0xC2AD8 t1_movt(2, float(ib_h / 2) >> 16)
+0:0xC2BA0 t1_movt(4, float(ib_w / 4) >> 16)
+0:0xC2BAA t1_movt(4, float(ib_h / 4) >> 16)
+0:0xC2CD4 t1_movt(5, float(ib_w / 4) >> 16)
+0:0xC2CE4 t1_movt(5, float(ib_h / 4) >> 16)
+0:0xC30B0 t1_movt(0, float(ib_w) >> 16)
+0:0xC30BC t1_movt(0, float(ib_h) >> 16)
+0:0xC3104 t1_movt(1, float(ib_w) >> 16)
+0:0xC311C t1_movt(2, float(ib_h) >> 16)
+0:0xC3134 t1_movt(2, float(ib_h) >> 16)
+0:0xCA98C t2_mov(1, 3, ib_w)
+0:0xCA976 t2_mov(1, 14, ib_h)
+0:0xCAA24 t1_movt(0, float(ib_w) >> 16)
+0:0xCAA52 t1_movt(0, float(ib_h) >> 16)
+0:0xCADE2 t1_movt(4, float(ib_w) >> 16)
+0:0xCADEC t1_movt(4, float(ib_h) >> 16)
+0:0xB1712 t1_movt(0, float(ib_w) >> 16)
+0:0xB1740 t1_movt(0, float(ib_h) >> 16)
 
 # Ys: Memories of Celceta [JP 1.02]
-[PCSG00105,eboot.bin,0x55D819BD]
+[PCSG00105, eboot.bin, 0x55D819BD]
 @IB
-# Render Targets
-0:0xCD6AA t2_mov(1,1,<ib_w>)
-0:0xCD6B2 t2_mov(1,1,<ib_h>)
-0:0xCD6D0 t2_mov(1,1,<ib_w>)
-0:0xCD6D8 t2_mov(1,2,<ib_h>)
-0:0xCD748 bytes(38 69)
-0:0xCD732 t2_mov(1,1,</,<ib_w>,2>)
-0:0xCD736 t2_mov(1,2,</,<ib_h>,2>)
-0:0xCD752 t1_mov(1,</,<ib_w>,4>)
-0:0xCD756 t1_mov(2,</,<ib_h>,4>)
-0:0xCD772 t1_mov(1,</,<ib_w>,4>)
-0:0xCD776 t1_mov(2,</,<ib_h>,4>)
-# 3D & Lighting
-0:0xBE680 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
-0:0xBE692 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
-0:0xBE6A4 t1_movt(2,<r,<to_fl,</,<ib_w>,2>>,16>)
-0:0xBE6B6 t1_movt(2,<r,<to_fl,</,<ib_h>,2>>,16>)
-0:0xBE77E t1_movt(4,<r,<to_fl,</,<ib_w>,4>>,16>)
-0:0xBE788 t1_movt(4,<r,<to_fl,</,<ib_h>,4>>,16>)
-0:0xBE8B2 t1_movt(5,<r,<to_fl,</,<ib_w>,4>>,16>)
-0:0xBE8C2 t1_movt(5,<r,<to_fl,</,<ib_h>,4>>,16>)
-0:0xBEC8E t1_movt(0,<r,<to_fl,<ib_w>>,16>)
-0:0xBEC9A t1_movt(0,<r,<to_fl,<ib_h>>,16>)
-0:0xBECE2 t1_movt(1,<r,<to_fl,<ib_w>>,16>)
-0:0xBECFA t1_movt(2,<r,<to_fl,<ib_h>>,16>)
-0:0xBED12 t1_movt(2,<r,<to_fl,<ib_h>>,16>)
-# Post-processing
-0:0xC64E8 t2_mov(1,3,<ib_w>)
-0:0xC64D2 t2_mov(1,14,<ib_h>)
-0:0xC6580 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
-0:0xC65AE t1_movt(0,<r,<to_fl,<ib_h>>,16>)
-0:0xC693E t1_movt(4,<r,<to_fl,<ib_w>>,16>)
-0:0xC6948 t1_movt(4,<r,<to_fl,<ib_h>>,16>)
-# Unk
-0:0xAD958 t1_movt(0,<r,<to_fl,<ib_w>>,16>)
-0:0xAD986 t1_movt(0,<r,<to_fl,<ib_h>>,16>)
+0:0xCD6AA t2_mov(1, 1, ib_w)
+0:0xCD6B2 t2_mov(1, 1, ib_h)
+0:0xCD6D0 t2_mov(1, 1, ib_w)
+0:0xCD6D8 t2_mov(1, 2, ib_h)
+0:0xCD748 3869 r
+0:0xCD732 t2_mov(1, 1, ib_w / 2)
+0:0xCD736 t2_mov(1, 2, ib_h / 2)
+0:0xCD752 t1_mov(1, ib_w / 4)
+0:0xCD756 t1_mov(2, ib_h / 4)
+0:0xCD772 t1_mov(1, ib_w / 4)
+0:0xCD776 t1_mov(2, ib_h / 4)
+0:0xBE680 t1_movt(0, float(ib_w) >> 16)
+0:0xBE692 t1_movt(0, float(ib_h) >> 16)
+0:0xBE6A4 t1_movt(2, float(ib_w / 2) >> 16)
+0:0xBE6B6 t1_movt(2, float(ib_h / 2) >> 16)
+0:0xBE77E t1_movt(4, float(ib_w / 4) >> 16)
+0:0xBE788 t1_movt(4, float(ib_h / 4) >> 16)
+0:0xBE8B2 t1_movt(5, float(ib_w / 4) >> 16)
+0:0xBE8C2 t1_movt(5, float(ib_h / 4) >> 16)
+0:0xBEC8E t1_movt(0, float(ib_w) >> 16)
+0:0xBEC9A t1_movt(0, float(ib_h) >> 16)
+0:0xBECE2 t1_movt(1, float(ib_w) >> 16)
+0:0xBECFA t1_movt(2, float(ib_h) >> 16)
+0:0xBED12 t1_movt(2, float(ib_h) >> 16)
+0:0xC64E8 t2_mov(1, 3, ib_w)
+0:0xC64D2 t2_mov(1, 14, ib_h)
+0:0xC6580 t1_movt(0, float(ib_w) >> 16)
+0:0xC65AE t1_movt(0, float(ib_h) >> 16)
+0:0xC693E t1_movt(4, float(ib_w) >> 16)
+0:0xC6948 t1_movt(4, float(ib_h) >> 16)
+0:0xAD958 t1_movt(0, float(ib_w) >> 16)
+0:0xAD986 t1_movt(0, float(ib_h) >> 16)
 
-# Minecraft: PlayStation Vita Edition [EU 1.83]
-[PCSB00560,eboot.bin,0x85DDDE28]
-# Minecraft: PlayStation Vita Edition [US 1.83]
-[PCSE00491,eboot.bin,0x85DDDE28]
-# Minecraft: PlayStation Vita Edition [JP 1.83]
-[PCSG00302,eboot.bin,0x85DDDE28]
+# Minecraft: PlayStation Vita Edition
+[PCSB00560, eboot.bin, 0x85DDDE28] # [EU 1.83]
+[PCSE00491, eboot.bin, 0x85DDDE28] # [US 1.83]
+[PCSG00302, eboot.bin, 0x85DDDE28] # [JP 1.83]
 @FB
 0:0x8E15DE t2_mov(1, 1, fb_w) . t2_mov(1, 0, fb_h)
 0:0x8E15EE t2_mov(1, 1, 1024)
@@ -1413,217 +1311,214 @@
 >sceDisplaySetFrameBuf_withWait()
 
 # Urban Trial Freestyle [EU 1.00]
-[PCSB00038,eboot.bin,0x108ADE86]
+[PCSB00038, eboot.bin, 0x108ADE86]
 @FB
-0:0x1EB0 t2_mov(1,1,0x5500000)
-0:0x1EC0 bytes(10 F1 AA 61)
-0:0x16EC t2_mov(1,1,0x220000)
-0:0x1120DC t2_mov(1,1,0x440000)
-0:0x1121A0 t2_mov(1,1,0x220000)
-0:0x17B2 t2_mov(1,1,0x3FC000)
-0:0x17BA nop() *2
-0:0x17C8 bytes(15 F5 7E 20)
-0:0x1282 t2_mov(1,0,<fb_w>)
-0:0x1288 t2_mov(1,0,<fb_h>)
-0:0x1A7C t2_mov(1,1,<fb_w>)
-0:0x1A82 t2_mov(1,1,<fb_h>)
-0:0x1694 t2_mov(1,0,<fb_w>)
-0:0x1698 t2_mov(1,1,<fb_h>)
-0:0x173A t2_mov(1,1,<fb_w>)
-0:0x1742 t2_mov(1,6,<fb_h>)
-0:0x17E2 t2_mov(1,3,<&,<+,<fb_w>,31>,0xFFFFFFE0>)
-0:0x17EA t2_mov(1,0,<*,<&,<+,<fb_w>,31>,0xFFFFFFE0>,4>)
-0:0x1800 t2_mov(1,3,<fb_w>)
-0:0x111ABA t2_mov(1,1,<fb_w>)
-0:0x111AC2 t2_mov(1,0,<fb_h>)
-0:0x11212E t2_mov(1,1,<fb_w>)
-0:0x112134 t2_mov(1,5,<fb_h>)
-0:0x112164 t2_mov(1,3,<fb_w>)
-0:0x112174 t2_mov(1,0,<fb_w>)
-0:0x112178 t2_mov(1,1,<fb_h>)
-0:0x1121F2 t2_mov(1,1,<fb_w>)
-0:0x1121F8 t2_mov(1,5,<fb_h>)
-0:0x112226 t2_mov(1,3,<fb_w>)
-0:0x112246 t2_mov(1,0,<fb_w>)
-0:0x11224A t2_mov(1,1,<fb_h>)
-0:0x113F88 t2_mov(1,3,<fb_w>)
-0:0x113F74 t2_mov(1,0,<fb_h>)
+0:0x1EB0   t2_mov(1, 1, 0x5500000)
+0:0x1EC0   10F1AA61 r
+0:0x16EC   t2_mov(1, 1, 0x220000)
+0:0x1120DC t2_mov(1, 1, 0x440000)
+0:0x1121A0 t2_mov(1, 1, 0x220000)
+0:0x17B2   t2_mov(1, 1, 0x3FC000)
+0:0x17BA   nop *2
+0:0x17C8   15F57E20 r
+0:0x1282 t2_mov(1, 0, fb_w)
+0:0x1288 t2_mov(1, 0, fb_h)
+0:0x1A7C t2_mov(1, 1, fb_w)
+0:0x1A82 t2_mov(1, 1, fb_h)
+0:0x1694 t2_mov(1, 0, fb_w)
+0:0x1698 t2_mov(1, 1, fb_h)
+0:0x173A t2_mov(1, 1, fb_w)
+0:0x1742 t2_mov(1, 6, fb_h)
+0:0x17E2 t2_mov(1, 3, align(fb_w, 32))
+0:0x17EA t2_mov(1, 0, align(fb_w, 32) * 4)
+0:0x1800 t2_mov(1, 3, fb_w)
+0:0x111ABA t2_mov(1, 1, fb_w)
+0:0x111AC2 t2_mov(1, 0, fb_h)
+0:0x11212E t2_mov(1, 1, fb_w)
+0:0x112134 t2_mov(1, 5, fb_h)
+0:0x112164 t2_mov(1, 3, fb_w)
+0:0x112174 t2_mov(1, 0, fb_w)
+0:0x112178 t2_mov(1, 1, fb_h)
+0:0x1121F2 t2_mov(1, 1, fb_w)
+0:0x1121F8 t2_mov(1, 5, fb_h)
+0:0x112226 t2_mov(1, 3, fb_w)
+0:0x112246 t2_mov(1, 0, fb_w)
+0:0x11224A t2_mov(1, 1, fb_h)
+0:0x113F88 t2_mov(1, 3, fb_w)
+0:0x113F74 t2_mov(1, 0, fb_h)
 
 # Urban Trial Freestyle [US 1.00]
-[PCSE00051,eboot.bin,0x9A5EDEF3]
+[PCSE00051, eboot.bin, 0x9A5EDEF3]
 @FB
-0:0x1EB0 t2_mov(1,1,0x5500000)
-0:0x1EC0 bytes(10 F1 AA 61)
-0:0x16EC t2_mov(1,1,0x220000)
-0:0x111FCC t2_mov(1,1,0x440000)
-0:0x112090 t2_mov(1,1,0x220000)
-0:0x17B2 t2_mov(1,1,0x3FC000)
-0:0x17BA nop() *2
-0:0x17C8 bytes(15 F5 7E 20)
-0:0x1282 t2_mov(1,0,<fb_w>)
-0:0x1288 t2_mov(1,0,<fb_h>)
-0:0x1A7C t2_mov(1,1,<fb_w>)
-0:0x1A82 t2_mov(1,1,<fb_h>)
-0:0x1694 t2_mov(1,0,<fb_w>)
-0:0x1698 t2_mov(1,1,<fb_h>)
-0:0x173A t2_mov(1,1,<fb_w>)
-0:0x1742 t2_mov(1,6,<fb_h>)
-0:0x17E2 t2_mov(1,3,<&,<+,<fb_w>,31>,0xFFFFFFE0>)
-0:0x17EA t2_mov(1,0,<*,<&,<+,<fb_w>,31>,0xFFFFFFE0>,4>)
-0:0x1800 t2_mov(1,3,<fb_w>)
-0:0x1119AA t2_mov(1,1,<fb_w>)
-0:0x1119B2 t2_mov(1,0,<fb_h>)
-0:0x11201E t2_mov(1,1,<fb_w>)
-0:0x112024 t2_mov(1,5,<fb_h>)
-0:0x112054 t2_mov(1,3,<fb_w>)
-0:0x112064 t2_mov(1,0,<fb_w>)
-0:0x112068 t2_mov(1,1,<fb_h>)
-0:0x1120E2 t2_mov(1,1,<fb_w>)
-0:0x1120E8 t2_mov(1,5,<fb_h>)
-0:0x112116 t2_mov(1,3,<fb_w>)
-0:0x112136 t2_mov(1,0,<fb_w>)
-0:0x11213A t2_mov(1,1,<fb_h>)
-0:0x113E78 t2_mov(1,3,<fb_w>)
-0:0x113E64 t2_mov(1,0,<fb_h>)
+0:0x1EB0   t2_mov(1, 1, 0x5500000)
+0:0x1EC0   10F1AA61 r
+0:0x16EC   t2_mov(1, 1, 0x220000)
+0:0x111FCC t2_mov(1, 1, 0x440000)
+0:0x112090 t2_mov(1, 1, 0x220000)
+0:0x17B2   t2_mov(1, 1, 0x3FC000)
+0:0x17BA   nop *2
+0:0x17C8   15F57E20 r
+0:0x1282 t2_mov(1, 0, fb_w)
+0:0x1288 t2_mov(1, 0, fb_h)
+0:0x1A7C t2_mov(1, 1, fb_w)
+0:0x1A82 t2_mov(1, 1, fb_h)
+0:0x1694 t2_mov(1, 0, fb_w)
+0:0x1698 t2_mov(1, 1, fb_h)
+0:0x173A t2_mov(1, 1, fb_w)
+0:0x1742 t2_mov(1, 6, fb_h)
+0:0x17E2 t2_mov(1, 3, align(fb_w, 32))
+0:0x17EA t2_mov(1, 0, align(fb_w, 32) * 4)
+0:0x1800 t2_mov(1, 3, fb_w)
+0:0x1119AA t2_mov(1, 1, fb_w)
+0:0x1119B2 t2_mov(1, 0, fb_h)
+0:0x11201E t2_mov(1, 1, fb_w)
+0:0x112024 t2_mov(1, 5, fb_h)
+0:0x112054 t2_mov(1, 3, fb_w)
+0:0x112064 t2_mov(1, 0, fb_w)
+0:0x112068 t2_mov(1, 1, fb_h)
+0:0x1120E2 t2_mov(1, 1, fb_w)
+0:0x1120E8 t2_mov(1, 5, fb_h)
+0:0x112116 t2_mov(1, 3, fb_w)
+0:0x112136 t2_mov(1, 0, fb_w)
+0:0x11213A t2_mov(1, 1, fb_h)
+0:0x113E78 t2_mov(1, 3, fb_w)
+0:0x113E64 t2_mov(1, 0, fb_h)
 
 # Urban Trial Freestyle [JP 1.00]
-[PCSG00231,eboot.bin,0x21F97838]
+[PCSG00231, eboot.bin, 0x21F97838]
 @FB
-0:0x1E00 t2_mov(1,1,0x5500000)
-0:0x1E10 bytes(10 F1 AA 61)
-0:0x168C t2_mov(1,1,0x220000)
-0:0x111470 t2_mov(1,1,0x440000)
-0:0x111534 t2_mov(1,1,0x220000)
-0:0x1766 t2_mov(1,1,0x3FC000)
-0:0x176E nop() *2
-0:0x177C t2_mov(0,0,0x1FE000)
-0:0x1780 nop() *2
-0:0x1226 t2_mov(1,0,<fb_w>)
-0:0x122C t2_mov(1,0,<fb_h>)
-0:0x1A34 t2_mov(1,1,<fb_w>)
-0:0x1A3A t2_mov(1,1,<fb_h>)
-0:0x1634 t2_mov(1,0,<fb_w>)
-0:0x1638 t2_mov(1,1,<fb_h>)
-0:0x16EE t2_mov(1,1,<fb_w>)
-0:0x16F6 t2_mov(1,6,<fb_h>)
-0:0x1798 t2_mov(1,3,<&,<+,<fb_w>,31>,0xFFFFFFE0>)
-0:0x17A6 t2_mov(1,0,<*,<&,<+,<fb_w>,31>,0xFFFFFFE0>,4>)
-0:0x17A0 t2_mov(1,0,<fb_h>)
-0:0x17BA t2_mov(1,3,<fb_w>)
-0:0x111172 t2_mov(1,1,<fb_w>)
-0:0x11117A t2_mov(1,0,<fb_h>)
-0:0x1114C2 t2_mov(1,1,<fb_w>)
-0:0x1114C8 t2_mov(1,5,<fb_h>)
-0:0x1114F8 t2_mov(1,3,<fb_w>)
-0:0x111508 t2_mov(1,0,<fb_w>)
-0:0x11150C t2_mov(1,1,<fb_h>)
-0:0x111586 t2_mov(1,1,<fb_w>)
-0:0x11158C t2_mov(1,5,<fb_h>)
-0:0x1115BA t2_mov(1,3,<fb_w>)
-0:0x1115DA t2_mov(1,0,<fb_w>)
-0:0x1115DE t2_mov(1,1,<fb_h>)
-0:0x1132E6 t2_mov(1,3,<fb_w>)
-0:0x1132D2 t2_mov(1,0,<fb_h>)
+0:0x1E00   t2_mov(1, 1, 0x5500000)
+0:0x1E10   10F1AA61 r
+0:0x168C   t2_mov(1, 1, 0x220000)
+0:0x111470 t2_mov(1, 1, 0x440000)
+0:0x111534 t2_mov(1, 1, 0x220000)
+0:0x1766   t2_mov(1, 1, 0x3FC000)
+0:0x176E   nop *2
+0:0x177C   t2_mov(0, 0, 0x1FE000) . (nop *2)
+0:0x1226 t2_mov(1, 0, fb_w)
+0:0x122C t2_mov(1, 0, fb_h)
+0:0x1A34 t2_mov(1, 1, fb_w)
+0:0x1A3A t2_mov(1, 1, fb_h)
+0:0x1634 t2_mov(1, 0, fb_w)
+0:0x1638 t2_mov(1, 1, fb_h)
+0:0x16EE t2_mov(1, 1, fb_w)
+0:0x16F6 t2_mov(1, 6, fb_h)
+0:0x1798 t2_mov(1, 3, align(fb_w, 32))
+0:0x17A6 t2_mov(1, 0, align(fb_w, 32) * 4)
+0:0x17A0 t2_mov(1, 0, fb_h)
+0:0x17BA t2_mov(1, 3, fb_w)
+0:0x111172 t2_mov(1, 1, fb_w)
+0:0x11117A t2_mov(1, 0, fb_h)
+0:0x1114C2 t2_mov(1, 1, fb_w)
+0:0x1114C8 t2_mov(1, 5, fb_h)
+0:0x1114F8 t2_mov(1, 3, fb_w)
+0:0x111508 t2_mov(1, 0, fb_w)
+0:0x11150C t2_mov(1, 1, fb_h)
+0:0x111586 t2_mov(1, 1, fb_w)
+0:0x11158C t2_mov(1, 5, fb_h)
+0:0x1115BA t2_mov(1, 3, fb_w)
+0:0x1115DA t2_mov(1, 0, fb_w)
+0:0x1115DE t2_mov(1, 1, fb_h)
+0:0x1132E6 t2_mov(1, 3, fb_w)
+0:0x1132D2 t2_mov(1, 0, fb_h)
 
-# Dungeon Hunter: Alliance [EU 1.00]
-[PCSB00041,eboot.bin,0x68447424]
-# Dungeon Hunter: Alliance [US 1.00]
-[PCSE00008,eboot.bin,0x0FC000EE]
+# Dungeon Hunter: Alliance
+[PCSB00041, eboot.bin, 0x68447424] # [EU 1.00]
+[PCSE00008, eboot.bin, 0x0FC000EE] # [US 1.00]
 @IB
-0:0x82DDE t3_mov(5,<ib_w>)
-0:0x82E32 t2_mov(1,11,<ib_h>)
+0:0x82DDE t3_mov(5, ib_w)
+0:0x82E32 t2_mov(1, 11, ib_h)
 
 # RESOGUN [JP 1.00]
-[PCSC00088,eboot.bin,0x9C16CEBD]
+[PCSC00088, eboot.bin, 0x9C16CEBD]
 @FB
-0:0x165A08 t2_mov(1,0,<fb_w>)
-0:0x165A0E t2_mov(1,0,<fb_h>)
+0:0x165A08 t2_mov(1, 0, fb_w)
+0:0x165A0E t2_mov(1, 0, fb_h)
 
 # RESOGUN [US 1.01]
-[PCSA00103,eboot.bin,0x871F1F8C]
+[PCSA00103, eboot.bin, 0x871F1F8C]
 @FB
-0:0x165A28 t2_mov(1,0,<fb_w>)
-0:0x165A2E t2_mov(1,0,<fb_h>)
+0:0x165A28 t2_mov(1, 0, fb_w)
+0:0x165A2E t2_mov(1, 0, fb_h)
 
 # RESOGUN [EU 1.01]
-[PCSF00262,eboot.bin,0x67CD2E83]
+[PCSF00262, eboot.bin, 0x67CD2E83]
 @FB
-0:0x165AC4 t2_mov(1,0,<fb_w>)
-0:0x165ACA t2_mov(1,0,<fb_h>)
+0:0x165AC4 t2_mov(1, 0, fb_w)
+0:0x165ACA t2_mov(1, 0, fb_h)
 
 # Valhalla Knights 3 GOLD [JP 1.05]
-[PCSG00307,eboot.bin,0x2A62D92D]
+[PCSG00307, eboot.bin, 0x2A62D92D]
 @IB
-0:0xC5840 t2_mov(1,3,<ib_w>)
-0:0xC584E t2_mov(1,6,<ib_h>)
-0:0x28AE10 t2_mov(1,14,0x900000)
+0:0xC5840 t2_mov(1, 3, ib_w)
+0:0xC584E t2_mov(1, 6, ib_h)
+0:0x28AE10 t2_mov(1, 14, 0x900000)
 1:0xFD90 uint32(0x8500000)
 @FPS
-0:0x27172E nop() *2
+0:0x27172E nop *2
 
 # Valhalla Knights 3 [EU 1.00]
-[PCSB00432,eboot.bin,0xB8A6AB75]
+[PCSB00432, eboot.bin, 0xB8A6AB75]
 @IB
-0:0x9A1FA t2_mov(1,3,<ib_w>)
-0:0x9A208 t2_mov(1,6,<ib_h>)
-0:0x22251E t2_mov(1,2,<ib_w>)
-0:0x222530 t2_mov(1,2,<ib_h>)
-0:0x22248C t2_mov(1,1,0x900000)
-0:0x2224CC t2_mov(1,1,0x900000)
+0:0x9A1FA t2_mov(1, 3, ib_w)
+0:0x9A208 t2_mov(1, 6, ib_h)
+0:0x22251E t2_mov(1, 2, ib_w)
+0:0x222530 t2_mov(1, 2, ib_h)
+0:0x22248C t2_mov(1, 1, 0x900000)
+0:0x2224CC t2_mov(1, 1, 0x900000)
 1:0xA3BC uint32(0x86E2000)
 
 # Valhalla Knights 3 [US 1.00]
-[PCSE00244,eboot.bin,0xCFF942CC]
+[PCSE00244, eboot.bin, 0xCFF942CC]
 @IB
-0:0x9A1FA t2_mov(1,3,<ib_w>)
-0:0x9A208 t2_mov(1,6,<ib_h>)
-0:0x221E0A t2_mov(1,2,<ib_w>)
-0:0x221E1C t2_mov(1,2,<ib_h>)
-0:0x221D78 t2_mov(1,1,0x900000)
-0:0x221DB8 t2_mov(1,1,0x900000)
+0:0x9A1FA t2_mov(1, 3, ib_w)
+0:0x9A208 t2_mov(1, 6, ib_h)
+0:0x221E0A t2_mov(1, 2, ib_w)
+0:0x221E1C t2_mov(1, 2, ib_h)
+0:0x221D78 t2_mov(1, 1, 0x900000)
+0:0x221DB8 t2_mov(1, 1, 0x900000)
 1:0xA3BC uint32(0x86E2000)
 
 # Valhalla Knights 3 [JP 1.03]
-[PCSG00076,eboot.bin,0x5348EC8D]
+[PCSG00076, eboot.bin, 0x5348EC8D]
 @IB
-0:0xA8B8E t2_mov(1,5,<ib_w>)
-0:0xA8B94 t2_mov(1,0,<ib_h>)
-0:0x23633C t2_mov(1,2,<ib_w>)
-0:0x23634E t2_mov(1,2,<ib_h>)
-0:0x2362A4 t2_mov(1,1,0x900000)
-0:0x2362EA t2_mov(1,1,0x900000)
+0:0xA8B8E t2_mov(1, 5, ib_w)
+0:0xA8B94 t2_mov(1, 0, ib_h)
+0:0x23633C t2_mov(1, 2, ib_w)
+0:0x23634E t2_mov(1, 2, ib_h)
+0:0x2362A4 t2_mov(1, 1, 0x900000)
+0:0x2362EA t2_mov(1, 1, 0x900000)
 1:0xA4F0 uint32(0x8800000)
 
-# Fate/EXTELLA: The Umbral Star [US 1.01]
-[PCSE00928,eboot.bin,0xEF934DB7]
-# Fate/EXTELLA [ASIA 1.01]
-[PCSH00299,eboot.bin,0x4E5BE9F4]
+# Fate/EXTELLA: The Umbral Star
+[PCSE00928, eboot.bin, 0xEF934DB7] # [US 1.01]
+[PCSH00299, eboot.bin, 0x4E5BE9F4] # [ASIA 1.01]
 @IB
-0:0x4ED268 t2_mov(0,0,<ib_w>)
-0:0x4ED26E t2_mov(0,0,<ib_h>)
+0:0x4ED268 t2_mov(0, 0, ib_w)
+0:0x4ED26E t2_mov(0, 0, ib_h)
 
 # Fate/EXTELLA [JP 1.03]
-[PCSG00600,eboot.bin,0xB3BD9279]
+[PCSG00600, eboot.bin, 0xB3BD9279]
 @IB
-0:0x4E8B9C t2_mov(0,0,<ib_w>)
-0:0x4E8BA2 t2_mov(0,0,<ib_h>)
+0:0x4E8B9C t2_mov(0, 0, ib_w)
+0:0x4E8BA2 t2_mov(0, 0, ib_h)
 
 # One Piece: Burning Blood [EU 1.08]
-[PCSB00893,eboot.bin,0x7E194F84]
+[PCSB00893, eboot.bin, 0x7E194F84]
 @IB
-0:0x46513C t2_mov(1,3,0xB00000)
-1:0x8DC0 uint32(<ib_w>)
-1:0x8DC4 uint32(<ib_h>)
+0:0x46513C t2_mov(1, 3, 0xB00000)
+1:0x8DC0 uint32(ib_w)
+1:0x8DC4 uint32(ib_h)
 
 # One Piece: Burning Blood [US 1.08]
-[PCSE00808,eboot.bin,0xFF8DE562]
-0:0x4650A4 t2_mov(1,3,0xB00000)
-1:0x8DC0 uint32(<ib_w>)
-1:0x8DC4 uint32(<ib_h>)
+[PCSE00808, eboot.bin, 0xFF8DE562]
+0:0x4650A4 t2_mov(1, 3, 0xB00000)
+1:0x8DC0 uint32(ib_w)
+1:0x8DC4 uint32(ib_h)
 
 # One Piece: Burning Blood [ASIA 1.08]
-[PCSH00202,eboot.bin,0x378EE338]
+[PCSH00202, eboot.bin, 0x378EE338]
 @IB
-0:0x465170 t2_mov(1,3,0xB00000)
-1:0x8DC0 uint32(<ib_w>)
-1:0x8DC4 uint32(<ib_h>)
+0:0x465170 t2_mov(1, 3, 0xB00000)
+1:0x8DC0 uint32(ib_w)
+1:0x8DC4 uint32(ib_h)
