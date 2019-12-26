@@ -12,7 +12,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 ## Supported games
 |   | Game          | Title ID(s)   | Supported features | Game defaults | Notes.............. |
 | - | ------------- | ------------- | ------------------ | ------------- | ------------------- |
-| ![][NOISSUES] | Assassin's Creed III: Liberation | PCSB00074 <br/> PCSE00053 | Internal res. <br/> FPS cap. | 720x408 <br/> 30 | |
+| ![][NOISSUES] | Assassin's Creed III: Liberation | PCSB00074 <br/> PCSE00053 <br/> PCSG00116 | Internal res. <br/> FPS cap. | 720x408 <br/> 30 | |
 | ![][NOISSUES] | Asphalt: Injection | PCSB00040 <br/> PCSE00007 | Internal res. | 720x408 | |
 | ![][NOISSUES] | Borderlands 2 | PCSF00570 <br/> PCSF00576 <br/> PCSE00383 <br/> PCSG00400 | Framebuffer | 960x544 | |
 | ![][NOISSUES] | Dead or Alive 5 Plus | PCSB00296 <br/> PCSE00235 <br/> PCSG00167 | Internal res. | 720x408 | |

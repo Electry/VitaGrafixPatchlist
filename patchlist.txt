@@ -848,6 +848,7 @@
 # Assassin's Creed III: Liberation
 [PCSB00074, eboot.bin, 0xBC2441CC] # [EU 1.02]
 [PCSE00053, eboot.bin, 0xBC2441CC] # [US 1.02]
+[PCSG00116, eboot.bin, 0xBC2441CC] # [JP 1.01]
 @IB
 0:0xBB4C t2_mov(1, 1, 0x800000)
 1:0x32C uint32(0x1A00000)
