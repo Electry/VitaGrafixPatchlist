@@ -196,10 +196,20 @@
 @FB
 1:0x24A94 uint32(fb_w) . uint32(fb_h)
 0:0x36C6EC t2_mov(0, 1, align(fb_w, 64))
-0:0x4AA12C C2 F6 0C BB r
-0:0x36C748 B8 F5 34 7F 00 D1 r
+0:0x4AA12C C2F60CBB r
+0:0x36C748 B8F5347F 00D1 r
 0:0x36C74E t3_mov(0, 768)
-0:0x36C752 00 FB 03 F4 3D F1 EB BC r
+0:0x36C752 00FB03F4 3DF1EBBC r
+
+# Borderlands 2 [JP 1.03]
+[PCSG00400, eboot.bin, 0x83B4A1A2]
+@FB
+1:0x24A94 uint32(fb_w) . uint32(fb_h)
+0:0x36C1C0 t2_mov(0, 1, align(fb_w, 64))
+0:0x4A9C44 C2F6EABA r
+0:0x36C21C B8F5347F 00D1 r
+0:0x36C222 t3_mov(0, 768)
+0:0x36C226 00FB03F4 3DF10DBD r
 
 # Asphalt: Injection
 [PCSB00040, eboot.bin, 0x61A666FB] # [EU 1.00]
