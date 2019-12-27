@@ -44,7 +44,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Miracle Girls Festival | PCSG00610 | Internal res. | 720x408 | |
 | ![][NOISSUES] | MotoGP 13 | PCSB00316 <br/> PCSE00409 | Internal res. | 704x448 | |
 | ![][NOISSUES] | MotoGP 14 | PCSB00498 <br/> PCSE00529 | Internal res. | 704x448 | |
-| ![][NOISSUES] | MUD - FIM Motocross World Championship | PCSB00182 | Internal res. | 704x448 | |
+| ![][NOISSUES] | MUD - FIM Motocross World Championship | PCSB00182 <br/> PCSE00219 | Internal res. | 704x448 | |
 | ![][NOISSUES] | MXGP: The Official Motocross Videogame | PCSB00470 <br/> PCSE00530 | Internal res. | 704x448 | |
 | ![][NOISSUES] | Need for Speed: Most Wanted | PCSB00183 <br/> PCSE00089 <br/> PCSG00106 | Internal res. | 640x368 | |
 | ![][NOISSUES] | Ninja Gaiden Sigma 2 Plus | PCSB00294 <br/> PCSE00233 <br/> PCSG00157 | 2x Internal res. | 864x480, 640x416 | |

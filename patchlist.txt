@@ -156,6 +156,12 @@
 0:0x9B8B52 t2_mov(1, 5, ib_w)
 0:0x9B8B58 t2_mov(1, 6, ib_h)
 
+# MUD - FIM Motocross World Championship [US 1.00]
+[PCSE00219, eboot.bin, 0x12FD8947]
+@IB
+0:0x9B8DD6 t2_mov(1, 5, ib_w)
+0:0x9B8DDC t2_mov(1, 6, ib_h)
+
 # MXGP: The Official Motocross Videogame [EU 1.00]
 [PCSB00470, eboot.bin, 0xE4028AA3]
 @IB
