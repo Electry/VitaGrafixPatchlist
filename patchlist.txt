@@ -171,8 +171,12 @@
 # F1 2011 [EU 1.00]
 [PCSB00027, eboot.bin, 0xCE789828]
 @IB
-0:0x10F0AA t2_mov(1, 1, ib_w)
-0:0x10F0AE t2_mov(1, 2, ib_h)
+0:0x10F0AA t2_mov(1, 1, ib_w) . t2_mov(1, 2, ib_h)
+
+# F1 2011 [US 1.00]
+[PCSE00002, eboot.bin, 0x4FA39897]
+@IB
+0:0x10F07C t2_mov(1, 1, ib_w) . t2_mov(1, 2, ib_h)
 
 # LittleBigPlanet
 [PCSF00021, eboot.bin, 0x0714AF6B] # [EU 1.22]
