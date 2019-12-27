@@ -77,7 +77,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][PLAYABLE] | World of Final Fantasy | PCSB00951 <br/> PCSE00880 <br/> PCSH00223 <br/> PCSG00709 | Internal res. | 640x384 | |
 | ![][NOISSUES] | WRC 3: FIA World Rally Championship | PCSB00204 <br/> PCSE00242 | Internal res. | 704x448 | |
 | ![][NOISSUES] | WRC 4: FIA World Rally Championship | PCSB00345 <br/> PCSE00411 <br/> PCSG00376 | Internal res. | 704x448 | |
-| ![][NOISSUES] | WRC 5: FIA World Rally Championship | PCSB00762 | Framebuffer | 960x544 | |
+| ![][NOISSUES] | WRC 5: FIA World Rally Championship | PCSB00762 <br/> PCSE00667 | Framebuffer | 960x544 | |
 | ![][NOISSUES] | Ys: Memories of Celceta | PCSB00497 <br/> PCSE00245 <br/> PCSH00181 <br/> PCSG00105 | Internal res. | 720x408 | |
 
 * ![](https://placehold.it/10x10/22bb22/000000?text=+) no known issues
