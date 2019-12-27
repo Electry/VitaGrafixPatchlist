@@ -509,12 +509,49 @@
 @FPS
 >sceDisplaySetFrameBuf_withWait()
 
-# The Amazing Spider-Man
-[PCSE00333, eboot.bin, 0x1D3E0BEB] # [US 1.00]
-[PCSB00428, eboot.bin, 0xE5988D4F] # [EU 1.00]
+# The Amazing Spider-Man [EU 1.00]
+[PCSB00428, eboot.bin, 0xE5988D4F]
 @IB
+0:0x6C9A2 t2_mov(0, 8, 0xDD00000)
+0:0x1769AA t2_mov(1, 1, ib_w)
+0:0x1769AE t2_mov(1, 2, ib_h)
+0:0x176ADE t2_mov(1, 6, ib_w)
+0:0x176B22 t2_mov(1, 6, ib_h)
 0:0x16CD7E t2_mov(1, 1, ib_w)
 0:0x16CD82 t2_mov(1, 0, ib_h)
+0:0x22F1C8 t2_mov(1, 2, ib_w)
+0:0x22F1CE t2_mov(1, 3, ib_h)
+0:0x655D52 t2_mov(1, 0, ib_w)
+0:0x655D5A t2_mov(1, 1, ib_h)
+0:0x655D78 t2_mov(1, 2, ib_w)
+0:0x655D7E t2_mov(1, 3, ib_h)
+0:0x16D008 t1_movt(1, float(ib_w) >> 16)
+0:0x16D014 t1_movt(1, float(ib_h) >> 16)
+0:0x19240A t1_movt(0, float(ib_w) >> 16)
+0:0x19241E t1_movt(0, float(ib_h) >> 16)
+@FPS
+>sceDisplaySetFrameBuf_withWait()
+
+# The Amazing Spider-Man [US 1.00]
+[PCSE00333, eboot.bin, 0x1D3E0BEB]
+@IB
+0:0x6C9A2 t2_mov(0, 8, 0xDD00000)
+0:0x1769AA t2_mov(1, 1, ib_w)
+0:0x1769AE t2_mov(1, 2, ib_h)
+0:0x176ADE t2_mov(1, 6, ib_w)
+0:0x176B22 t2_mov(1, 6, ib_h)
+0:0x16CD7E t2_mov(1, 1, ib_w)
+0:0x16CD82 t2_mov(1, 0, ib_h)
+0:0x22F1C8 t2_mov(1, 2, ib_w)
+0:0x22F1CE t2_mov(1, 3, ib_h)
+0:0x655C3E t2_mov(1, 0, ib_w)
+0:0x655C46 t2_mov(1, 1, ib_h)
+0:0x655C64 t2_mov(1, 2, ib_w)
+0:0x655C6A t2_mov(1, 3, ib_h)
+0:0x16D008 t1_movt(1, float(ib_w) >> 16)
+0:0x16D014 t1_movt(1, float(ib_h) >> 16)
+0:0x19240A t1_movt(0, float(ib_w) >> 16)
+0:0x19241E t1_movt(0, float(ib_h) >> 16)
 @FPS
 >sceDisplaySetFrameBuf_withWait()
 
