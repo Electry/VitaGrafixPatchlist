@@ -72,6 +72,12 @@
 0:0xAC46C4 t2_mov(1, 0, ib_w)
 0:0xAC46CA t2_mov(1, 4, ib_h)
 
+# WRC 4: FIA World Rally Championship [JP 1.00]
+[PCSG00376, eboot.bin, 0x5927ABE0]
+@IB
+0:0xAC3858 t2_mov(1, 0, ib_w)
+0:0xAC385E t2_mov(1, 4, ib_h)
+
 # God of War Collection [EU 1.00]
 [PCSF00438, GOW1.self, 0x8638FFED]
 @FB
