@@ -75,7 +75,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Valhalla Knights 3 GOLD | PCSG00307 | Internal res. </br> FPS cap | 640x384 <br/> 30 | |
 | ![][NOISSUES] | Wipeout 2048 | PCSF00007 <br/> PCSA00015 <br/> PCSC00006 <br/> PCSD00005 | 14x Internal res. <br/> FPS cap | up to 960x544 <br/> 30 | |
 | ![][PLAYABLE] | World of Final Fantasy | PCSB00951 <br/> PCSE00880 <br/> PCSH00223 <br/> PCSG00709 | Internal res. | 640x384 | |
-| ![][NOISSUES] | WRC 3: FIA World Rally Championship | PCSB00204 | Internal res. | 704x448 | |
+| ![][NOISSUES] | WRC 3: FIA World Rally Championship | PCSB00204 <br/> PCSE00242 | Internal res. | 704x448 | |
 | ![][NOISSUES] | WRC 4: FIA World Rally Championship | PCSB00345 <br/> PCSE00411 | Internal res. | 704x448 | |
 | ![][NOISSUES] | WRC 5: FIA World Rally Championship | PCSB00762 | Framebuffer | 960x544 | |
 | ![][NOISSUES] | Ys: Memories of Celceta | PCSB00497 <br/> PCSE00245 <br/> PCSH00181 <br/> PCSG00105 | Internal res. | 720x408 | |

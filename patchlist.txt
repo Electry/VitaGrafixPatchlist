@@ -54,6 +54,12 @@
 0:0xAC430A t2_mov(1, 5, ib_w)
 0:0xAC4310 t2_mov(1, 6, ib_h)
 
+# WRC 3: FIA World Rally Championship [US 1.01]
+[PCSE00242, eboot.bin, 0xA61A732F]
+@IB
+0:0xAC3B02 t2_mov(1, 5, ib_w)
+0:0xAC3B08 t2_mov(1, 6, ib_h)
+
 # WRC 4: FIA World Rally Championship [EU 1.01]
 [PCSB00345, eboot.bin, 0x29E282EB]
 @IB
