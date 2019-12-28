@@ -3,7 +3,7 @@
 #    list of game patches for VitaGrafix
 #
 # https://github.com/Electry/VitaGrafixPatchlist
-# Required version: v5.0.0 or newer
+# Required version: v5.0.1 or newer
 #
 
 # Killzone Mercenary
@@ -1610,3 +1610,10 @@
 0:0x465170 t2_mov(1, 3, 0xB00000)
 1:0x8DC0 uint32(ib_w)
 1:0x8DC4 uint32(ib_h)
+
+# Uncharted: Golden Abyss
+[PCSF00001, uncharted.self, 0x65389A26] # EU [1.03]
+[PCSF00012, uncharted.self, 0x65389A26] # EU [1.03]
+[PCSA00029, uncharted.self, 0x65389A26] # US [1.03]
+[PCSD00001, uncharted.self, 0x65389A26] # ASIA [1.03]
+!USE(PCSF00001) # common patches in patch/PCSF00001.txt

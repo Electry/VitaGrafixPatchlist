@@ -1,12 +1,14 @@
 # patchlist.txt
 Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - a taiHEN plugin that allows you to change resolution and FPS cap of some of the PlayStation Vita games.
 
-**Required VitaGrafix:** v5.0.0 (or newer)
+**Required VitaGrafix:** v5.0.1 (or newer)
 
 
 ## Installation
-1. Download raw [patchlist.txt](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patchlist.txt)
+1. Download raw **[patchlist.txt](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patchlist.txt)**
+    - optionally download files in **[patch/](https://github.com/Electry/VitaGrafixPatchlist/tree/master/patch)** folder, these are separated due to their larger size (100+ lines for one game)
 2. Copy it to *ux0:/data/VitaGrafix/*
+    - *patch/* files go into *ux0:/data/VitaGrafix/patch/*
 3. Configure your game by editing *ux0:/data/VitaGrafix/config.txt* or by using [VitaGrafixConfigurator](https://github.com/Kirezar/VitaGrafixConfigurator)
 
 ## Supported games
@@ -79,6 +81,15 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | WRC 4: FIA World Rally Championship | PCSB00345 <br/> PCSE00411 <br/> PCSG00376 | Internal res. | 704x448 | |
 | ![][NOISSUES] | WRC 5: FIA World Rally Championship | PCSB00762 <br/> PCSE00667 | Framebuffer | 960x544 | |
 | ![][NOISSUES] | Ys: Memories of Celceta | PCSB00497 <br/> PCSE00245 <br/> PCSH00181 <br/> PCSG00105 | Internal res. | 720x408 | |
+
+## Supported games (patch/)
+These require *patchlist.txt* as well as additional files located in *patch/* folder.
+
+|   | Game          | Title ID(s)   | Supported features | Game defaults | Notes.............. |
+| - | ------------- | ------------- | ------------------ | ------------- | ------------------- |
+| ![][NOISSUES] | Uncharted: Golden Abyss | PCSF00001 <br/> PCSF00012 <br/> PCSA00029 <br/> PCSD00001 | Internal res. | 768x384 | [PCSF00001.txt](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSF00001.txt) |
+
+#
 
 * ![](https://placehold.it/10x10/22bb22/000000?text=+) no known issues
 * ![](https://placehold.it/10x10/eeee22/000000?text=+) playable, but with some minor issues (check *[Issues](https://github.com/Electry/VitaGrafixPatchlist/issues)* section)
