@@ -21,7 +21,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Dragon Quest Builders | PCSB00981 <br/> PCSE00912 <br/> PCSG00697 <br/> PCSH00221 | Internal res. <br/> FPS cap | 720x408 <br/> 60 | |
 | ![][NOISSUES] | Dungeon Hunter: Alliance | PCSB00041 <br/> PCSE00008 | Internal res. | 702x408 | |
 | ![][NOISSUES] | Fate/EXTELLA (The Umbral Star) | PCSB01030 <br/> PCSE00928 <br/> PCSH00299 <br/> PCSG00600 | Internal res. | 720x408 | |
-| ![][NOISSUES] | Fate/EXTELLA LINK | PCSG01091 <br/> PCSH10121 | Internal res. | 720x408 | |
+| ![][NOISSUES] | Fate/EXTELLA LINK | PCSE01254 <br/> PCSG01091 <br/> PCSH10121 | Internal res. | 720x408 | |
 | ![][NOISSUES] | F1 2011 | PCSB00027 <br/> PCSE00002 | Internal res. | 640x384 | |
 | ![][NOISSUES] | God of War Collection | PCSF00438 <br/> PCSA00126 <br/> PCSC00059 | Framebuffer <br/> FPS cap | 720x408 <br/> 30 | |
 | ![][PLAYABLE] | Hatsune Miku: Project Diva f | PCSB00419 <br/> PCSE00326 <br/> PCSG00074 | Internal res. <br/> FPS cap | 640x352 <br/> 30 | [#120](https://github.com/Electry/VitaGrafix/issues/120), [#81](https://github.com/Electry/VitaGrafix/issues/81) |

@@ -823,6 +823,12 @@
 0:0x2F5D0A FCF022E8 12E0 r
 0:0x2F5D4A 8042 r
 
+# Fate/EXTELLA LINK [US 1.01]
+[PCSE01254, eboot.bin, 0x69300D95]
+@IB
+0:0x6D16B4 t2_mov(0, 0, ib_w)
+0:0x6D16BA t2_mov(0, 0, ib_h)
+
 # Fate/EXTELLA LINK [JP 1.07]
 [PCSG01091, eboot.bin, 0x108A839D]
 @IB
