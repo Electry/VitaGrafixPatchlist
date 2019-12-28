@@ -20,7 +20,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Dragon Ball Z: Battle of Z | PCSB00396 <br/> PCSE00305 <br/> PCSG00213 | Internal res. | 704x448 | |
 | ![][NOISSUES] | Dragon Quest Builders | PCSB00981 <br/> PCSE00912 <br/> PCSG00697 <br/> PCSH00221 | Internal res. <br/> FPS cap | 720x408 <br/> 60 | |
 | ![][NOISSUES] | Dungeon Hunter: Alliance | PCSB00041 <br/> PCSE00008 | Internal res. | 702x408 | |
-| ![][NOISSUES] | Fate/EXTELLA (The Umbral Star) | PCSE00928 <br/> PCSH00299 <br/> PCSG00600 | Internal res. | 720x408 | |
+| ![][NOISSUES] | Fate/EXTELLA (The Umbral Star) | PCSB01030 <br/> PCSE00928 <br/> PCSH00299 <br/> PCSG00600 | Internal res. | 720x408 | |
 | ![][NOISSUES] | Fate/EXTELLA LINK | PCSG01091 <br/> PCSH10121 | Internal res. | 720x408 | |
 | ![][NOISSUES] | F1 2011 | PCSB00027 <br/> PCSE00002 | Internal res. | 640x384 | |
 | ![][NOISSUES] | God of War Collection | PCSF00438 <br/> PCSA00126 <br/> PCSC00059 | Framebuffer <br/> FPS cap | 720x408 <br/> 30 | |

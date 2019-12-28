@@ -1572,6 +1572,7 @@
 1:0xA4F0 uint32(0x8800000)
 
 # Fate/EXTELLA: The Umbral Star
+[PCSB01030, eboot.bin, 0x3156133A] # [EU 1.01]
 [PCSE00928, eboot.bin, 0xEF934DB7] # [US 1.01]
 [PCSH00299, eboot.bin, 0x4E5BE9F4] # [ASIA 1.01]
 @IB
