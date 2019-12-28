@@ -829,17 +829,17 @@
 0:0x6D16B4 t2_mov(0, 0, ib_w)
 0:0x6D16BA t2_mov(0, 0, ib_h)
 
-# Fate/EXTELLA LINK [JP 1.07]
-[PCSG01091, eboot.bin, 0x108A839D]
+# Fate/EXTELLA LINK [JP 1.08]
+[PCSG01091, eboot.bin, 0xA46AF105]
 @IB
-0:0x6C919C t2_mov(0, 0, ib_w)
-0:0x6C91A2 t2_mov(0, 0, ib_h)
+0:0x6CB8CC t2_mov(0, 0, ib_w)
+0:0x6CB8D2 t2_mov(0, 0, ib_h)
 
-# Fate/EXTELLA LINK [ASIA 1.02]
-[PCSH10121, eboot.bin, 0xA0C82507]
+# Fate/EXTELLA LINK [ASIA 1.03]
+[PCSH10121, eboot.bin, 0x31BBD3ED]
 @IB
-0:0x6CEF98 t2_mov(0, 0, ib_w)
-0:0x6CEF9E t2_mov(0, 0, ib_h)
+0:0x6D16B4 t2_mov(0, 0, ib_w)
+0:0x6D16BA t2_mov(0, 0, ib_h)
 
 # The Legend of Heroes: Trails of Cold Steel [EU 1.01]
 [PCSB00866, eboot.bin, 0xE20FCB02]
