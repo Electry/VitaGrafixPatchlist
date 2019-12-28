@@ -795,7 +795,8 @@
 0:0x4248D8 uint32(ib_wi(12)) . uint32(ib_hi(12))
 0:0x4248E0 uint32(ib_wi(13)) . uint32(ib_hi(13))
 @FPS
-0:0x2F5D2E nop
+0:0x2F5D06 FCF022E8 12E0 r
+0:0x2F5D46 8042 r
 
 # Wipeout 2048
 [PCSC00006, eboot.bin, 0xD4C31BD2] # [JP 1.04]
@@ -818,7 +819,8 @@
 0:0x4248D8 uint32(ib_wi(12)) . uint32(ib_hi(12))
 0:0x4248E0 uint32(ib_wi(13)) . uint32(ib_hi(13))
 @FPS
-0:0x2F5D32 nop
+0:0x2F5D0A FCF022E8 12E0 r
+0:0x2F5D4A 8042 r
 
 # Fate/EXTELLA LINK [JP 1.07]
 [PCSG01091, eboot.bin, 0x108A839D]
