@@ -6,9 +6,8 @@
 [PCSA00029, uncharted.self, 0x65389A26] # US [1.03]
 [PCSD00001, uncharted.self, 0x65389A26] # ASIA [1.03]
 @IB
+0:0x2155B4 t2_mov(1, 1, 0xE00000 - 7 * 1024 * 1024)
 0:0x22B552 t2_mov(1, 3, 0x1100000 + 7 * 1024 * 1024)
-0:0x22B56A t2_mov(1, 3, 0x5100000 - 7 * 1024 * 1024)
-0:0x219706 mov32(1, 0x1b9c000 - 7 * 1024 * 1024, 2)
 1:0xE88 uint32(ib_w) . uint32(ib_h)
 0:0x923CC t2_mov(1, 1, ib_h)
 0:0x923D6 t2_mov(1, 3, ib_w)
