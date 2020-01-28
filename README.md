@@ -87,6 +87,7 @@ These require *patchlist.txt* as well as additional files located in *patch/* fo
 
 |   | Game          | Title ID(s)   | Supported features | Game defaults | Notes.............. |
 | - | ------------- | ------------- | ------------------ | ------------- | ------------------- |
+| ![][NOISSUES] | Mortal Kombat | PCSB00106 | Framebuffer | 640x368 | [PCSB00106.txt](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSB00106.txt) |
 | ![][NOISSUES] | Uncharted: Golden Abyss | PCSF00001 <br/> PCSF00012 <br/> PCSA00029 <br/> PCSD00001 | Internal res. | 768x384 | [PCSF00001.txt](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSF00001.txt) |
 
 #
