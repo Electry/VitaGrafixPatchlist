@@ -971,8 +971,9 @@
 0:0xCCFE7A t2_mov(1, 1, ib_w)
 0:0xCCFE82 t2_mov(1, 1, ib_h)
 
-# Resident Evil: Revelations 2 [JP 1.04]
-[PCSG00594, eboot.bin, 0x1AF1E91B]
+# Resident Evil: Revelations 2
+[PCSG00594, eboot.bin, 0x1AF1E91B] # [JP 1.04]
+[PCSH00187, eboot.bin, 0x2302049E] # [ASIA 1.04]
 @IB
 0:0xCCFF3A t2_mov(1, 1, ib_w)
 0:0xCCFF42 t2_mov(1, 1, ib_h)

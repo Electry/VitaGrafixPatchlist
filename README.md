@@ -56,7 +56,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Ratchet & Clank 2: Locked and Loaded / Going Commando | PCSF00485 <br/> PCSF00482 <br/> PCSA00133 | Framebuffer | 720x408 | |
 | ![][NOISSUES] | Ratchet & Clank 3 / Up Your Arsenal | PCSF00486 <br/> PCSF00482 <br/> PCSA00133 | Framebuffer | 720x408 | |
 | ![][NOISSUES] | Ratchet & Clank: QForce / Full Frontal Assault | PCSF00191 <br/> PCSA00086 <br/> PCSC00041 | Framebuffer | 720x408 | |
-| ![][NOISSUES] | Resident Evil: Revelations 2 | PCSF00728 <br/> PCSE00608 <br/> PCSG00594 | Internal res. | 720x408 | |
+| ![][NOISSUES] | Resident Evil: Revelations 2 | PCSF00728 <br/> PCSE00608 <br/> PCSG00594 <br/> PCSH00187 | Internal res. | 720x408 | |
 | ![][NOISSUES] | RESOGUN | PCSF00262 <br/> PCSA00103 <br/> PCSC00088 | Framebuffer | 720x408 | |
 | ![][NOISSUES] | Ridge Racer | PCSB00048 <br/> PCSE00001 <br/> PCSG00001 | Internal res. | 720x408 | |
 | ![][NOISSUES] | Sly Cooper and the Thievius Raccoonus | PCSF00269 <br/> PCSF00338 <br/> PCSA00095 <br/> PCSA00096 <br/> | Framebuffer <br/> FPS cap | 720x408 <br/> 30 | |
