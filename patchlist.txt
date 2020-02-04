@@ -1686,3 +1686,21 @@
 0:0x87E86 B0F1450F r
 0:0x8805A B1F1450F r
 0:0x880EA B0F1450F r
+
+# Street Fighter X Tekken [EU 1.08]
+[PCSB00144, eboot.bin, 0x4C4DB951]
+@IB
+0:0x94D298 t2_mov(1, 5, ib_w)
+0:0x94D29C t2_mov(1, 2, ib_h)
+
+# Street Fighter X Tekken [US 1.08]
+[PCSE00005, eboot.bin, 0x0EA3CB3D]
+@IB
+0:0x94D240 t2_mov(1, 5, ib_w)
+0:0x94D244 t2_mov(1, 2, ib_h)
+
+# Street Fighter X Tekken [JP 1.08]
+[PCSG00063, eboot.bin, 0xAAE7FEDF]
+@IB
+0:0x94D28C t2_mov(1, 5, ib_w)
+0:0x94D290 t2_mov(1, 2, ib_h)
