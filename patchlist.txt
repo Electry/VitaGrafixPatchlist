@@ -1718,3 +1718,8 @@
 0:0xBBE98 t2_mov(1, 5, ib_w)
 0:0xBBEA0 t2_mov(1, 6, ib_h)
 0:0x345E6A t2_mov(1, 14, ib_w) . t2_mov(1, 12, ib_h)
+
+# Supremacy MMA: Unrestricted [US 1.00]
+[PCSE00012, eboot.bin, 0x860FE0A7]
+@IB
+0:0x58EBA t2_mov(1, 1, ib_w) . t2_mov(1, 2, ib_h)

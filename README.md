@@ -70,6 +70,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Soul Sacrifice | PCSF00178 <br/> PCSA00092 <br/> PCSD00065 <br/> PCSC00039 | Internal res. | 720x408 | |
 | ![][NOISSUES] | Soul Sacrifice Delta | PCSF00532 <br/> PCSA00152 <br/> PCSD00079 <br/> PCSC00049 | Internal res. | 720x408 | |
 | ![][NOISSUES] | Street Fighter X Tekken | PCSB00144 <br/> PCSE00005 <br/> PCSG00063 | Internal res. | 640x480 | |
+| ![][NOISSUES] | Supremacy MMA: Unrestricted | PCSE00012 | Internal res. | 720x408 | |
 | ![][NOISSUES] | The Amazing Spider-Man | PCSB00428 <br/> PCSE00333 | Internal res. <br/> FPS cap | 704x400 <br/> 60 | |
 | ![][NOISSUES] | The Legend of Heroes: Trails of Cold Steel <br/> Eiyuu Densetsu: Sen no Kiseki | PCSB00866 <br/> PCSE00786 <br/> PCSG00195 <br/> PCSH00074 | Internal res. | 720x408 | |
 | ![][NOISSUES] | The Legend of Heroes: Trails of Cold Steel II <br/> Eiyuu Densetsu: Sen no Kiseki II | PCSB01016 <br/> PCSE00896 <br/> PCSG00354 <br/> PCSH00075 | Internal res. | 720x408 | |
