@@ -1628,3 +1628,61 @@
 @FB
 0:0x33FAC t2_mov(1, 0, fb_w)
 0:0x33FB4 t2_mov(1, 3, fb_h)
+
+# Injustice: Gods Among Us [EU 1.01]
+[PCSB00356, eboot.bin, 0x9E662913]
+@FB
+0:0x841E8 t2_mov(1, 2, fb_w) . t2_mov(0, 1, fb_h)
+1:0x5C24 uint32(fb_w) *3 . uint32(fb_h) *3 . fl32(float(fb_w) / fb_h)
+0:0x8890A t1_movt(1, float(fb_w) >> 16)
+0:0x8891C t1_movt(0, float(fb_h) >> 16)
+0:0x85384 t1_movt(2, float(fb_w) >> 16)
+0:0x8538C t1_movt(1, float(fb_h) >> 16)
+0:0x885C6 t1_movt(1, float(fb_w) >> 16)
+0:0x885D8 t1_movt(0, float(fb_h) >> 16)
+0:0x883BC t1_movt(0, float(fb_w) >> 16)
+0:0x883D8 t1_movt(1, float(fb_h) >> 16)
+0:0x88698 t1_movt(1, float(fb_w) >> 16)
+0:0x886A0 t1_movt(0, float(fb_h) >> 16)
+0:0x85884 t3_mov(2, fb_w - 1)
+0:0x8588A t3_mov(3, fb_h - 1)
+0:0x8876C t2_mov(1, 1, fb_w / 2) . F1F2C7B2 r
+0:0x779D02 t2_mov(1, 2, fb_h / 2) . t1_mov(3, 2) . 0EF534B5 r
+0:0x83B4E t2_mov(1, 1, fb_w / 2) . F6F2DBB0 r
+0:0x779D0C t2_mov(1, 2, fb_h / 2) . t1_mov(3, 2) . 09F520B7 r
+0:0x88700 t3_mov(1, fb_w / 2 - 1)
+0:0x88706 F1F206B3 r
+0:0x779D16 t3_mov(1, fb_h / 2 - 1) . 0B91 0EF5F5B4 r
+0:0x87DA6 B1F1450F r
+0:0x87E36 B0F1450F r
+0:0x8800A B1F1450F r
+0:0x8809A B0F1450F r
+
+# Injustice: Gods Among Us [US 1.01]
+[PCSE00271, eboot.bin, 0xF48FF509]
+@FB
+0:0x84238 t2_mov(1, 2, fb_w) . t2_mov(0, 1, fb_h)
+1:0x5C24 uint32(fb_w) *3 . uint32(fb_h) *3 . fl32(float(fb_w) / fb_h)
+0:0x8895A t1_movt(1, float(fb_w) >> 16)
+0:0x8896C t1_movt(0, float(fb_h) >> 16)
+0:0x853D4 t1_movt(2, float(fb_w) >> 16)
+0:0x853DC t1_movt(1, float(fb_h) >> 16)
+0:0x88616 t1_movt(1, float(fb_w) >> 16)
+0:0x88628 t1_movt(0, float(fb_h) >> 16)
+0:0x8840C t1_movt(0, float(fb_w) >> 16)
+0:0x88428 t1_movt(1, float(fb_h) >> 16)
+0:0x886E8 t1_movt(1, float(fb_w) >> 16)
+0:0x886F0 t1_movt(0, float(fb_h) >> 16)
+0:0x858D4 t3_mov(2, fb_w - 1)
+0:0x858DA t3_mov(3, fb_h - 1)
+0:0x887BC t2_mov(1, 1, fb_w / 2) . F1F2C7B2 r
+0:0x779D52 t2_mov(1, 2, fb_h / 2) . t1_mov(3, 2) . 0EF534B5 r
+0:0x83B9E t2_mov(1, 1, fb_w / 2) . F6F2DBB0 r
+0:0x779D5C t2_mov(1, 2, fb_h / 2) . t1_mov(3, 2) . 09F520B7 r
+0:0x88750 t3_mov(1, fb_w / 2 - 1)
+0:0x88756 F1F206B3 r
+0:0x779D66 t3_mov(1, fb_h / 2 - 1) . 0B91 0EF5F5B4 r
+0:0x87DF6 B1F1450F r
+0:0x87E86 B0F1450F r
+0:0x8805A B1F1450F r
+0:0x880EA B0F1450F r
