@@ -1,10 +1,10 @@
 #
 # Uncharted: Golden Abyss
 #
-[PCSF00001, uncharted.self, 0x65389A26] # EU [1.03]
-[PCSF00012, uncharted.self, 0x65389A26] # EU [1.03]
-[PCSA00029, uncharted.self, 0x65389A26] # US [1.03]
-[PCSD00001, uncharted.self, 0x65389A26] # ASIA [1.03]
+[PCSF00001, uncharted.self, 0x65389A26] # [EU 1.03]
+[PCSF00012, uncharted.self, 0x65389A26] # [EU 1.03]
+[PCSA00029, uncharted.self, 0x65389A26] # [US 1.03]
+[PCSD00001, uncharted.self, 0x65389A26] # [ASIA 1.03]
 @IB
 0:0x2155B4 t2_mov(1, 1, 0xE00000 - 7 * 1024 * 1024)
 0:0x22B552 t2_mov(1, 3, 0x1100000 + 7 * 1024 * 1024)

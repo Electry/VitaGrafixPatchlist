@@ -1,7 +1,7 @@
 #
 # Mortal Kombat
 #
-[PCSB00106, eboot.bin, 0x2AA8AC12] # EU [1.00]
+[PCSB00106, eboot.bin, 0x2AA8AC12] # [EU 1.00]
 @FB
 0:0x2424BE t2_mov(0, 0, fb_w)
 0:0x2424C2 t2_mov(0, 1, fb_h)

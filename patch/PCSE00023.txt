@@ -1,7 +1,7 @@
 #
 # Mortal Kombat
 #
-[PCSE00023, eboot.bin, 0xAB5E7564] # US [1.00]
+[PCSE00023, eboot.bin, 0xAB5E7564] # [US 1.00]
 @FB
 0:0x2424BE t2_mov(0, 0, fb_w)
 0:0x2424C2 t2_mov(0, 1, fb_h)
