@@ -1730,3 +1730,10 @@
 [PCSA00110, eboot.bin, 0xE13F06A1] # [US 1.00]
 @IB
 0:0x106EF3C uint32(ib_w) . uint32(ib_h)
+
+# J-Stars Victory Vs [JP 1.02]
+[PCSG00300, eboot.bin, 0xA11C13E2]
+@IB
+0:0x28D338 t2_mov(1, 5, 0xD00000)
+0:0x28D286 t2_mov(1, 12, 0x6300000)
+1:0x27FBC uint32(ib_w) . uint32(ib_h)
