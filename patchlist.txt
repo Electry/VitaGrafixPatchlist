@@ -1798,3 +1798,17 @@
 0:0xE7A86 t2_mov(1, 2, ib_h * 544 / 408)
 @MSAA
 0:0xE7A14 t1_mov(4, msaa * 2)
+
+# Macross Delta Scramble [JP 1.02]
+[PCSG00947, eboot.bin, 0x01BBD637]
+@IB
+0:0x7B6AB0 a1_mov(0, 0, ib_w)
+0:0x7B6AB8 a1_mov(0, 0, ib_h)
+0:0x7AC3FC a1_mov(0, 0, ib_w)
+0:0x7AC404 a1_mov(0, 1, ib_h)
+0:0x7AA920 a1_mov(0, 0, ib_w)
+0:0x7AA928 a1_mov(0, 1, ib_h)
+0:0x7AAC88 a1_mov(0, 2, ib_w)
+0:0x7AAC90 a1_mov(0, 3, ib_h)
+0:0x7AB4F8 a1_mov(0, 3, ib_w)
+0:0x7AB500 a1_mov(0, 5, ib_h)
