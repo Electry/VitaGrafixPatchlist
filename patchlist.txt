@@ -1723,3 +1723,10 @@
 [PCSE00012, eboot.bin, 0x860FE0A7]
 @IB
 0:0x58EBA t2_mov(1, 1, ib_w) . t2_mov(1, 2, ib_h)
+
+# Disney Epic Mickey 2: The Power of Two
+[PCSF00308, eboot.bin, 0xE13F06A1] # [EU 1.00]
+[PCSF00309, eboot.bin, 0xE13F06A1] # [EU 1.00]
+[PCSA00110, eboot.bin, 0xE13F06A1] # [US 1.00]
+@IB
+0:0x106EF3C uint32(ib_w) . uint32(ib_h)
