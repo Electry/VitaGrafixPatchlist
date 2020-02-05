@@ -1812,3 +1812,19 @@
 0:0x7AAC90 a1_mov(0, 3, ib_h)
 0:0x7AB4F8 a1_mov(0, 3, ib_w)
 0:0x7AB500 a1_mov(0, 5, ib_h)
+
+# Summon Night 6: Lost Borders
+[PCSB01013, eboot.bin, 0x243B98A5] # [EU 1.00]
+[PCSE00951, eboot.bin, 0x88F34BB1] # [US 1.00]
+@MSAA
+0:0x2C0308 t1_mov(4, msaa)
+
+# Summon Night 6: Lost Borders [JP 1.03]
+[PCSG00827, eboot.bin, 0x3CD87445]
+@MSAA
+0:0x2BFA18 t1_mov(4, msaa)
+
+# Summon Night 6: Lost Borders [ASIA 1.03]
+[PCSH00225, eboot.bin, 0x919479D7]
+@MSAA
+0:0x2BF9C8 t1_mov(4, msaa)
