@@ -37,6 +37,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Jak II | PCSF00247 <br/> PCSF00249 <br/> PCSA00080 | Framebuffer | 720x408 | |
 | ![][NOISSUES] | Jak 3 | PCSF00247 <br/> PCSF00250 <br/> PCSA00080 | Framebuffer | 720x408 | |
 | ![][NOISSUES] | J-Stars Victory Vs | PCSG00300 | Internal res. | 768x448 | |
+| ![][NOISSUES] | J-Stars Victory Vs+ | PCSB00713 <br/> PCSE00595 <br/> PCSH00136 | Internal res. | 768x448 | |
 | ![][NOISSUES] | Kidou Senshi Gundam Seed: Battle Destiny | PCSG00040 | Internal res. <br/> FPS cap | 704x384 <br/> 30 | |
 | ![][NOISSUES] | Killzone: Mercenary | PCSF00243 <br/> PCSF00403 <br/> PCSA00107 <br/> PCSC00045 <br/> PCSD00071 | Internal res. <br/> FPS cap | Dynamic <br/> 30 | |
 | ![][NOISSUES] | LEGO Batman 3: Beyond Gotham | PCSB00563 <br/> PCSE00442 | Internal res. | 640x368 | |

@@ -1737,3 +1737,24 @@
 0:0x28D338 t2_mov(1, 5, 0xD00000)
 0:0x28D286 t2_mov(1, 12, 0x6300000)
 1:0x27FBC uint32(ib_w) . uint32(ib_h)
+
+# J-Stars Victory Vs+ [EU 1.00]
+[PCSB00713, eboot.bin, 0x52574668]
+@IB
+0:0x2BD12A t2_mov(1, 4, 0xF00000)
+0:0x2BD06E t2_mov(1, 14, 0x6100000)
+1:0x485F8 uint32(ib_w) . uint32(ib_h)
+
+# J-Stars Victory Vs+ [US 1.02]
+[PCSE00595, eboot.bin, 0x60650340]
+@IB
+0:0x2BCEDE t2_mov(1, 4, 0xF00000)
+0:0x2BCE22 t2_mov(1, 14, 0x6100000)
+1:0x485F8 uint32(ib_w) . uint32(ib_h)
+
+# J-Stars Victory Vs+ [ASIA 1.00]
+[PCSH00136, eboot.bin, 0x86EAD93B]
+@IB
+0:0x2BD01E t2_mov(1, 4, 0xF00000)
+0:0x2BCF62 t2_mov(1, 14, 0x6100000)
+1:0x485F8 uint32(ib_w) . uint32(ib_h)
