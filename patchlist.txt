@@ -1758,3 +1758,43 @@
 0:0x2BD01E t2_mov(1, 4, 0xF00000)
 0:0x2BCF62 t2_mov(1, 14, 0x6100000)
 1:0x485F8 uint32(ib_w) . uint32(ib_h)
+
+# Tokyo Xanadu [EU 1.00]
+[PCSB01062, eboot.bin, 0x061171E4]
+@IB
+0:0xE7818 t2_mov(1, 1, ib_w * 960 / 720)
+0:0xE781C t2_mov(1, 2, ib_h * 544 / 408)
+0:0xE7852 t2_mov(1, 1, ib_w * 960 / 720)
+0:0xE7856 t2_mov(1, 2, ib_h * 544 / 408)
+@MSAA
+0:0xE77E4 t1_mov(4, msaa * 2)
+
+# Tokyo Xanadu [US 1.00]
+[PCSE00893, eboot.bin, 0x9420F248]
+@IB
+0:0xE7730 t2_mov(1, 1, ib_w * 960 / 720)
+0:0xE7734 t2_mov(1, 2, ib_h * 544 / 408)
+0:0xE776A t2_mov(1, 1, ib_w * 960 / 720)
+0:0xE776E t2_mov(1, 2, ib_h * 544 / 408)
+@MSAA
+0:0xE76FC t1_mov(4, msaa * 2)
+
+# Tokyo Xanadu [JP 1.04]
+[PCSG00608, eboot.bin, 0x95ACFA1D]
+@IB
+0:0xE75C8 t2_mov(1, 1, ib_w * 960 / 720)
+0:0xE75CC t2_mov(1, 2, ib_h * 544 / 408)
+0:0xE7602 t2_mov(1, 1, ib_w * 960 / 720)
+0:0xE7606 t2_mov(1, 2, ib_h * 544 / 408)
+@MSAA
+0:0xE7594 t1_mov(4, msaa * 2)
+
+# Tokyo Xanadu [ASIA 1.00]
+[PCSH10009, eboot.bin, 0x2BE0554C]
+@IB
+0:0xE7A48 t2_mov(1, 1, ib_w * 960 / 720)
+0:0xE7A4C t2_mov(1, 2, ib_h * 544 / 408)
+0:0xE7A82 t2_mov(1, 1, ib_w * 960 / 720)
+0:0xE7A86 t2_mov(1, 2, ib_h * 544 / 408)
+@MSAA
+0:0xE7A14 t1_mov(4, msaa * 2)

@@ -78,6 +78,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | The Legend of Heroes: Trails of Cold Steel <br/> Eiyuu Densetsu: Sen no Kiseki | PCSB00866 <br/> PCSE00786 <br/> PCSG00195 <br/> PCSH00074 | Internal res. | 720x408 | |
 | ![][NOISSUES] | The Legend of Heroes: Trails of Cold Steel II <br/> Eiyuu Densetsu: Sen no Kiseki II | PCSB01016 <br/> PCSE00896 <br/> PCSG00354 <br/> PCSH00075 | Internal res. | 720x408 | |
 | ![][NOISSUES] | The LEGO Movie Videogame | PCSB00553 <br/> PCSE00353 | Internal res. | 640x368 | |
+| ![][NOISSUES] | Tokyo Xanadu | PCSB01062 <br/> PCSE00893 <br/> PCSG00608 <br/> PCSH10009 | Internal res. <br/> MSAA | 720x408 <br/> 2x | |
 | ![][NOISSUES] | Urban Trial Freestyle | PCSB00038 <br/> PCSE00051 <br/> PCSG00231 | Framebuffer | 720x408 | |
 | ![][NOISSUES] | Utawarerumono: Mask of Deception / Itsuwari no Kamen | PCSB01093 <br/> PCSE00959 <br/> PCSG00617 | Internal res. | 672x384 | |
 | ![][NOISSUES] | Utawarerumono: Mask of Truth / Futari no Hakuoro | PCSB01145 <br/> PCSE01102 <br/> PCSG00838 | Internal res. | 672x384 | |
