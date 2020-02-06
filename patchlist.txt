@@ -1871,3 +1871,25 @@
 0:0x1907BA t2_mov(1, 1, ib_hi(1))
 @FPS
 0:0x285834 t1_mov(0, vblank)
+
+# Spy Hunter [EU 1.00]
+[PCSB00166, eboot.bin, 0x4D752CEE]
+@FB
+0:0xE9A00 t2_mov(1, 1, 0xD00000)
+0:0xD1638 t2_mov(1, 3, fb_w)
+0:0xD163E t2_mov(1, 2, fb_h)
+@FPS
+0:0xE921E t1_mov(0, vblank)
+@MSAA
+0:0xD1644 t1_mov(4, msaa * 2)
+
+# Spy Hunter [US 1.00]
+[PCSE00068, eboot.bin, 0x9BB899D3]
+@FB
+0:0xE99BC t2_mov(1, 1, 0xD00000)
+0:0xD15F4 t2_mov(1, 3, fb_w)
+0:0xD15FA t2_mov(1, 2, fb_h)
+@FPS
+0:0xE91DA t1_mov(0, vblank)
+@MSAA
+0:0xD1600 t1_mov(4, msaa * 2)
