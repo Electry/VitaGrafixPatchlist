@@ -890,6 +890,9 @@
 0:0x1399F0 t2_mov(1, 2, ib_h)
 0:0x1399AC t2_mov(1, 1, ib_w)
 0:0x1399B0 t2_mov(1, 2, ib_h)
+@MSAA
+0:0x1399DE t1_mov(1, msaa * 2)
+0:0x139986 t1_mov(1, msaa * 2)
 
 # The Legend of Heroes: Trails of Cold Steel II [US 1.01]
 [PCSE00896, eboot.bin, 0x56DB15C5]
@@ -900,6 +903,9 @@
 0:0x139908 t2_mov(1, 2, ib_h)
 0:0x1398C4 t2_mov(1, 1, ib_w)
 0:0x1398C8 t2_mov(1, 2, ib_h)
+@MSAA
+0:0x1398F6 t1_mov(1, msaa * 2)
+0:0x13989E t1_mov(1, msaa * 2)
 
 # The Legend of Heroes: Trails of Cold Steel II [JP 1.03]
 [PCSG00354, eboot.bin, 0x2998B4C3]
@@ -910,6 +916,9 @@
 0:0x139426 t2_mov(1, 2, ib_h)
 0:0x1393DE t2_mov(1, 1, ib_w)
 0:0x1393E2 t2_mov(1, 2, ib_h)
+@MSAA
+0:0x1393C0 t1_mov(1, msaa * 2)
+0:0x139414 t1_mov(1, msaa * 2)
 
 # The Legend of Heroes: Trails of Cold Steel II [ASIA 1.03]
 [PCSH00075, eboot.bin, 0xF1242A81]
@@ -920,6 +929,9 @@
 0:0x139A4C t2_mov(1, 2, ib_h)
 0:0x139A08 t2_mov(1, 1, ib_w)
 0:0x139A0C t2_mov(1, 2, ib_h)
+@MSAA
+0:0x1399E2 t1_mov(1, msaa * 2)
+0:0x139A3A t1_mov(1, msaa * 2)
 
 # Assassin's Creed III: Liberation
 [PCSB00074, eboot.bin, 0xBC2441CC] # [EU 1.02]
