@@ -1828,3 +1828,46 @@
 [PCSH00225, eboot.bin, 0x919479D7]
 @MSAA
 0:0x2BF9C8 t1_mov(4, msaa)
+
+# Ys VIII: Lacrimosa of Dana
+[PCSB01128, eboot.bin, 0x804268F1] # [EU 1.02]
+[PCSE01103, eboot.bin, 0x804268F1] # [US 1.02]
+@IB
+0:0x18A1E2 t2_mov(0, 4, ib_wi(1)) . t2_mov(0, 5, ib_hi(1))
+0:0x18A1F0 t2_mov(0, 6, ib_wi(2)) . t2_mov(0, 7, ib_hi(2))
+0:0x18A1FA t2_mov(1, 4, ib_wi(0))
+0:0x18A202 t2_mov(1, 5, ib_hi(0))
+0:0x191798 t2_mov(1, 0, ib_wi(0))
+0:0x1917A6 t2_mov(1, 0, ib_hi(0))
+0:0x19187A t2_mov(1, 1, ib_wi(1))
+0:0x191888 t2_mov(1, 1, ib_hi(1))
+@FPS
+0:0x289620 t1_mov(0, vblank)
+
+# Ys VIII: Lacrimosa of Dana [JP 1.02]
+[PCSG00881, eboot.bin, 0xC2D25375]
+@IB
+0:0x188F22 t2_mov(0, 4, ib_wi(1)) . t2_mov(0, 5, ib_hi(1))
+0:0x188F30 t2_mov(0, 6, ib_wi(2)) . t2_mov(0, 7, ib_hi(2))
+0:0x188F3A t2_mov(1, 4, ib_wi(0))
+0:0x188F42 t2_mov(1, 5, ib_hi(0))
+0:0x190574 t2_mov(1, 0, ib_wi(0))
+0:0x190582 t2_mov(1, 0, ib_hi(0))
+0:0x190656 t2_mov(1, 1, ib_wi(1))
+0:0x190664 t2_mov(1, 1, ib_hi(1))
+@FPS
+0:0x285FD0 t1_mov(0, vblank)
+
+# Ys VIII: Lacrimosa of Dana [ASIA 1.02]
+[PCSH00297, eboot.bin, 0xB4F97187]
+@IB
+0:0x189130 t2_mov(0, 4, ib_wi(1)) . t2_mov(0, 5, ib_hi(1))
+0:0x18913E t2_mov(0, 6, ib_wi(2)) . t2_mov(0, 7, ib_hi(2))
+0:0x189148 t2_mov(1, 4, ib_wi(0))
+0:0x189150 t2_mov(1, 5, ib_hi(0))
+0:0x1906CA t2_mov(1, 0, ib_wi(0))
+0:0x1906D8 t2_mov(1, 0, ib_hi(0))
+0:0x1907AC t2_mov(1, 1, ib_wi(1))
+0:0x1907BA t2_mov(1, 1, ib_hi(1))
+@FPS
+0:0x285834 t1_mov(0, vblank)

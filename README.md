@@ -93,6 +93,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | WRC 4: FIA World Rally Championship | PCSB00345 <br/> PCSE00411 <br/> PCSG00376 | Internal res. | 704x448 | |
 | ![][NOISSUES] | WRC 5: FIA World Rally Championship | PCSB00762 <br/> PCSE00667 | Framebuffer | 960x544 | |
 | ![][NOISSUES] | Ys: Memories of Celceta | PCSB00497 <br/> PCSE00245 <br/> PCSH00181 <br/> PCSG00105 | Internal res. | 720x408 | |
+| ![][NOISSUES] | Ys VIII: Lacrimosa of Dana | PCSB01128 <br/> PCSE01103 <br/> PCSG00881 <br/> PCSH00297 | 3x Internal res. <br/> FPS cap | 960x512, 840x476, 720x320 <br/> 30 | |
 
 ## Supported games (patch/)
 These require *patchlist.txt* as well as additional files located in *patch/* folder.
