@@ -2019,3 +2019,14 @@
 [PCSG00756, eboot.bin, 0x89B603C7]
 @FPS
 0:0x186F4 a1_mov(0, 0, vblank)
+
+# Ys Origin
+[PCSB01081, eboot.bin, 0x3A2C2B78] # [EU 1.02]
+[PCSE01033, eboot.bin, 0x77611E13] # [US 1.02]
+@FPS
+0:0x1C8216 t1_mov(0, vblank)
+
+# Ys Origin [ASIA 1.00]
+[PCSH10049, eboot.bin, 0x145A65BD]
+@FPS
+0:0x1C9092 t1_mov(0, vblank)
