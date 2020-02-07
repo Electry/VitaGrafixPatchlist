@@ -2071,3 +2071,11 @@
 0:0x31A728 a1_mov(0, 1, ib_h)
 @FPS
 0:0x65EE34 a1_mov(0, 0, vblank)
+
+# Mahouka Koukou no Rettousei: Out of Order [JP 1.02]
+[PCSG00456, eboot.bin, 0x0104460F]
+@IB
+0:0xF7792 t2_mov(1, 1, ib_w)
+0:0xF779A t2_mov(1, 2, ib_h)
+@FPS
+0:0x3225CA t1_mov(0, vblank)

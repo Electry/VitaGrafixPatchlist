@@ -54,6 +54,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | LEGO The Hobbit | PCSB00503 <br/> PCSE00390 | Internal res. | 640x368 | |
 | ![][PLAYABLE] | LittleBigPlanet | PCSF00021 <br/> PCSA00017 <br/> PCSC00013 <br/> PCSD00006 | Internal res. | 720x408 | [#24](https://github.com/Electry/VitaGrafix/issues/24) |
 | ![][NOISSUES] | Macross Delta Scramble | PCSG00947 | Internal res. | 800x448 | |
+| ![][NOISSUES] | Mahouka Koukou no Rettousei: Out of Order | PCSG00456 | Internal res. <br/> FPS cap | 720x408 <br/> 30 | |
 | ![][NOISSUES] | Minecraft: PlayStation Vita Edition | PCSB00560 <br/> PCSE00491 <br/> PCSG00302 | Framebuffer <br/> FPS cap | 720x408 <br/> 60 | |
 | ![][NOISSUES] | Miracle Girls Festival | PCSG00610 | Internal res. | 720x408 | |
 | ![][NOISSUES] | MotoGP 13 | PCSB00316 <br/> PCSE00409 | Internal res. | 704x448 | |
