@@ -2030,3 +2030,18 @@
 [PCSH10049, eboot.bin, 0x145A65BD]
 @FPS
 0:0x1C9092 t1_mov(0, vblank)
+
+# Deception IV: Blood Ties
+[PCSB00499, eboot.bin, 0x31CA7FEA] # [EU 1.00]
+[PCSE00401, eboot.bin, 0x31CA7FEA] # [US 1.00]
+@IB
+1:0x28F7C uint32(ib_wi(0)) . uint32(ib_hi(0))
+1:0x28F84 uint32(ib_wi(1)) . uint32(ib_hi(1))
+1:0x28F8C uint32(ib_wi(2)) . uint32(ib_hi(2))
+
+# Kagero: Darkside Princess [JP 1.02]
+[PCSG00304, eboot.bin, 0x505CBA3F]
+@IB
+1:0x2910C uint32(ib_wi(0)) . uint32(ib_hi(0))
+1:0x29114 uint32(ib_wi(1)) . uint32(ib_hi(1))
+1:0x2911C uint32(ib_wi(2)) . uint32(ib_hi(2))
