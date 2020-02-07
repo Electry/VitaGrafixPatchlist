@@ -64,6 +64,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Ninja Gaiden Sigma 2 Plus | PCSB00294 <br/> PCSE00233 <br/> PCSG00157 | 2x Internal res. | 864x480, 640x416 | |
 | ![][NOISSUES] | One Piece: Burning Blood | PCSB00893 <br/> PCSE00808 <br/> PCSH00202 | Internal res. | 704x384 | |
 | ![][NOISSUES] | Persona 4 Golden | PCSB00245 <br/> PCSE00120 <br/> PCSG00004 <br/> PCSG00563 <br/> PCSH00021 | Internal res. | 840x476 | |
+| ![][NOISSUES] | Puella Magi Madoka Magica: The Battle Pentagram | PCSG00214 | Internal res. <br/> FPS cap | 704x448 <br/> 30 | |
 | ![][NOISSUES] | Ratchet & Clank | PCSF00484 <br/> PCSF00482 <br/> PCSA00133 | Framebuffer | 720x408 | |
 | ![][NOISSUES] | Ratchet & Clank 2: Locked and Loaded / Going Commando | PCSF00485 <br/> PCSF00482 <br/> PCSA00133 | Framebuffer | 720x408 | |
 | ![][NOISSUES] | Ratchet & Clank 3 / Up Your Arsenal | PCSF00486 <br/> PCSF00482 <br/> PCSA00133 | Framebuffer | 720x408 | |
