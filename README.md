@@ -21,6 +21,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Dead or Alive 5 Plus | PCSB00296 <br/> PCSE00235 <br/> PCSG00167 | Internal res. | 720x408 | |
 | ![][NOISSUES] | Dead or Alive Xtreme 3: Venus | PCSG00773 <br/> PCSH00250 <br/> PCSH00281 | 2x Internal res. | 736x416, 640x368 | |
 | ![][NOISSUES] | Deception IV: Blood Ties <br/> Kagero: Darkside Princess | PCSB00499 <br/> PCSE00401 <br/> PCSG00304 | 3x Internal res. | 960x544, 720x408, 640x368 | |
+| ![][NOISSUES] | Deception IV: The Nightmare Princess <br/> Kagero: Mou Hitori no Princess | PCSB00829 <br/> PCSE00743 <br/> PCSG00565 | 3x Internal res. | 960x544, 720x408, 640x368 | |
 | ![][NOISSUES] | Disney Epic Mickey 2: The Power of Two | PCSF00308 <br/> PCSF00309 <br/> PCSA00110 | Internal res. | 720x408 | |
 | ![][NOISSUES] | Dragon Ball Z: Battle of Z | PCSB00396 <br/> PCSE00305 <br/> PCSG00213 | Internal res. | 704x448 | |
 | ![][NOISSUES] | Dragon Quest Builders | PCSB00981 <br/> PCSE00912 <br/> PCSG00697 <br/> PCSH00221 | Internal res. <br/> FPS cap | 720x408 <br/> 60 | |

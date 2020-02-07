@@ -2045,3 +2045,13 @@
 1:0x2910C uint32(ib_wi(0)) . uint32(ib_hi(0))
 1:0x29114 uint32(ib_wi(1)) . uint32(ib_hi(1))
 1:0x2911C uint32(ib_wi(2)) . uint32(ib_hi(2))
+
+# Deception IV: The Nightmare Princess
+# Kagero: Mou Hitori no Princess
+[PCSB00829,eboot.bin,0xA189B87F] # [EU 1.02]
+[PCSE00743,eboot.bin,0x073775D6] # [US 1.01]
+[PCSG00565,eboot.bin,0xA189B87F] # [JP 1.05]
+@IB
+1:0x3511C uint32(ib_wi(0)) . uint32(ib_hi(0))
+1:0x35124 uint32(ib_wi(1)) . uint32(ib_hi(1))
+1:0x3512C uint32(ib_wi(2)) . uint32(ib_hi(2))
