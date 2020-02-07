@@ -1905,3 +1905,112 @@
 0:0xE91DA t1_mov(0, vblank)
 @MSAA
 0:0xD1600 t1_mov(4, msaa * 2)
+
+# Fantasy Hero: Unsigned Legacy
+[PCSB00663, eboot.bin, 0xA52698D1] # [EU 1.00]
+[PCSE00536, eboot.bin, 0x39C7F8A6] # [US 1.01]
+@FB
+0:0x1DFBA t2_mov(1, 2, 0x5600000 - (6 * 1024 * 1024))
+0:0x1DFD6 t2_mov(1, 1, 0x5600000 - (6 * 1024 * 1024))
+0:0x1DFF0 t2_mov(1, 2, 0x5600000 - (6 * 1024 * 1024))
+0:0x1ECB2 t2_mov(1, 1, fb_w) . t2_mov(1, 2, fb_h)
+0:0x1EDA4 t2_mov(1, 1, fb_w) . t2_mov(1, 0, fb_h)
+0:0x1F8C2 t2_mov(1, 2, fb_w) . t2_mov(1, 1, fb_h)
+0:0x1EC6C t2_mov(1, 0, fb_w)
+0:0x1EC66 t2_mov(1, 0, fb_h)
+0:0x1EEA4 t2_mov(1, 0, align(fb_w, 32))
+0:0x1EEAA t2_mov(1, 0, align(fb_h, 32))
+0:0x1FDF6 t2_mov(1, 1, align(fb_w, 32))
+0:0x1FE30 t2_mov(1, 1, align(fb_h, 32))
+0:0x1FD62 t2_mov(1, 1, align(fb_w, 32))
+0:0x1FD9C t2_mov(1, 1, align(fb_h, 32))
+0:0x1FA50 t2_mov(1, 1, align(fb_w, 32))
+0:0x1FA8A t2_mov(1, 1, align(fb_h, 32))
+0:0x1FB78 t2_mov(1, 0, fb_w / 2) . nop *3
+0:0x1FBC2 t2_mov(1, 0, fb_h / 2) . nop *3
+0:0x1FC54 01 F2 r . rawn(fb_w - 1, 1) . rawn((fb_w - 1) >> 4 & 0xF0 | 0x02, 1)
+0:0x1FC5C 04 F2 r . rawn(fb_h - 1, 1) . rawn((fb_h - 1) >> 4 & 0xF0 | 0x02, 1)
+0:0x1F1D2 t2_mov(1, 4, align(fb_w, 32))
+0:0x1F1BC t2_mov(1, 3, align(fb_h, 32))
+0:0x1F246 t2_mov(1, 1, align(fb_w, 32))
+0:0x1F234 t2_mov(1, 3, align(fb_h, 32))
+0:0x1F34C t2_mov(1, 1, align(fb_w, 32))
+0:0x1F388 t2_mov(1, 1, align(fb_h, 32))
+0:0x1EEB0 t2_mov(1, 0, 4 * 1024 * align(fb_h, 32))
+0:0x1EEB6 t2_mov(1, 1, 4 * 1024 * align(fb_h, 32))
+0:0x1F202 t2_mov(1, 2, 4 * 1024 * align(fb_h, 32))
+0:0x1F7D8 t2_mov(1, 2, 4 * 1024 * align(fb_h, 32))
+0:0x1F2DA t2_mov(0, 2, 4 * 1024 * align(fb_h, 32)) . 1144 1CE0 r
+0:0x1F318 DFE7 r . nop
+
+# Fantasy Hero: Unsigned Legacy [JP 1.10]
+[PCSG00280, eboot.bin, 0xBAC2487D]
+@FB
+0:0x1DFDA t2_mov(1, 2, 0x5600000 - (6 * 1024 * 1024))
+0:0x1DFF6 t2_mov(1, 1, 0x5600000 - (6 * 1024 * 1024))
+0:0x1E010 t2_mov(1, 2, 0x5600000 - (6 * 1024 * 1024))
+0:0x1ECD2 t2_mov(1, 1, fb_w) . t2_mov(1, 2, fb_h)
+0:0x1EDC4 t2_mov(1, 1, fb_w) . t2_mov(1, 0, fb_h)
+0:0x1F8E2 t2_mov(1, 2, fb_w) . t2_mov(1, 1, fb_h)
+0:0x1EC8C t2_mov(1, 0, fb_w)
+0:0x1EC86 t2_mov(1, 0, fb_h)
+0:0x1EEC4 t2_mov(1, 0, align(fb_w, 32))
+0:0x1EECA t2_mov(1, 0, align(fb_h, 32))
+0:0x1FE16 t2_mov(1, 1, align(fb_w, 32))
+0:0x1FE50 t2_mov(1, 1, align(fb_h, 32))
+0:0x1FD82 t2_mov(1, 1, align(fb_w, 32))
+0:0x1FDBC t2_mov(1, 1, align(fb_h, 32))
+0:0x1FA70 t2_mov(1, 1, align(fb_w, 32))
+0:0x1FAAA t2_mov(1, 1, align(fb_h, 32))
+0:0x1FB98 t2_mov(1, 0, fb_w / 2) . nop *3
+0:0x1FBE2 t2_mov(1, 0, fb_h / 2) . nop *3
+0:0x1FC74 01 F2 r . rawn(fb_w - 1, 1) . rawn((fb_w - 1) >> 4 & 0xF0 | 0x02, 1)
+0:0x1FC7C 04 F2 r . rawn(fb_h - 1, 1) . rawn((fb_h - 1) >> 4 & 0xF0 | 0x02, 1)
+0:0x1F1F2 t2_mov(1, 4, align(fb_w, 32))
+0:0x1F1DC t2_mov(1, 3, align(fb_h, 32))
+0:0x1F266 t2_mov(1, 1, align(fb_w, 32))
+0:0x1F254 t2_mov(1, 3, align(fb_h, 32))
+0:0x1F36C t2_mov(1, 1, align(fb_w, 32))
+0:0x1F3A8 t2_mov(1, 1, align(fb_h, 32))
+0:0x1EED0 t2_mov(1, 0, 4 * 1024 * align(fb_h, 32))
+0:0x1EED6 t2_mov(1, 1, 4 * 1024 * align(fb_h, 32))
+0:0x1F222 t2_mov(1, 2, 4 * 1024 * align(fb_h, 32))
+0:0x1F7F8 t2_mov(1, 2, 4 * 1024 * align(fb_h, 32))
+0:0x1F2FA t2_mov(0, 2, 4 * 1024 * align(fb_h, 32)) . 1144 1CE0 r
+0:0x1F338 DFE7 r . nop
+
+# Fantasy Hero: Unsigned Legacy [ASIA 1.00]
+[PCSH00157, eboot.bin, 0xE9609E2F]
+@FB
+0:0x1E31E t2_mov(1, 2, 0x5600000 - (6 * 1024 * 1024))
+0:0x1E33A t2_mov(1, 1, 0x5600000 - (6 * 1024 * 1024))
+0:0x1E354 t2_mov(1, 2, 0x5600000 - (6 * 1024 * 1024))
+0:0x1F016 t2_mov(1, 1, fb_w) . t2_mov(1, 2, fb_h)
+0:0x1F108 t2_mov(1, 1, fb_w) . t2_mov(1, 0, fb_h)
+0:0x1FCA6 t2_mov(1, 2, fb_w) . t2_mov(1, 1, fb_h)
+0:0x1EFD0 t2_mov(1, 0, fb_w)
+0:0x1EFCA t2_mov(1, 0, fb_h)
+0:0x1F208 t2_mov(1, 0, align(fb_w, 32))
+0:0x1F20E t2_mov(1, 0, align(fb_h, 32))
+0:0x201DA t2_mov(1, 1, align(fb_w, 32))
+0:0x20214 t2_mov(1, 1, align(fb_h, 32))
+0:0x20146 t2_mov(1, 1, align(fb_w, 32))
+0:0x20180 t2_mov(1, 1, align(fb_h, 32))
+0:0x1FE34 t2_mov(1, 1, align(fb_w, 32))
+0:0x1FE6E t2_mov(1, 1, align(fb_h, 32))
+0:0x1FF5C t2_mov(1, 0, fb_w / 2) . nop *3
+0:0x1FFA6 t2_mov(1, 0, fb_h / 2) . nop *3
+0:0x20038 01 F2 r . rawn(fb_w - 1, 1) . rawn((fb_w - 1) >> 4 & 0xF0 | 0x02, 1)
+0:0x20040 04 F2 r . rawn(fb_h - 1, 1) . rawn((fb_h - 1) >> 4 & 0xF0 | 0x02, 1)
+0:0x1F5B6 t2_mov(1, 4, align(fb_w, 32))
+0:0x1F5A0 t2_mov(1, 3, align(fb_h, 32))
+0:0x1F62A t2_mov(1, 1, align(fb_w, 32))
+0:0x1F618 t2_mov(1, 3, align(fb_h, 32))
+0:0x1F730 t2_mov(1, 1, align(fb_w, 32))
+0:0x1F76C t2_mov(1, 1, align(fb_h, 32))
+0:0x1F214 t2_mov(1, 0, 4 * 1024 * align(fb_h, 32))
+0:0x1F21A t2_mov(1, 1, 4 * 1024 * align(fb_h, 32))
+0:0x1F5E6 t2_mov(1, 2, 4 * 1024 * align(fb_h, 32))
+0:0x1FBBC t2_mov(1, 2, 4 * 1024 * align(fb_h, 32))
+0:0x1F6BE t2_mov(0, 2, 4 * 1024 * align(fb_h, 32)) . 1144 1CE0 r
+0:0x1F6FC DFE7 r . nop
