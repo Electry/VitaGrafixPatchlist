@@ -2014,3 +2014,8 @@
 0:0x1FBBC t2_mov(1, 2, 4 * 1024 * align(fb_h, 32))
 0:0x1F6BE t2_mov(0, 2, 4 * 1024 * align(fb_h, 32)) . 1144 1CE0 r
 0:0x1F6FC DFE7 r . nop
+
+# I am Setsuna [JP 1.00]
+[PCSG00756, eboot.bin, 0x89B603C7]
+@FPS
+0:0x186F4 a1_mov(0, 0, vblank)
