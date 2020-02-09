@@ -16,6 +16,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | - | ------------- | ------------- | ------------------ | ------------- | ------------------- |
 | ![][NOISSUES] | Assassin's Creed III: Liberation | PCSB00074 <br/> PCSE00053 <br/> PCSG00116 | Internal res. <br/> FPS cap. | 720x408 <br/> 30 | |
 | ![][NOISSUES] | Asphalt: Injection | PCSB00040 <br/> PCSE00007 | Internal res. | 720x408 | |
+| ![][NOISSUES] | Blue Reflection: Maboroshi ni Mau - Shoujo no Ken | PCSG00987 | Internal res. | 960x442 | |
 | ![][NOISSUES] | Borderlands 2 | PCSF00570 <br/> PCSF00576 <br/> PCSE00383 <br/> PCSG00400 | Framebuffer | 960x544 | |
 | ![][NOISSUES] | Catherine: Full Body | PCSG01179 | Internal res. | 720x408 | |
 | ![][NOISSUES] | Dead or Alive 5 Plus | PCSB00296 <br/> PCSE00235 <br/> PCSG00167 | Internal res. | 720x408 | |

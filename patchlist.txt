@@ -2100,3 +2100,9 @@
 @IB
 0:0x479446 t2_mov(1, 1, 0x900000)
 0:0x32FAD6 t2_mov(1, 4, ib_w) . t2_mov(1, 5, ib_h)
+
+# Blue Reflection: Maboroshi ni Mau - Shoujo no Ken [JP 1.05]
+[PCSG00987, eboot.bin, 0xB2361C99]
+@ib
+0:0x31716C t2_mov(1, 0, align(ib_w, 32))
+0:0x317172 t2_mov(1, 0, ib_h)
