@@ -2088,3 +2088,15 @@
 0:0xF779A t2_mov(1, 2, ib_h)
 @FPS
 0:0x3225CA t1_mov(0, vblank)
+
+# Gundam Breaker 2 [JP 1.03]
+[PCSG00412, eboot.bin, 0xED0CCF84]
+@IB
+0:0x47942A t2_mov(1, 1, 0x900000)
+0:0x32FABE t2_mov(1, 4, ib_w) . t2_mov(1, 5, ib_h)
+
+# Gundam Breaker 2 [ASIA 1.03]
+[PCSH00132, eboot.bin, 0x52E6D297]
+@IB
+0:0x479446 t2_mov(1, 1, 0x900000)
+0:0x32FAD6 t2_mov(1, 4, ib_w) . t2_mov(1, 5, ib_h)

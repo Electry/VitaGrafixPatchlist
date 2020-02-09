@@ -31,6 +31,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Fate/EXTELLA LINK | PCSE01254 <br/> PCSG01091 <br/> PCSH10121 | Internal res. | 720x408 | |
 | ![][NOISSUES] | F1 2011 | PCSB00027 <br/> PCSE00002 | Internal res. | 640x384 | |
 | ![][NOISSUES] | God of War Collection | PCSF00438 <br/> PCSA00126 <br/> PCSC00059 | Framebuffer <br/> FPS cap | 720x408 <br/> 30 | |
+| ![][NOISSUES] | Gundam Breaker 2 | PCSG00412 <br/> PCSH00132 | Internal res. | 720x408 | |
 | ![][PLAYABLE] | Hatsune Miku: Project Diva f | PCSB00419 <br/> PCSE00326 <br/> PCSG00074 | Internal res. <br/> FPS cap | 640x352 <br/> 30 | [#120](https://github.com/Electry/VitaGrafix/issues/120), [#81](https://github.com/Electry/VitaGrafix/issues/81) |
 | ![][PLAYABLE] | Hatsune Miku: Project Diva f 2nd | PCSB00554 <br/> PCSE00434 <br/> PCSG00205 <br/> PCSH00088 | Internal res. <br/> FPS cap | 720x408 <br/> 30 | [#120](https://github.com/Electry/VitaGrafix/issues/120), [#80](https://github.com/Electry/VitaGrafix/issues/80) |
 | ![][NOISSUES] | Hatsune Miku: Project Diva X | PCSB01007 <br/> PCSE00867 <br/> PCSH00176 <br/> PCSG00683 | Internal res. | 720x408 | |
