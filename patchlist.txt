@@ -2106,3 +2106,27 @@
 @ib
 0:0x31716C t2_mov(1, 0, align(ib_w, 32))
 0:0x317172 t2_mov(1, 0, ib_h)
+
+# Atelier Firis: The Alchemist and the Mysterious Journey [EU 1.01]
+[PCSB01087, eboot.bin, 0xCA8D14AC]
+@IB
+0:0x35E0DC t2_mov(1, 0, align(ib_w, 32))
+0:0x35E0E2 t2_mov(1, 0, ib_h)
+
+# Atelier Firis: The Alchemist and the Mysterious Journey [US 1.01]
+[PCSE01044, eboot.bin, 0x79850565]
+@IB
+0:0x35E0B8 t2_mov(1, 0, align(ib_w, 32))
+0:0x35E0BE t2_mov(1, 0, ib_h)
+
+# Atelier Firis: The Alchemist and the Mysterious Journey [JP 1.10]
+[PCSG00929, eboot.bin, 0xD07894DD]
+@IB
+0:0x35DCDC t2_mov(1, 0, align(ib_w, 32))
+0:0x35DCE2 t2_mov(1, 0, ib_h)
+
+# Atelier Firis: The Alchemist and the Mysterious Journey [ASIA 1.01]
+[PCSH10026, eboot.bin, 0xA6FFD15B]
+@IB
+0:0x35DE48 t2_mov(1, 0, align(ib_w, 32))
+0:0x35DE4E t2_mov(1, 0, ib_h)
