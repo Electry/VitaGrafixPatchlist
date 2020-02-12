@@ -2191,3 +2191,9 @@
 0:0x353C70 t2_mov(1, 3, ib_w)
 0:0xB5F44 t2_mov(1, 1, ib_h)
 1:0xB3714 uint32(ib_h)
+
+# Nelke to Densetsu no Renkinjutsushi Tachi: Aratana Daichi no Atelier [JP 1.06]
+[PCSG01223, eboot.bin, 0x12B8EB7E]
+@IB
+0:0x348E78 t2_mov(1, 0, align(ib_w, 32))
+0:0x348E7E t2_mov(1, 0, ib_h)

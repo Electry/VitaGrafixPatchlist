@@ -68,6 +68,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | MUD - FIM Motocross World Championship | PCSB00182 <br/> PCSE00219 | Internal res. | 704x448 | |
 | ![][NOISSUES] | MXGP: The Official Motocross Videogame | PCSB00470 <br/> PCSE00530 | Internal res. | 704x448 | |
 | ![][NOISSUES] | Need for Speed: Most Wanted | PCSB00183 <br/> PCSE00089 <br/> PCSG00106 | Internal res. | 640x368 | |
+| ![][NOISSUES] | Nelke to Densetsu no Renkinjutsushi Tachi: Aratana Daichi no Atelier | PCSG01223 | Internal res. | 960x442 | |
 | ![][NOISSUES] | Ninja Gaiden Sigma 2 Plus | PCSB00294 <br/> PCSE00233 <br/> PCSG00157 | 2x Internal res. | 864x480, 640x416 | |
 | ![][NOISSUES] | One Piece: Burning Blood | PCSB00893 <br/> PCSE00808 <br/> PCSH00202 | Internal res. | 704x384 | |
 | ![][NOISSUES] | Persona 4 Golden | PCSB00245 <br/> PCSE00120 <br/> PCSG00004 <br/> PCSG00563 <br/> PCSH00021 | Internal res. | 840x476 | |
