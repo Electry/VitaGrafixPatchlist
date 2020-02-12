@@ -19,6 +19,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Atelier Firis: The Alchemist and the Mysterious Journey | PCSB01087 <br/> PCSE01044 <br/> PCSG00929 <br/> PCSH10026 | Internal res. | 960x442 | |
 | ![][NOISSUES] | Atelier Lydie & Soeur: Fushigi na Kaiga no Renkinjutsu Samurai | PCSG01116 | Internal res. | 960x442 | |
 | ![][NOISSUES] | Atelier Shallie Plus: Alchemists of the Dusk Sea | PCSB01043 <br/> PCSE00998 <br/> PCSG00821 | Internal res. | 960x408 | |
+| ![][NOISSUES] | Atelier Sophie: The Alchemist of the Mysterious Book | PCSB00973 <br/> PCSE00892 <br/> PCSG00694 <br/> PCSH00220 | Internal res. | 960x442 | |
 | ![][NOISSUES] | Blue Reflection: Maboroshi ni Mau - Shoujo no Ken | PCSG00987 | Internal res. | 960x442 | |
 | ![][NOISSUES] | Borderlands 2 | PCSF00570 <br/> PCSF00576 <br/> PCSE00383 <br/> PCSG00400 | Framebuffer | 960x544 | |
 | ![][NOISSUES] | Catherine: Full Body | PCSG01179 | Internal res. | 720x408 | |
