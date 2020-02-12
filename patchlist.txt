@@ -2145,3 +2145,9 @@
 0:0x300670 t2_mov(1, 1, align(ib_w, 32)) . t2_mov(1, 2, ib_h)
 0:0x30059E t2_mov(1, 1, align(ib_w, 32))
 0:0x3005A4 t2_mov(1, 2, ib_h)
+
+# Atelier Lydie & Soeur: Fushigi na Kaiga no Renkinjutsu Samurai [JP 1.06]
+[PCSG01116, eboot.bin, 0xFDABB61E]
+@IB
+0:0x32FBF4 t2_mov(1, 0, align(ib_w, 32))
+0:0x32FBFA t2_mov(1, 0, ib_h)
