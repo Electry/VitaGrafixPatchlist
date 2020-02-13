@@ -2218,3 +2218,15 @@
 0:0x8EDDC nop
 0:0x8EE20 DEE7 r . nop
 0:0x8EDE0 t1_mov(0, vblank) . 75F0F6E9 1DE0 r
+
+# Phantasy Star Nova [JP 1.05]
+[PCSG00351, eboot.bin, 0xADCF21BE]
+@IB
+0:0x42D2B2 t2_mov(1, 0, ib_w)
+0:0x42D2B8 t2_mov(1, 2, ib_h)
+
+# Phantasy Star Nova [ASIA 1.01]
+[PCSH00143, eboot.bin, 0xF1E54902]
+@IB
+0:0x42E3EE t2_mov(1, 0, ib_w)
+0:0x42E3F4 t2_mov(1, 2, ib_h)
