@@ -2197,3 +2197,24 @@
 @IB
 0:0x348E78 t2_mov(1, 0, align(ib_w, 32))
 0:0x348E7E t2_mov(1, 0, ib_h)
+
+# Lumines: Electronic Symphony [EU 1.02]
+[PCSB00061, eboot.bin, 0x805B6438]
+@FPS
+0:0x929DE nop
+0:0x92A22 DEE7 r . nop
+0:0x929E2 t1_mov(0, vblank) . 72F0CEED 1DE0 r
+
+# Lumines: Electronic Symphony [US 1.01]
+[PCSE00009, eboot.bin, 0x870C9A3D]
+@FPS
+0:0x929BA nop
+0:0x929FE DEE7 r . nop
+0:0x929BE t1_mov(0, vblank) . 72F0CCED 1DE0 r
+
+# Lumines: Electronic Symphony [JP 1.01]
+[PCSG00014, eboot.bin, 0x3B868E2D]
+@FPS
+0:0x8EDDC nop
+0:0x8EE20 DEE7 r . nop
+0:0x8EDE0 t1_mov(0, vblank) . 75F0F6E9 1DE0 r
