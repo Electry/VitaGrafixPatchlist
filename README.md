@@ -71,6 +71,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Need for Speed: Most Wanted | PCSB00183 <br/> PCSE00089 <br/> PCSG00106 | Internal res. | 640x368 | |
 | ![][NOISSUES] | Nelke to Densetsu no Renkinjutsushi Tachi: Aratana Daichi no Atelier | PCSG01223 | Internal res. | 960x442 | |
 | ![][NOISSUES] | Ninja Gaiden Sigma 2 Plus | PCSB00294 <br/> PCSE00233 <br/> PCSG00157 | 2x Internal res. | 864x480, 640x416 | |
+| ![][NOISSUES] | Oddworld: Munch's Oddysee HD | PCSB00275 <br/> PCSE00369 | FPS cap | 30 | |
 | ![][NOISSUES] | One Piece: Burning Blood | PCSB00893 <br/> PCSE00808 <br/> PCSH00202 | Internal res. | 704x384 | |
 | ![][NOISSUES] | Persona 4 Golden | PCSB00245 <br/> PCSE00120 <br/> PCSG00004 <br/> PCSG00563 <br/> PCSH00021 | Internal res. | 840x476 | |
 | ![][NOISSUES] | Phantasy Star Nova | PCSG00351 <br/> PCSH00143 | Internal res. | 960x544 | |
