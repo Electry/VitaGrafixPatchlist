@@ -74,6 +74,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | One Piece: Burning Blood | PCSB00893 <br/> PCSE00808 <br/> PCSH00202 | Internal res. | 704x384 | |
 | ![][NOISSUES] | Persona 4 Golden | PCSB00245 <br/> PCSE00120 <br/> PCSG00004 <br/> PCSG00563 <br/> PCSH00021 | Internal res. | 840x476 | |
 | ![][NOISSUES] | Phantasy Star Nova | PCSG00351 <br/> PCSH00143 | Internal res. | 960x544 | |
+| ![][NOISSUES] | Project Root | PCSB00650 <br/> PCSE00486 <br/> PCSG00783 | FPS cap | 30 | |
 | ![][NOISSUES] | Puella Magi Madoka Magica: The Battle Pentagram | PCSG00214 | Internal res. <br/> FPS cap | 704x448 <br/> 30 | |
 | ![][NOISSUES] | Ratchet & Clank | PCSF00484 <br/> PCSF00482 <br/> PCSA00133 | Framebuffer | 720x408 | |
 | ![][NOISSUES] | Ratchet & Clank 2: Locked and Loaded / Going Commando | PCSF00485 <br/> PCSF00482 <br/> PCSA00133 | Framebuffer | 720x408 | |

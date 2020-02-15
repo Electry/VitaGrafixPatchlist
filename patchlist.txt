@@ -2230,3 +2230,14 @@
 @IB
 0:0x42E3EE t2_mov(1, 0, ib_w)
 0:0x42E3F4 t2_mov(1, 2, ib_h)
+
+# Project Root
+[PCSB00650, eboot.bin, 0x5001CEBE] # [EU 1.00]
+[PCSE00486, eboot.bin, 0x5001CEBE] # [US 1.00]
+@FPS
+0:0x11745C t1_mov(0, vblank)
+
+# Project Root [JP 1.00]
+[PCSG00783, eboot.bin, 0x88F8E42C]
+@FPS
+0:0x1175DC t1_mov(0, vblank)
