@@ -91,6 +91,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Soul Sacrifice | PCSF00178 <br/> PCSA00092 <br/> PCSD00065 <br/> PCSC00039 | Internal res. | 720x408 | |
 | ![][NOISSUES] | Soul Sacrifice Delta | PCSF00532 <br/> PCSA00152 <br/> PCSD00079 <br/> PCSC00049 | Internal res. | 720x408 | |
 | ![][PLAYABLE] | Spy Hunter | PCSB00166 <br/> PCSE00068 | Framebuffer <br/> FPS cap <br/> MSAA | 640x368 <br/> 30 <br/> 4x | |
+| ![][NOISSUES] | SteamWorld Heist | PCSB00693 <br/> PCSE00583 | FPS cap | 30 | |
 | ![][NOISSUES] | Street Fighter X Tekken | PCSB00144 <br/> PCSE00005 <br/> PCSG00063 | Internal res. | 640x480 | |
 | ![][NOISSUES] | Summon Night 6: Lost Borders | PCSB01013 <br/> PCSE00951 <br/> PCSG00827 <br/> PCSH00225 | MSAA | 2x | |
 | ![][NOISSUES] | Supremacy MMA: Unrestricted | PCSE00012 | Internal res. | 720x408 | |
