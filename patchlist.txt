@@ -233,12 +233,27 @@
 0:0x36C222 t3_mov(0, 768)
 0:0x36C226 00FB03F4 3DF10DBD r
 
-# Asphalt: Injection
-[PCSB00040, eboot.bin, 0x61A666FB] # [EU 1.00]
-[PCSE00007, eboot.bin, 0xA8F00ABD] # [US 1.00]
-@IB
-1:0x5A2C uint32(ib_w)
-1:0x5A30 uint32(ib_h)
+# Asphalt: Injection [EU 1.00]
+[PCSB00040, eboot.bin, 0x61A666FB]
+@FB
+1:0x5A2C uint32(fb_w)
+1:0x5A30 uint32(fb_h)
+@FPS
+0:0x1D50B8 t1_mov(1, 1)
+0:0x1D50D8 nop
+0:0x18998 uint8(ceil(1000.0 / (60.0 / vblank) - 1)) . 28r
+0:0x189B8 uint8(ceil(1000.0 / (60.0 / vblank) - 1)) . 28r
+
+# Asphalt: Injection [US 1.00]
+[PCSE00007, eboot.bin, 0xA8F00ABD]
+@FB
+1:0x5A2C uint32(fb_w)
+1:0x5A30 uint32(fb_h)
+@FPS
+0:0x1D50C0 t1_mov(1, 1)
+0:0x1D50E0 nop
+0:0x18998 uint8(ceil(1000.0 / (60.0 / vblank) - 1)) . 28r
+0:0x189B8 uint8(ceil(1000.0 / (60.0 / vblank) - 1)) . 28r
 
 # LEGO Star Wars: The Force Awakens [EU 1.00]
 [PCSB00877, eboot.bin, 0x0C927256]

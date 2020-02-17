@@ -15,7 +15,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 |   | Game          | Title ID(s)   | Supported features | Game defaults | Notes.............. |
 | - | ------------- | ------------- | ------------------ | ------------- | ------------------- |
 | ![][NOISSUES] | Assassin's Creed III: Liberation | PCSB00074 <br/> PCSE00053 <br/> PCSG00116 | Internal res. <br/> FPS cap. | 720x408 <br/> 30 | |
-| ![][NOISSUES] | Asphalt: Injection | PCSB00040 <br/> PCSE00007 | Internal res. | 720x408 | |
+| ![][NOISSUES] | Asphalt: Injection | PCSB00040 <br/> PCSE00007 | Framebuffer <br/> FPS cap | 720x408 <br/> 50 | |
 | ![][NOISSUES] | Atelier Firis: The Alchemist and the Mysterious Journey | PCSB01087 <br/> PCSE01044 <br/> PCSG00929 <br/> PCSH10026 | Internal res. | 960x442 | |
 | ![][NOISSUES] | Atelier Lydie & Soeur: Fushigi na Kaiga no Renkinjutsu Samurai | PCSG01116 | Internal res. | 960x442 | |
 | ![][NOISSUES] | Atelier Shallie Plus: Alchemists of the Dusk Sea | PCSB01043 <br/> PCSE00998 <br/> PCSG00821 | Internal res. | 960x408 | |
