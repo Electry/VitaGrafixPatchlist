@@ -7,9 +7,9 @@
 #
 
 # IA/VT Colorful [JP 1.00]
-[PCSG00355,eboot.bin,0x21A1D3A9]
+[PCSG00355, eboot.bin, 0x21A1D3A9]
 @FPS
-0:0xd3c98 t2_mov(0,0,(3-vblank)*30)
+0:0xD3C98 t2_mov(0,0,(3-vblank)*30)
 
 # Killzone Mercenary
 [PCSF00243, eboot.bin, 0x8659827D] # [EU 1.12]
