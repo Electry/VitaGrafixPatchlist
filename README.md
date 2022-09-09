@@ -42,6 +42,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Hatsune Miku: Project Diva X | PCSB01007 <br/> PCSE00867 <br/> PCSH00176 <br/> PCSG00683 | Internal res. | 720x408 | |
 | ![][PLAYABLE] | Helldivers | PCSF00465 <br/> PCSA00134 <br/> PCSC00078 <br/> PCSD00086 <br/> PCSD00097 | Framebuffer | 960x544 | [#82](https://github.com/Electry/VitaGrafixPatchlist/issues/82) |
 | ![][NOISSUES] | I am Setsuna | PCSG00756 | FPS cap | 30 | |
+| ![][PLAYABLE] | IA/VT Colorful | PCSG00355 | FPS cap | 30 | |
 | ![][PLAYABLE] | Injustice: Gods Among Us | PCSB00356 <br/> PCSE00271 | Framebuffer | 720x408 | [#82](https://github.com/Electry/VitaGrafixPatchlist/issues/82) |
 | ![][NOISSUES] | Jak and Daxter: The Precursor Legacy | PCSF00247 <br/> PCSF00248 <br/> PCSA00080 | Framebuffer <br/> FPS cap | 720x408 <br/> 20 | |
 | ![][NOISSUES] | Jak II | PCSF00247 <br/> PCSF00249 <br/> PCSA00080 | Framebuffer | 720x408 | |

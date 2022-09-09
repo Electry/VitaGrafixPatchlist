@@ -6,6 +6,11 @@
 # Required version: v5.0.1 or newer
 #
 
+# IA/VT Colorful [JP 1.00]
+[PCSG00355,eboot.bin,0x21A1D3A9]
+@FPS
+0:0xd3c98 t2_mov(0,0,(3-vblank)*30)
+
 # Killzone Mercenary
 [PCSF00243, eboot.bin, 0x8659827D] # [EU 1.12]
 [PCSF00403, eboot.bin, 0x6C74F8E9] # [EU 1.12]
