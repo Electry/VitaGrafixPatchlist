@@ -389,6 +389,7 @@
 
 # Hatsune Miku: Project Diva f
 [PCSB00419, eboot.bin, 0x544807B3] # [EU 1.00]
+[MMFE21622, eboot.bin, 0x1BA9AC18] # [MEGAMIX -F Edition- mod 1.00]
 [PCSE00326, eboot.bin, 0x1BA9AC18] # [US 1.00]
 @IB
 0:0x2828C4 t2_mov(0, 1, ib_w)
@@ -396,6 +397,8 @@
 0:0x28207C t2_mov(1, 2, ib_w)
 0:0x282084 t2_mov(1, 3, ib_h)
 @FPS
+0:0x12E24 DCF88083 r
+0:0x12E28 DCF88493 r
 0:0x136C4 t1_mov(0, vblank)
 0:0x13948 F7EE000A r
 
@@ -421,6 +424,9 @@
 @FPS
 0:0xA994 t1_mov(0, vblank)
 0:0xAAF2 F7EE000A r
+0:0x2896F6 DCF88083 r
+0:0x2896FE DCF88493 r
+0:0x2849b4 2022 r
 
 # Hatsune Miku: Project Diva f 2nd [JP 1.01]
 [PCSG00205, eboot.bin, 0x4AAABD3D]
