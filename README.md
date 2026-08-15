@@ -27,14 +27,16 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 ⚪ - not configurable - deemed unnecessary (e.g. =FB - scales with framebuffer automatically)<br>
 
 **GAME QUIRKS**<br>
-🎛️ - Memory reallocation required - RAM/VRAM must be freed elsewhere to make room for larger display buffer(s)<br>
-🖼️ - UI elements use static sizing - must be manually resized for different resolutions<br>
-🌤️ - Graphics effects are baked-in - must be manually adjusted to render properly at different resolutions or FPS<br>
-🔐 - Internal FPS lock - must be removed or adjusted to allow higher FPS<br>
-⏱️ - Gameplay speed is tied to framerate - must be adjusted to work correctly at different FPS<br>
-👆 - Touch input alignment required - must be adjusted to calculate correct coordinates at different resolutions<br>
-🎮 - Button polling needs adjustment - must be adjusted to not miss button presses at different FPS<br>
-🏁 - MSAA configuration is supported (experimental) - supports configuring off/2x/4x MSAA modes<br>
+🎛️ <!-- mem_realloc --> - Memory reallocation required - RAM/VRAM must be freed elsewhere to make room for larger display buffer(s)<br>
+🧩 <!-- res_fixed_modes --> - Fixed resolution modes - Only specific internal resolutions are supported<br>
+📐 <!-- ar_viewport --> - Viewport aspect ratio linked - Using a resolution with a different AR changes the viewport AR<br>
+🖼️ <!-- ui_static --> - Static UI element sizing - must be manually resized for different resolutions<br>
+🌤️ <!-- fx_static --> - Baked-in graphics effects - must be manually adjusted to render properly at different resolutions or FPS<br>
+🔐 <!-- fps_lock --> - Internal FPS lock - must be removed or adjusted to allow higher FPS<br>
+⏱️ <!-- fps_game_speed --> - Gameplay speed tied to framerate - must be adjusted to work correctly at different FPS<br>
+👆 <!-- touch_recalc --> - Touch input alignment required - must be adjusted to calculate correct coordinates at different resolutions<br>
+🎮 <!-- button_poll --> - Button polling adjustment required - must be adjusted to not miss button presses at different FPS<br>
+🏁 <!-- msaa_config --> - Experimental MSAA configuration support - supports configuring off/2x/4x MSAA modes<br>
 
 ## Patchlist
 
