@@ -1,0 +1,7 @@
+# Phantasy Star Nova [JP]
+
+# v1.05
+[PCSG00351, eboot.bin, 0xADCF21BE]
+@IB
+0:0x42D2B2 t2_mov(1, 0, ib_w)
+0:0x42D2B8 t2_mov(1, 2, ib_h)

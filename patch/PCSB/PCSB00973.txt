@@ -1,0 +1,11 @@
+# Atelier Sophie: The Alchemist of the Mysterious Book [EU]
+
+# v1.01
+[PCSB00973, eboot.bin, 0x6E045C8F]
+@IB
+0:0x358E60 t2_mov(1, 1, ib_w)
+0:0x358E6C t2_mov(1, 2, ib_h)
+0:0x358E84 t2_mov(1, 1, ib_w) . t2_mov(1, 2, ib_h)
+0:0x354BCC t2_mov(1, 3, ib_w)
+0:0xB61CC t2_mov(1, 1, ib_h)
+1:0xB3704 uint32(ib_h)

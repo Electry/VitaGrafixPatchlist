@@ -1,0 +1,7 @@
+# Utawarerumono: Mask of Truth [US]
+
+# v1.00
+[PCSE01102, eboot.bin, 0xD7BF5875]
+@IB
+0:0x154AA8 a1_mov(0, 0, ib_w)
+0:0x154AB0 a1_mov(0, 1, ib_h)

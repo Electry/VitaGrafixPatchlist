@@ -1,0 +1,6 @@
+# I am Setsuna [JP]
+
+# v1.00
+[PCSG00756, eboot.bin, 0x89B603C7]
+@FPS
+0:0x186F4 a1_mov(0, 0, vblank)

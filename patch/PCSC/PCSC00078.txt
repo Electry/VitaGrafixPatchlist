@@ -1,0 +1,7 @@
+# Helldivers [JP]
+
+# v7.01
+[PCSC00078, eboot.bin, 0x32DF0B56]
+@FB
+0:0x33FAC t2_mov(1, 0, fb_w)
+0:0x33FB4 t2_mov(1, 3, fb_h)

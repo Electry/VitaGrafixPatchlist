@@ -1,0 +1,7 @@
+# Fate/EXTELLA LINK [US]
+
+# v1.01
+[PCSE01254, eboot.bin, 0x69300D95]
+@IB
+0:0x6D16B4 t2_mov(0, 0, ib_w)
+0:0x6D16BA t2_mov(0, 0, ib_h)

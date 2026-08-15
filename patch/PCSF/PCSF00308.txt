@@ -1,0 +1,6 @@
+# Disney Epic Mickey 2: The Power of Two [EU]
+
+# v1.00
+[PCSF00308, eboot.bin, 0xE13F06A1]
+@IB
+0:0x106EF3C uint32(ib_w) . uint32(ib_h)

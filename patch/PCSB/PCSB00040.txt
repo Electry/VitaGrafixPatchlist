@@ -1,0 +1,12 @@
+# Asphalt: Injection [EU]
+
+# v1.00
+[PCSB00040, eboot.bin, 0x61A666FB]
+@FB
+1:0x5A2C uint32(fb_w)
+1:0x5A30 uint32(fb_h)
+@FPS
+0:0x1D50B8 t1_mov(1, 1)
+0:0x1D50D8 nop
+0:0x18998 uint8(ceil(1000.0 / (60.0 / vblank) - 1)) . 28r
+0:0x189B8 uint8(ceil(1000.0 / (60.0 / vblank) - 1)) . 28r

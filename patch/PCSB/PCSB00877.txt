@@ -1,0 +1,12 @@
+# LEGO Star Wars: The Force Awakens [EU]
+
+# v1.00
+[PCSB00877, eboot.bin, 0x0C927256]
+@IB
+0:0x2241C4 t2_mov(1, 1, 0xA00000)
+0:0x1F313E t2_mov(1, 4, ib_w)
+0:0x1F3144 t2_mov(1, 5, ib_h)
+1:0x4650 uint32(ib_w)
+1:0x4654 uint32(ib_h)
+0:0x223AF6 t2_mov(0, 0, 640) . (nop *3)
+0:0x223B36 t2_mov(0, 0, 368) . (nop *3)

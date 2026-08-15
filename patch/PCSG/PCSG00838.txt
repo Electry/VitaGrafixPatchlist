@@ -1,0 +1,7 @@
+# Utawarerumono: Futari no Hakuoro [JP]
+
+# v1.04
+[PCSG00838, eboot.bin, 0x7AF4E467]
+@IB
+0:0x152698 a1_mov(0, 0, ib_w)
+0:0x1526A0 a1_mov(0, 1, ib_h)

@@ -1,0 +1,7 @@
+# MXGP: The Official Motocross Videogame [US]
+
+# v1.00
+[PCSE00530, eboot.bin, 0xD33CA0EC]
+@IB
+0:0xB1D36A t2_mov(1, 0, ib_w)
+0:0xB1D370 t2_mov(1, 5, ib_h)

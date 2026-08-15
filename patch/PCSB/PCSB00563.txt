@@ -1,0 +1,12 @@
+# LEGO Batman 3: Beyond Gotham [EU]
+
+# v1.01
+[PCSB00563, eboot.bin, 0x91AE1FF9]
+@IB
+0:0xFB442 t2_mov(1, 1, 0x800000)
+0:0xCD394 t2_mov(1, 4, ib_w)
+0:0xCD39A t2_mov(1, 5, ib_h)
+1:0x2E5C uint32(ib_w)
+1:0x2E60 uint32(ib_h)
+0:0xFADB6 t2_mov(0, 0, 640) . (nop *3)
+0:0xFADF6 t2_mov(0, 0, 368) . (nop *3)

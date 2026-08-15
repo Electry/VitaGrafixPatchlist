@@ -1,0 +1,6 @@
+# Supremacy MMA: Unrestricted [US]
+
+# v1.00
+[PCSE00012, eboot.bin, 0x860FE0A7]
+@IB
+0:0x58EBA t2_mov(1, 1, ib_w) . t2_mov(1, 2, ib_h)

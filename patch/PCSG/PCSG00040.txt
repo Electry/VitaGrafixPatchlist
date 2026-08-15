@@ -1,0 +1,8 @@
+# Kidou Senshi Gundam Seed: Battle Destiny [JP]
+
+# v1.01
+[PCSG00040, eboot.bin, 0x657F506B]
+@IB
+0:0x7761EC uint32(ib_w) . uint32(ib_h)
+@FPS
+0:0x72189C a1_mov(0, 0, vblank)

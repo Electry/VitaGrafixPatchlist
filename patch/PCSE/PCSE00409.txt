@@ -1,0 +1,7 @@
+# MotoGP 13 [US]
+
+# v1.00
+[PCSE00409, eboot.bin, 0xC88435BD]
+@IB
+0:0xAA622C t2_mov(1, 0, ib_w)
+0:0xAA6232 t2_mov(1, 5, ib_h)

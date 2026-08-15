@@ -1,0 +1,7 @@
+# Fate/EXTELLA LINK [JP]
+
+# v1.08
+[PCSG01091, eboot.bin, 0xA46AF105]
+@IB
+0:0x6CB8CC t2_mov(0, 0, ib_w)
+0:0x6CB8D2 t2_mov(0, 0, ib_h)

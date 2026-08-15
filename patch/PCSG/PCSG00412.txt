@@ -1,0 +1,7 @@
+# Gundam Breaker 2 [JP]
+
+# v1.03
+[PCSG00412, eboot.bin, 0xED0CCF84]
+@IB
+0:0x47942A t2_mov(1, 1, 0x900000)
+0:0x32FABE t2_mov(1, 4, ib_w) . t2_mov(1, 5, ib_h)

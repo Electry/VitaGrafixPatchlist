@@ -1,0 +1,7 @@
+# Atelier Firis: The Alchemist and the Mysterious Journey [JP]
+
+# v1.10
+[PCSG00929, eboot.bin, 0xD07894DD]
+@IB
+0:0x35DCDC t2_mov(1, 0, align(ib_w, 32))
+0:0x35DCE2 t2_mov(1, 0, ib_h)

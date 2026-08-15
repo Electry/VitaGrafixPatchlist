@@ -1,0 +1,9 @@
+# Sly Cooper 3: Honor Among Thieves [EU]
+
+# v1.00
+[PCSF00271, eboot.bin, 0xCE18232F]
+@FB
+0:0x1692AC t2_mov(1, 1, fb_w)
+0:0x1692B2 t2_mov(1, 1, fb_h)
+@FPS
+0:0x1822EC t1_mov(0, vblank)

@@ -1,0 +1,33 @@
+# God of War Collection: God of War [JP]
+# God of War Collection: God of War II [JP]
+
+# v1.00
+[PCSC00059, GOW1.self, 0x990F8128]
+@FB
+0:0x9E1E6 t2_mov(1, 4, fb_w)
+0:0x9E1EE t2_mov(1, 2, fb_h)
+0:0x9F0C4 t2_mov(1, 0, fb_w)
+0:0x9F0CC t2_mov(1, 1, fb_h)
+0:0xA319A t2_mov(1, 7, fb_w)
+0:0xA31A0 t2_mov(1, 1, fb_h)
+0:0xCEEDA t2_mov(1, 0, fb_w)
+0:0xCEEE2 t2_mov(1, 2, fb_h)
+0:0xA106C t2_mov(1, 14, fb_h)
+@FPS
+0:0x9E1FC t1_mov(0, vblank)
+# God of War Collection [JP]
+
+# v1.00
+[PCSC00059, GOW2.self, 0x395A00F6]
+@FB
+0:0xCD7DA t2_mov(1, 4, fb_w)
+0:0xCD7E2 t2_mov(1, 2, fb_h)
+0:0xCE6B8 t2_mov(1, 0, fb_w)
+0:0xCE6C0 t2_mov(1, 1, fb_h)
+0:0xD2AAE t2_mov(1, 7, fb_w)
+0:0xD2AB4 t2_mov(1, 1, fb_h)
+0:0xFF476 t2_mov(1, 0, fb_w)
+0:0xFF47E t2_mov(1, 2, fb_h)
+0:0xD0980 t2_mov(1, 14, fb_h)
+@FPS
+0:0xCD7F0 t1_mov(0, vblank)

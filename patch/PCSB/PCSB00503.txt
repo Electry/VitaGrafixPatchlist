@@ -1,0 +1,20 @@
+# LEGO The Hobbit [EU]
+
+# v1.02
+[PCSB00503, eboot.bin, 0x49FEA6D2]
+@IB
+0:0xDF608 t2_mov(1, 1,0xA00000)
+0:0xB315E t2_mov(1, 3, ib_w)
+0:0xB3164 t2_mov(1, 4, ib_h)
+1:0x2CA8 uint32(ib_w)
+1:0x2CAC uint32(ib_h)
+0:0xDD9C4 t2_mov(0, 3, 640)
+0:0xDD9D0 t2_mov(0, 2, 368)
+0:0xDD9D8 nop
+0:0xDD9DE nop
+0:0xDD9E0 01EE902A r
+0:0xDDB6A t2_mov(0, 2, 368)
+0:0xDDB72 t2_mov(0, 3, 640)
+0:0xDDB76 nop
+0:0xDDB7E nop
+0:0xDDB84 00EE902A r

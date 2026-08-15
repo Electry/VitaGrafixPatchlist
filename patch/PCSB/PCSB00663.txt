@@ -1,0 +1,40 @@
+# Fantasy Hero: Unsigned Legacy [EU]
+
+# v1.00
+[PCSB00663, eboot.bin, 0xA52698D1]
+@FB
+0:0x1DFBA t2_mov(1, 2, 0x5600000 - (6 * 1024 * 1024))
+0:0x1DFD6 t2_mov(1, 1, 0x5600000 - (6 * 1024 * 1024))
+0:0x1DFF0 t2_mov(1, 2, 0x5600000 - (6 * 1024 * 1024))
+0:0x1ECB2 t2_mov(1, 1, fb_w) . t2_mov(1, 2, fb_h)
+0:0x1EDA4 t2_mov(1, 1, fb_w) . t2_mov(1, 0, fb_h)
+0:0x1F8C2 t2_mov(1, 2, fb_w) . t2_mov(1, 1, fb_h)
+0:0x1EC6C t2_mov(1, 0, fb_w)
+0:0x1EC66 t2_mov(1, 0, fb_h)
+0:0x1EEA4 t2_mov(1, 0, align(fb_w, 32))
+0:0x1EEAA t2_mov(1, 0, align(fb_h, 32))
+0:0x1FDF6 t2_mov(1, 1, align(fb_w, 32))
+0:0x1FE30 t2_mov(1, 1, align(fb_h, 32))
+0:0x1FD62 t2_mov(1, 1, align(fb_w, 32))
+0:0x1FD9C t2_mov(1, 1, align(fb_h, 32))
+0:0x1FA50 t2_mov(1, 1, align(fb_w, 32))
+0:0x1FA8A t2_mov(1, 1, align(fb_h, 32))
+0:0x1FB78 t2_mov(1, 0, fb_w / 2) . nop *3
+0:0x1FBC2 t2_mov(1, 0, fb_h / 2) . nop *3
+0:0x1FC54 01 F2 r . rawn(fb_w - 1, 1) . rawn((fb_w - 1) >> 4 & 0xF0 | 0x02, 1)
+0:0x1FC5C 04 F2 r . rawn(fb_h - 1, 1) . rawn((fb_h - 1) >> 4 & 0xF0 | 0x02, 1)
+0:0x1F1D2 t2_mov(1, 4, align(fb_w, 32))
+0:0x1F1BC t2_mov(1, 3, align(fb_h, 32))
+0:0x1F246 t2_mov(1, 1, align(fb_w, 32))
+0:0x1F234 t2_mov(1, 3, align(fb_h, 32))
+0:0x1F34C t2_mov(1, 1, align(fb_w, 32))
+0:0x1F388 t2_mov(1, 1, align(fb_h, 32))
+0:0x1EEB0 t2_mov(1, 0, 4 * 1024 * align(fb_h, 32))
+0:0x1EEB6 t2_mov(1, 1, 4 * 1024 * align(fb_h, 32))
+0:0x1F202 t2_mov(1, 2, 4 * 1024 * align(fb_h, 32))
+0:0x1F7D8 t2_mov(1, 2, 4 * 1024 * align(fb_h, 32))
+0:0x1F2DA t2_mov(0, 2, 4 * 1024 * align(fb_h, 32)) . 1144 1CE0 r
+0:0x1F318 DFE7 r . nop
+0:0x56A00 mov32  (0, 0.305 * (736.0 / align(fb_w, 32)), 4)
+0:0x569EE t3_mov (1, 0.310 * (416.0 / align(fb_h, 32)) & 0xffff)
+0:0x56A0C t1_movt(1, 0.310 * (416.0 / align(fb_h, 32)) >> 16)

@@ -1,0 +1,11 @@
+# Tokyo Xanadu [ASIA]
+
+# v1.00
+[PCSH10009, eboot.bin, 0x2BE0554C]
+@IB
+0:0xE7A48 t2_mov(1, 1, ib_w * 960 / 720)
+0:0xE7A4C t2_mov(1, 2, ib_h * 544 / 408)
+0:0xE7A82 t2_mov(1, 1, ib_w * 960 / 720)
+0:0xE7A86 t2_mov(1, 2, ib_h * 544 / 408)
+@MSAA
+0:0xE7A14 t1_mov(4, msaa * 2)

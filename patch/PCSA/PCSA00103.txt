@@ -1,0 +1,7 @@
+# RESOGUN [US]
+
+# v1.01
+[PCSA00103, eboot.bin, 0x871F1F8C]
+@FB
+0:0x165A28 t2_mov(1, 0, fb_w)
+0:0x165A2E t2_mov(1, 0, fb_h)

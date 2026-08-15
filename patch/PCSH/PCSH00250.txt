@@ -1,0 +1,9 @@
+# Dead or Alive Xtreme 3: Venus [ASIA]
+
+# v1.15
+[PCSH00250, eboot.bin, 0x754CBECE]
+@IB
+0:0x217732 t2_mov(1, 1, ib_wi(0))
+0:0x217738 t2_mov(1, 1, ib_hi(0))
+0:0x21773E t2_mov(1, 1, ib_wi(1))
+0:0x217744 t2_mov(1, 1, ib_hi(1))

@@ -1,0 +1,8 @@
+# Kagero: Mou Hitori no Princess [JP]
+
+# v1.05
+[PCSG00565, eboot.bin, 0xA189B87F]
+@IB
+1:0x3511C uint32(ib_wi(0)) . uint32(ib_hi(0))
+1:0x35124 uint32(ib_wi(1)) . uint32(ib_hi(1))
+1:0x3512C uint32(ib_wi(2)) . uint32(ib_hi(2))

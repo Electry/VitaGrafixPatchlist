@@ -1,0 +1,7 @@
+# Fate/EXTELLA: The Umbral Star [US]
+
+# v1.01
+[PCSE00928, eboot.bin, 0xEF934DB7]
+@IB
+0:0x4ED268 t2_mov(0, 0, ib_w)
+0:0x4ED26E t2_mov(0, 0, ib_h)

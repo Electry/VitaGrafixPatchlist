@@ -1,0 +1,8 @@
+# World of Final Fantasy [US]
+
+# v1.03
+[PCSE00880, eboot.bin, 0xB38C2C5B]
+@IB
+0:0x429580 t2_mov(1, 1, 0x5400000)
+0:0x22C9FE t2_mov(1, 5, ib_w)
+0:0x22CA04 t2_mov(1, 0, ib_h)

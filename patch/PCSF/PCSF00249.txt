@@ -1,0 +1,7 @@
+# Jak II [EU]
+
+# v1.00
+[PCSF00249, eboot.bin, 0x15059015]
+@FB
+0:0x211F2 t2_mov(1, 0, fb_w)
+0:0x211FA t2_mov(1, 0, fb_h)

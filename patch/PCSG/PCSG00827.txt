@@ -1,0 +1,6 @@
+# Summon Night 6: Lost Borders [JP]
+
+# v1.03
+[PCSG00827, eboot.bin, 0x3CD87445]
+@MSAA
+0:0x2BFA18 t1_mov(4, msaa)

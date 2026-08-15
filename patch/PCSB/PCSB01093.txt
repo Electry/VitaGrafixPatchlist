@@ -1,0 +1,7 @@
+# Utawarerumono: Mask of Deception [EU]
+
+# v1.00
+[PCSB01093, eboot.bin, 0x2312FDE0]
+@IB
+0:0x119AA0 a1_mov(0, 1, ib_w)
+0:0x119AB8 a1_mov(0, 0, ib_h)

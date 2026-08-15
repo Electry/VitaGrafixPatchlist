@@ -1,0 +1,7 @@
+# WRC 3: FIA World Rally Championship [EU]
+
+# v1.01
+[PCSB00204, eboot.bin, 0x27C05300]
+@IB
+0:0xAC430A t2_mov(1, 5, ib_w)
+0:0xAC4310 t2_mov(1, 6, ib_h)

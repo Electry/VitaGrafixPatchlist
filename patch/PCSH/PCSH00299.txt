@@ -1,0 +1,7 @@
+# Fate/EXTELLA: The Umbral Star [ASIA]
+
+# v1.01
+[PCSH00299, eboot.bin, 0x4E5BE9F4]
+@IB
+0:0x4ED268 t2_mov(0, 0, ib_w)
+0:0x4ED26E t2_mov(0, 0, ib_h)

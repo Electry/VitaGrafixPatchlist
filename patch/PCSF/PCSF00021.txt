@@ -1,0 +1,13 @@
+# LittleBigPlanet [EU]
+
+# v1.22
+[PCSF00021, eboot.bin, 0x0714AF6B]
+@IB
+0:0x168546 t2_mov(1, 1, ib_w)
+0:0x16854A t2_mov(1, 2, ib_h)
+0:0x16856A t2_mov(1, 1, ib_w)
+0:0x16856E t2_mov(1, 2, ib_h)
+0:0x168582 t2_mov(1, 1, ib_w)
+0:0x16858A t2_mov(1, 2, ib_h)
+0:0x1685B0 t2_mov(1, 1, ib_w)
+0:0x1685B4 t2_mov(1, 2, ib_h)

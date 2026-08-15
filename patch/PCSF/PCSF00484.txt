@@ -1,0 +1,8 @@
+# Ratchet & Clank [EU]
+
+# v1.00
+[PCSF00484, eboot.bin, 0x0A02A884]
+@FB
+0:0x1A024 t2_mov(1, 14, 0xC00000)
+0:0x2D12 t2_mov(1, 0, fb_w)
+0:0x2D16 t2_mov(1, 1, fb_h)

@@ -1,0 +1,8 @@
+# One Piece: Burning Blood [ASIA]
+
+# v1.08
+[PCSH00202, eboot.bin, 0x378EE338]
+@IB
+0:0x465170 t2_mov(1, 3, 0xB00000)
+1:0x8DC0 uint32(ib_w)
+1:0x8DC4 uint32(ib_h)

@@ -1,0 +1,14 @@
+# Killzone Mercenary [ASIA]
+
+# v1.12
+[PCSD00071, eboot.bin, 0x8870DB01]
+@IB
+0:0x15A5C8 nop *4
+1:0xD728 uint32(ib_w)
+1:0xD72C uint32(ib_h)
+1:0xD730 uint32(ib_w)
+1:0xD734 uint32(ib_h)
+@FPS
+0:0x9706A4 uint32(vblank)
+>sceCtrlReadBufferPositive_peekPatched()
+>sceCtrlReadBufferPositive2_peekPatched()

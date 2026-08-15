@@ -1,0 +1,9 @@
+# Sly Cooper and the Thievius Raccoonus [US]
+
+# v1.00
+[PCSA00096, eboot.bin, 0x605D1DB1]
+@FB
+0:0xE0AF8 t2_mov(1, 1, fb_w)
+0:0xE0AFE t2_mov(1, 1, fb_h)
+@FPS
+0:0x10C104 t1_mov(0, vblank)

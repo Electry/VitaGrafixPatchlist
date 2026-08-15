@@ -1,0 +1,17 @@
+# Soul Sacrifice Delta [US]
+
+# v1.30
+[PCSA00152, eboot.bin, 0xD66AEBF4]
+@IB
+0:0x8282A6 t2_mov(1, 1, ib_w)
+0:0x8282AC t2_mov(1, 1, ib_h)
+1:0x33C50 fl32(ib_w / align(ib_w, 32.0))
+1:0x33C58 fl32(ib_h / align(ib_h, 32.0))
+1:0x377D8 fl32(ib_w / align(ib_w, 32.0))
+1:0x377E0 fl32(ib_h / align(ib_h, 32.0))
+1:0x37E70 fl32(ib_w / align(ib_w, 32.0))
+1:0x37E78 fl32(ib_h / align(ib_h, 32.0))
+1:0x381A8 fl32(ib_w / align(ib_w, 32.0))
+1:0x381B0 fl32(ib_h / align(ib_h, 32.0))
+1:0x385E8 fl32(ib_w / align(ib_w, 32.0))
+1:0x385F0 fl32(ib_h / align(ib_h, 32.0))

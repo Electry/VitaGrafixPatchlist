@@ -1,0 +1,13 @@
+# Miracle Girls Festival [JP]
+
+# v1.00
+[PCSG00610, eboot.bin, 0x2A0BE571]
+@IB
+0:0x158EB0 t2_mov(1, 2,  ib_w)
+0:0x158EB8 t2_mov(1, 3,  ib_h)
+0:0x159EAE t2_mov(1, 2,  ib_w)
+0:0x159EB6 t2_mov(1, 4,  ib_h)
+0:0x15D32A t2_mov(1, 3,  ib_w)
+0:0x15D32E t2_mov(1, 14, ib_h)
+0:0x15D6C4 t2_mov(1, 7,  ib_w)
+0:0x15D6C8 t2_mov(1, 14, ib_h)

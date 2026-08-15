@@ -1,0 +1,9 @@
+# Utawarerumono: Itsuwari no Kamen [JP]
+
+# v1.02
+[PCSG00617, eboot.bin, 0xE415725A]
+@IB
+0:0x119058 a1_mov(0, 0, ib_w)
+0:0x11905C a1_mov(0, 1, ib_h)
+0:0x11907C a1_mov(0, 0, ib_w)
+0:0x119080 a1_mov(0, 1, ib_h)

@@ -1,0 +1,8 @@
+# J-Stars Victory Vs+ [ASIA]
+
+# v1.00
+[PCSH00136, eboot.bin, 0x86EAD93B]
+@IB
+0:0x2BD01E t2_mov(1, 4, 0xF00000)
+0:0x2BCF62 t2_mov(1, 14, 0x6100000)
+1:0x485F8 uint32(ib_w) . uint32(ib_h)

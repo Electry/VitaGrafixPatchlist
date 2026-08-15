@@ -1,0 +1,8 @@
+# Lumines: Electronic Symphony [JP]
+
+# v1.01
+[PCSG00014, eboot.bin, 0x3B868E2D]
+@FPS
+0:0x8EDDC nop
+0:0x8EE20 DEE7 r . nop
+0:0x8EDE0 t1_mov(0, vblank) . 75F0F6E9 1DE0 r
