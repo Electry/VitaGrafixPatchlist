@@ -1,0 +1,7 @@
+# SteamWorld Heist [EU]
+
+# v1.02
+[PCSB00693, eboot.bin, 0xBD7CD4EB]
+@FPS
+0:0x2AA804 t1_mov(4, vblank - 1) . 002C 04DD r
+0:0x2AA80E 013C 002C FADC r . (nop *3)

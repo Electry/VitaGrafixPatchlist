@@ -1,0 +1,25 @@
+# Minecraft: PlayStation Vita Edition [US]
+
+# v1.83
+[PCSE00491, eboot.bin, 0x85DDDE28]
+@FB
+0:0x8E15DE t2_mov(1, 1, fb_w) . t2_mov(1, 0, fb_h)
+0:0x8E15EE t2_mov(1, 1, 1024)
+0:0x8E1650 t2_mov(1, 1, fb_w) . t2_mov(1, 2, fb_h) . t2_mov(1, 3, 1024)
+0:0x8E1B7C t2_mov(1, 1, fb_w) . t2_mov(1, 2, fb_h) . t2_mov(1, 3, 1024)
+0:0x8F8E1E t2_mov(1, 1, 0x220000)
+0:0x8F8E9A t2_mov(1, 7, fb_w)
+0:0x8F8EBE t2_mov(1, 8, fb_h)
+0:0x8F8EC6 t2_mov(1, 1, 1024)
+0:0x8F8EFE t2_mov(1, 3, 1024)
+0:0x8F8F44 t2_mov(1, 1, 0x440000)
+0:0x8F8F64 t2_mov(1, 6, fb_h) . t2_mov(1, 1, 1024)
+0:0x8F8F8C t2_mov(1, 0, 1024 * 2 * 4)
+0:0x8F8F9E t2_mov(1, 3, fb_w)
+0:0x8F8FC6 t2_mov(1, 5, 0x88000)
+0:0x8F8FCC nop *2
+0:0x8F8FD0 t2_mov(0, 8, 1024)
+0:0x8F90E2 t2_mov(1, 2, 1024)
+0:0x8F90EA t2_mov(1, 5, fb_h)
+@FPS
+>sceDisplaySetFrameBuf_withWait()

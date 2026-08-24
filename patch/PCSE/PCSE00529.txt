@@ -1,0 +1,7 @@
+# MotoGP 14 [US]
+
+# v1.00
+[PCSE00529, eboot.bin, 0x0BCBC928]
+@IB
+0:0x52B5EA t2_mov(1, 0, ib_w)
+0:0x52B5F0 t2_mov(1, 4, ib_h)

@@ -1,0 +1,8 @@
+# World of Final Fantasy [JP]
+
+# v1.03
+[PCSG00709, eboot.bin, 0x8D3086B3]
+@IB
+0:0x429560 t2_mov(1, 1, 0x5400000)
+0:0x22C9DE t2_mov(1, 5, ib_w)
+0:0x22C9E4 t2_mov(1, 0, ib_h)

@@ -1,0 +1,7 @@
+# Street Fighter X Tekken [JP]
+
+# v1.08
+[PCSG00063, eboot.bin, 0xAAE7FEDF]
+@IB
+0:0x94D28C t2_mov(1, 5, ib_w)
+0:0x94D290 t2_mov(1, 2, ib_h)

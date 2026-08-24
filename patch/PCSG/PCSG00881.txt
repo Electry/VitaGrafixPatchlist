@@ -1,0 +1,15 @@
+# Ys VIII: Lacrimosa of Dana [JP]
+
+# v1.02
+[PCSG00881, eboot.bin, 0xC2D25375]
+@IB
+0:0x188F22 t2_mov(0, 4, ib_wi(1)) . t2_mov(0, 5, ib_hi(1))
+0:0x188F30 t2_mov(0, 6, ib_wi(2)) . t2_mov(0, 7, ib_hi(2))
+0:0x188F3A t2_mov(1, 4, ib_wi(0))
+0:0x188F42 t2_mov(1, 5, ib_hi(0))
+0:0x190574 t2_mov(1, 0, ib_wi(0))
+0:0x190582 t2_mov(1, 0, ib_hi(0))
+0:0x190656 t2_mov(1, 1, ib_wi(1))
+0:0x190664 t2_mov(1, 1, ib_hi(1))
+@FPS
+0:0x285FD0 t1_mov(0, vblank)

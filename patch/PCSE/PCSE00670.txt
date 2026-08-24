@@ -1,0 +1,12 @@
+# LEGO Marvel's Avengers [US]
+
+# v1.00
+[PCSE00670, eboot.bin, 0xC87160F3]
+@IB
+0:0x19611C t2_mov(1, 1, 0x800000)
+0:0x165AE6 t2_mov(1, 4, ib_w)
+0:0x165AEC t2_mov(1, 5, ib_h)
+1:0x3858 uint32(ib_w)
+1:0x3862 uint32(ib_h)
+0:0x195A4E t2_mov(0, 0, 640) . (nop *3)
+0:0x195A8E t2_mov(0, 0, 368) . (nop *3)

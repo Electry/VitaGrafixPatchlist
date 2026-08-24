@@ -1,0 +1,7 @@
+# LEGO Harry Potter: Years 5–7 [US]
+
+# v1.01
+[PCSE00057, eboot.bin, 0xE9D1D998]
+@FB
+0:0xB0F08 t2_mov(1, 0, fb_w)
+0:0xB0F0E t2_mov(1, 1, fb_h)

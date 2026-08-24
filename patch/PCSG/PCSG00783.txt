@@ -1,0 +1,6 @@
+# Project Root [JP]
+
+# v1.00
+[PCSG00783, eboot.bin, 0x88F8E42C]
+@FPS
+0:0x1175DC t1_mov(0, vblank)

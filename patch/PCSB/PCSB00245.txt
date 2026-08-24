@@ -1,0 +1,7 @@
+# Persona 4 Golden [EU]
+
+# v1.00
+[PCSB00245, eboot.bin, 0x4BB9AE7C]
+@IB
+1:0xDBCFC fl32(ib_w)
+1:0xDBD00 fl32(ib_h)

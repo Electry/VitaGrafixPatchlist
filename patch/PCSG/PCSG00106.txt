@@ -1,0 +1,20 @@
+# Need for Speed: Most Wanted [JP]
+
+# v1.01
+[PCSG00106, eboot.bin, 0x36DC8D31]
+@IB
+0:0x2F8D60 t2_mov(1, 1, ib_w)
+0:0x2F8D68 t2_mov(1, 1, ib_h)
+0:0x31BF9C t2_mov(1, 1, 0x40000  * 2)
+0:0x31BFA6 t2_mov(1, 1, 0x200000 * 2)
+0:0x31BFB0 t2_mov(1, 1, 0x180000 * 2)
+0:0x31BFBA t2_mov(1, 1, 0x200000 * 2)
+0:0x31BFC4 t2_mov(1, 1, 0x180000 * 2)
+0:0x31BFCE t2_mov(1, 1, 0x4000   * 2)
+0:0x31BFD8 t2_mov(1, 1, 0x6C000  * 2)
+0:0x31BFE2 t2_mov(1, 1, 0x60000  * 2)
+0:0x31BFEC t2_mov(1, 1, 0x60000  * 2)
+1:0x1C6C uint32(0x4F56000 - 5 * 1024 * 1024)
+1:0x1CB4 uint32(0x34F1000 - 5 * 1024 * 1024)
+1:0x280C uint32(0x32F3000 - 5 * 1024 * 1024)
+1:0x331C uint32(0x10AA000 + 5 * 1024 * 1024)

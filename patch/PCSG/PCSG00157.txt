@@ -1,0 +1,11 @@
+# Ninja Gaiden Sigma 2 Plus [JP]
+
+# v1.00
+[PCSG00157, eboot.bin, 0x897AD547]
+@IB
+0:0x5393E t2_mov(1, 0, ib_wi(0))
+0:0x53942 t2_mov(1, 1, ib_hi(0))
+0:0x53946 0E900F91 r
+0:0x5394A t2_mov(1, 0, ib_wi(1))
+0:0x5394E t2_mov(1, 1, ib_hi(1))
+0:0x53952 109011911290 r . (nop *2)

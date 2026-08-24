@@ -1,0 +1,7 @@
+# Persona 4 Golden [JP]
+
+# v1.00
+[PCSG00563, eboot.bin, 0x8C503A79]
+@IB
+1:0xDBD9C fl32(ib_w)
+1:0xDBDA0 fl32(ib_h)

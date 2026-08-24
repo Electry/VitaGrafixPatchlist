@@ -1,0 +1,12 @@
+# LEGO Ninjago: Shadow of Ronin [EU]
+
+# v1.00
+[PCSB00706, eboot.bin, 0xB178EFFD]
+@IB
+0:0xFC40E t2_mov(1, 1, 0x800000)
+0:0xCD618 t2_mov(1, 4, ib_w)
+0:0xCD61E t2_mov(1, 5, ib_h)
+1:0x34A0 uint32(ib_w)
+1:0x34A4 uint32(ib_h)
+0:0xFBD34 t2_mov(0, 0, 640) . (nop *3)
+0:0xFBD74 t2_mov(0, 0, 368) . (nop *3)

@@ -1,0 +1,11 @@
+# Tokyo Xanadu [JP]
+
+# v1.04
+[PCSG00608, eboot.bin, 0x95ACFA1D]
+@IB
+0:0xE75C8 t2_mov(1, 1, ib_w * 960 / 720)
+0:0xE75CC t2_mov(1, 2, ib_h * 544 / 408)
+0:0xE7602 t2_mov(1, 1, ib_w * 960 / 720)
+0:0xE7606 t2_mov(1, 2, ib_h * 544 / 408)
+@MSAA
+0:0xE7594 t1_mov(4, msaa * 2)

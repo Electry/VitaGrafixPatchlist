@@ -1,0 +1,9 @@
+# Dragon Quest Builders [US]
+
+# v1.00
+[PCSE00912, eboot.bin, 0x1C5AA1D1]
+@IB
+0:0x271F5E t2_mov(1, 0, ib_w)
+0:0x271F58 t2_mov(1, 3, ib_h)
+@FPS
+>sceDisplaySetFrameBuf_withWait()

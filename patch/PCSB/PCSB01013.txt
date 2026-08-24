@@ -1,0 +1,6 @@
+# Summon Night 6: Lost Borders [EU]
+
+# v1.00
+[PCSB01013, eboot.bin, 0x243B98A5]
+@MSAA
+0:0x2C0308 t1_mov(4, msaa)

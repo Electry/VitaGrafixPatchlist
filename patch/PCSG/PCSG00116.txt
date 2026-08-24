@@ -1,0 +1,13 @@
+# Assassin's Creed III: Liberation [JP]
+
+# v1.01
+[PCSG00116, eboot.bin, 0xBC2441CC]
+@IB
+0:0xBB4C t2_mov(1, 1, 0x800000)
+1:0x32C uint32(0x1A00000)
+1:0x33C uint32(0x500000)
+1:0x38C uint32(0x3900000)
+0:0xE9E8 t2_mov(1, 0, ib_w)
+0:0xE9EE t2_mov(1, 0, ib_h)
+@FPS
+0:0xCBC2 t1_mov(0, vblank)

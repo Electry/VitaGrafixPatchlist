@@ -1,0 +1,8 @@
+# World of Final Fantasy [ASIA]
+
+# v1.03
+[PCSH00223, eboot.bin, 0x54CCA75F]
+@IB
+0:0x429598 t2_mov(1, 1, 0x5400000)
+0:0x22CA16 t2_mov(1, 5, ib_w)
+0:0x22CA1C t2_mov(1, 0, ib_h)

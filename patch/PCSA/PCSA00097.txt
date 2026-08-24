@@ -1,0 +1,9 @@
+# Sly Cooper 2: Band of Thieves [US]
+
+# v1.00
+[PCSA00097, eboot.bin, 0xDCD6B8BC]
+@FB
+0:0x1155F8 t2_mov(1, 1, fb_w)
+0:0x1155FE t2_mov(1, 1, fb_h)
+@FPS
+0:0x12E638 t1_mov(0, vblank)

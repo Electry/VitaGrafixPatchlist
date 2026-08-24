@@ -1,0 +1,11 @@
+# Eiyuu Densetsu: Sen no Kiseki [JP]
+
+# v1.03
+[PCSG00195, eboot.bin, 0xDFC34B16]
+@IB
+0:0xF971A t2_mov(1, 1, ib_w)
+0:0xF971E t2_mov(1, 2, ib_h)
+0:0xF9554 t2_mov(1, 1, ib_w)
+0:0xF9558 t2_mov(1, 2, ib_h)
+0:0xF958A t3_mov(2, ib_w * 736 / 720)
+0:0xF958E t2_mov(1, 3, ib_h)

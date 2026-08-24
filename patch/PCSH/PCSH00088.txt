@@ -1,0 +1,12 @@
+# Hatsune Miku: Project Diva f 2nd [ASIA]
+
+# v1.00
+[PCSH00088, eboot.bin, 0xB499AC54]
+@IB
+0:0x25E4CA t2_mov(0, 3, ib_w)
+0:0x25E4D2 t2_mov(0, 4, ib_h)
+0:0x25D680 t2_mov(1, 5, ib_w)
+0:0x25D688 t2_mov(1, 6, ib_h)
+@FPS
+0:0xA994 t1_mov(0, vblank)
+0:0xAAF2 F7EE000A r

@@ -1,0 +1,15 @@
+# Dragon Ball Z: Battle of Z [EU]
+
+# v1.01
+[PCSB00396, eboot.bin, 0x1592C04C]
+@IB
+0:0x63E8D0 a1_mov(0, 0, ib_w)
+0:0x63E8D8 a1_mov(0, 1, ib_h)
+0:0x63CE94 a1_mov(0, 0, ib_w)
+0:0x63CE9C a1_mov(0, 1, ib_h)
+0:0x63D200 a1_mov(0, 2, ib_w)
+0:0x63D208 a1_mov(0, 3, ib_h)
+0:0x63DA1C a1_mov(0, 3, ib_w)
+0:0x63DA24 a1_mov(0, 5, ib_h)
+0:0x63FF1C a1_mov(0, 3, ib_w)
+0:0x63FF24 a1_mov(0, 6, ib_h)

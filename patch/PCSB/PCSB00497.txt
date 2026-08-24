@@ -1,0 +1,38 @@
+# Ys: Memories of Celceta [EU]
+
+# v1.00
+[PCSB00497, eboot.bin, 0x4F6CDE39]
+@IB
+# Render Targets
+0:0xCD240 t2_mov(1, 1, ib_w)
+0:0xCD248 t2_mov(1, 1, ib_h)
+0:0xCD25E t2_mov(1, 1, ib_w)
+0:0xCD266 t2_mov(1, 2, ib_h)
+0:0xCD2C2 3869 r
+0:0xCD2C8 t2_mov(1, 1, ib_w / 2)
+0:0xCD2BA t2_mov(1, 2, ib_h / 2)
+0:0xCD2E8 t1_mov(1, ib_w / 4)
+0:0xCD2DC t1_mov(2, ib_h / 4)
+0:0xCD306 t1_mov(1, ib_w / 4)
+0:0xCD2FA t1_mov(2, ib_h / 4)
+0:0xBE30C t1_movt(0, float(ib_w) >> 16)
+0:0xBE31E t1_movt(0, float(ib_h) >> 16)
+0:0xBE330 t1_movt(2, float(ib_w / 2) >> 16)
+0:0xBE342 t1_movt(2, float(ib_h / 2) >> 16)
+0:0xBE40A t1_movt(4, float(ib_w / 4) >> 16)
+0:0xBE414 t1_movt(4, float(ib_h / 4) >> 16)
+0:0xBE53E t1_movt(5, float(ib_w / 4) >> 16)
+0:0xBE54E t1_movt(5, float(ib_h / 4) >> 16)
+0:0xBE91A t1_movt(0, float(ib_w) >> 16)
+0:0xBE926 t1_movt(0, float(ib_h) >> 16)
+0:0xBE96E t1_movt(1, float(ib_w) >> 16)
+0:0xBE986 t1_movt(2, float(ib_h) >> 16)
+0:0xBE99E t1_movt(2, float(ib_h) >> 16)
+0:0xC60B4 t2_mov(1, 3, ib_w)
+0:0xC609E t2_mov(1, 14, ib_h)
+0:0xC614C t1_movt(0, float(ib_w) >> 16)
+0:0xC617A t1_movt(0, float(ib_h) >> 16)
+0:0xC650A t1_movt(4, float(ib_w) >> 16)
+0:0xC6514 t1_movt(4, float(ib_h) >> 16)
+0:0xAD65C t1_movt(0, float(ib_w) >> 16)
+0:0xAD68A t1_movt(0, float(ib_h) >> 16)

@@ -1,0 +1,8 @@
+# Lumines: Electronic Symphony [EU]
+
+# v1.02
+[PCSB00061, eboot.bin, 0x805B6438]
+@FPS
+0:0x929DE nop
+0:0x92A22 DEE7 r . nop
+0:0x929E2 t1_mov(0, vblank) . 72F0CEED 1DE0 r

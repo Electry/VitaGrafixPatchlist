@@ -1,0 +1,11 @@
+# The Legend of Heroes: Trails of Cold Steel [US]
+
+# v1.02
+[PCSE00786, eboot.bin, 0xB3793E83]
+@IB
+0:0xF99F2 t2_mov(1, 1, ib_w)
+0:0xF99F6 t2_mov(1, 2, ib_h)
+0:0xF982C t2_mov(1, 1, ib_w)
+0:0xF9830 t2_mov(1, 2, ib_h)
+0:0xF9862 t3_mov(2, ib_w * 736 / 720)
+0:0xF9866 t2_mov(1, 3, ib_h)

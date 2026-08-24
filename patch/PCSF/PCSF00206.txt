@@ -1,0 +1,6 @@
+# Sly Cooper: Thieves in Time [EU]
+
+# v1.01
+[PCSF00206, eboot.bin, 0x56380F69]
+@FPS
+0:0x3228AC t1_mov(0, vblank)

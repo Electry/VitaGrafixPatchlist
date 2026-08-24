@@ -1,0 +1,24 @@
+# Wipeout 2048 [EU]
+
+# v1.04
+[PCSF00007, eboot.bin, 0x17143672]
+@IB
+0:0x2941F8 012C r
+0:0x2941FC t1_mov(4, 1)
+0:0x424878 uint32(ib_wi(0)) . uint32(ib_hi(0))
+0:0x424880 uint32(ib_wi(1)) . uint32(ib_hi(1))
+0:0x424888 uint32(ib_wi(2)) . uint32(ib_hi(2))
+0:0x424890 uint32(ib_wi(3)) . uint32(ib_hi(3))
+0:0x424898 uint32(ib_wi(4)) . uint32(ib_hi(4))
+0:0x4248A0 uint32(ib_wi(5)) . uint32(ib_hi(5))
+0:0x4248A8 uint32(ib_wi(6)) . uint32(ib_hi(6))
+0:0x4248B0 uint32(ib_wi(7)) . uint32(ib_hi(7))
+0:0x4248B8 uint32(ib_wi(8)) . uint32(ib_hi(8))
+0:0x4248C0 uint32(ib_wi(9)) . uint32(ib_hi(9))
+0:0x4248C8 uint32(ib_wi(10)) . uint32(ib_hi(10))
+0:0x4248D0 uint32(ib_wi(11)) . uint32(ib_hi(11))
+0:0x4248D8 uint32(ib_wi(12)) . uint32(ib_hi(12))
+0:0x4248E0 uint32(ib_wi(13)) . uint32(ib_hi(13))
+@FPS
+0:0x2F5D06 FCF022E8 12E0 r
+0:0x2F5D46 8042 r

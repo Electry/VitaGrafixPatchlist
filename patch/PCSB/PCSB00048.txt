@@ -1,0 +1,7 @@
+# Ridge Racer [EU]
+
+# v1.02
+[PCSB00048, eboot.bin, 0xBD286F0F]
+@IB
+1:0x53E4 uint32(ib_w)
+1:0x53E8 uint32(ib_h)

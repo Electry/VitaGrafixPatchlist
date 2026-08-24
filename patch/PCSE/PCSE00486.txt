@@ -1,0 +1,6 @@
+# Project Root [US]
+
+# v1.00
+[PCSE00486, eboot.bin, 0x5001CEBE]
+@FPS
+0:0x11745C t1_mov(0, vblank)

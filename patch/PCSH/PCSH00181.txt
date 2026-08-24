@@ -1,0 +1,37 @@
+# Ys: Memories of Celceta [ASIA]
+
+# v1.00
+[PCSH00181, eboot.bin, 0xE3BC452F]
+@IB
+0:0xD1DB0 t2_mov(1, 1, ib_w)
+0:0xD1DB8 t2_mov(1, 1, ib_h)
+0:0xD1DD6 t2_mov(1, 1, ib_w)
+0:0xD1DDE t2_mov(1, 2, ib_h)
+0:0xD1E4E 3869 r
+0:0xD1E38 t2_mov(1, 1, ib_w / 2)
+0:0xD1E3C t2_mov(1, 2, ib_h / 2)
+0:0xD1E58 t1_mov(1, ib_w / 4)
+0:0xD1E5C t1_mov(2, ib_h / 4)
+0:0xD1E78 t1_mov(1, ib_w / 4)
+0:0xD1E7C t1_mov(2, ib_h / 4)
+0:0xC2AA2 t1_movt(0, float(ib_w) >> 16)
+0:0xC2AB4 t1_movt(0, float(ib_h) >> 16)
+0:0xC2AC6 t1_movt(2, float(ib_w / 2) >> 16)
+0:0xC2AD8 t1_movt(2, float(ib_h / 2) >> 16)
+0:0xC2BA0 t1_movt(4, float(ib_w / 4) >> 16)
+0:0xC2BAA t1_movt(4, float(ib_h / 4) >> 16)
+0:0xC2CD4 t1_movt(5, float(ib_w / 4) >> 16)
+0:0xC2CE4 t1_movt(5, float(ib_h / 4) >> 16)
+0:0xC30B0 t1_movt(0, float(ib_w) >> 16)
+0:0xC30BC t1_movt(0, float(ib_h) >> 16)
+0:0xC3104 t1_movt(1, float(ib_w) >> 16)
+0:0xC311C t1_movt(2, float(ib_h) >> 16)
+0:0xC3134 t1_movt(2, float(ib_h) >> 16)
+0:0xCA98C t2_mov(1, 3, ib_w)
+0:0xCA976 t2_mov(1, 14, ib_h)
+0:0xCAA24 t1_movt(0, float(ib_w) >> 16)
+0:0xCAA52 t1_movt(0, float(ib_h) >> 16)
+0:0xCADE2 t1_movt(4, float(ib_w) >> 16)
+0:0xCADEC t1_movt(4, float(ib_h) >> 16)
+0:0xB1712 t1_movt(0, float(ib_w) >> 16)
+0:0xB1740 t1_movt(0, float(ib_h) >> 16)

@@ -1,0 +1,7 @@
+# MUD - FIM Motocross World Championship [EU]
+
+# v1.00
+[PCSB00182, eboot.bin, 0x216C1258]
+@IB
+0:0x9B8B52 t2_mov(1, 5, ib_w)
+0:0x9B8B58 t2_mov(1, 6, ib_h)

@@ -1,0 +1,7 @@
+# Resident Evil: Revelations 2 [EU]
+
+# v1.04
+[PCSF00728, eboot.bin, 0x6321F4D3]
+@IB
+0:0xCCFE76 t2_mov(1, 1, ib_w)
+0:0xCCFE7E t2_mov(1, 1, ib_h)

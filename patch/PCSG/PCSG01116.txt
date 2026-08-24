@@ -1,0 +1,7 @@
+# Atelier Lydie & Soeur: Fushigi na Kaiga no Renkinjutsu Samurai [JP]
+
+# v1.06
+[PCSG01116, eboot.bin, 0xFDABB61E]
+@IB
+0:0x32FBF4 t2_mov(1, 0, align(ib_w, 32))
+0:0x32FBFA t2_mov(1, 0, ib_h)

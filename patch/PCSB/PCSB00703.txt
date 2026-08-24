@@ -1,0 +1,12 @@
+# LEGO Jurassic World [EU]
+
+# v1.00
+[PCSB00703, eboot.bin, 0xE8AFEE20]
+@IB
+0:0x101B34 t2_mov(1, 1, 0xA00000)
+0:0xD1E4C t2_mov(1, 4, ib_w)
+0:0xD1E52 t2_mov(1, 5, ib_h)
+1:0x3318 uint32(ib_w)
+1:0x331C uint32(ib_h)
+0:0x101466 t2_mov(0, 0, 640) . (nop *3)
+0:0x1014A6 t2_mov(0, 0, 368) . (nop *3)

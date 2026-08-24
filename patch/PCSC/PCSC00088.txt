@@ -1,0 +1,7 @@
+# RESOGUN [JP]
+
+# v1.00
+[PCSC00088, eboot.bin, 0x9C16CEBD]
+@FB
+0:0x165A08 t2_mov(1, 0, fb_w)
+0:0x165A0E t2_mov(1, 0, fb_h)

@@ -1,0 +1,38 @@
+# Urban Trial Freestyle [US]
+
+# v1.00
+[PCSE00051, eboot.bin, 0x9A5EDEF3]
+@FB
+0:0x1EB0   t2_mov(1, 1, 0x5500000)
+0:0x1EC0   10F1AA61 r
+0:0x16EC   t2_mov(1, 1, 0x220000)
+0:0x111FCC t2_mov(1, 1, 0x440000)
+0:0x112090 t2_mov(1, 1, 0x220000)
+0:0x17B2   t2_mov(1, 1, 0x3FC000)
+0:0x17BA   nop *2
+0:0x17C8   15F57E20 r
+0:0x1282 t2_mov(1, 0, fb_w)
+0:0x1288 t2_mov(1, 0, fb_h)
+0:0x1A7C t2_mov(1, 1, fb_w)
+0:0x1A82 t2_mov(1, 1, fb_h)
+0:0x1694 t2_mov(1, 0, fb_w)
+0:0x1698 t2_mov(1, 1, fb_h)
+0:0x173A t2_mov(1, 1, fb_w)
+0:0x1742 t2_mov(1, 6, fb_h)
+0:0x17E2 t2_mov(1, 3, align(fb_w, 32))
+0:0x17EA t2_mov(1, 0, align(fb_w, 32) * 4)
+0:0x1800 t2_mov(1, 3, fb_w)
+0:0x1119AA t2_mov(1, 1, fb_w)
+0:0x1119B2 t2_mov(1, 0, fb_h)
+0:0x11201E t2_mov(1, 1, fb_w)
+0:0x112024 t2_mov(1, 5, fb_h)
+0:0x112054 t2_mov(1, 3, fb_w)
+0:0x112064 t2_mov(1, 0, fb_w)
+0:0x112068 t2_mov(1, 1, fb_h)
+0:0x1120E2 t2_mov(1, 1, fb_w)
+0:0x1120E8 t2_mov(1, 5, fb_h)
+0:0x112116 t2_mov(1, 3, fb_w)
+0:0x112136 t2_mov(1, 0, fb_w)
+0:0x11213A t2_mov(1, 1, fb_h)
+0:0x113E78 t2_mov(1, 3, fb_w)
+0:0x113E64 t2_mov(1, 0, fb_h)

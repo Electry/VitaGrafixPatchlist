@@ -1,0 +1,11 @@
+# Valhalla Knights 3 GOLD [JP]
+
+# v1.05
+[PCSG00307, eboot.bin, 0x2A62D92D]
+@IB
+0:0xC5840 t2_mov(1, 3, ib_w)
+0:0xC584E t2_mov(1, 6, ib_h)
+0:0x28AE10 t2_mov(1, 14, 0x900000)
+1:0xFD90 uint32(0x8500000)
+@FPS
+0:0x27172E nop *2

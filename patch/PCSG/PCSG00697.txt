@@ -1,0 +1,9 @@
+# Dragon Quest Builders [JP]
+
+# v1.03
+[PCSG00697, eboot.bin, 0x7087C461]
+@IB
+0:0x26AC1E t2_mov(1, 0, ib_w)
+0:0x26AC18 t2_mov(1, 3, ib_h)
+@FPS
+>sceDisplaySetFrameBuf_withWait()

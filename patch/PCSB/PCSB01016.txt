@@ -1,0 +1,14 @@
+# The Legend of Heroes: Trails of Cold Steel II [EU]
+
+# v1.00
+[PCSB01016, eboot.bin, 0xBEE60BC5]
+@IB
+0:0x139B8C t2_mov(1, 1, ib_w)
+0:0x139B90 t2_mov(1, 2, ib_h)
+0:0x1399EC t3_mov(1, ib_w * 736 / 720)
+0:0x1399F0 t2_mov(1, 2, ib_h)
+0:0x1399AC t2_mov(1, 1, ib_w)
+0:0x1399B0 t2_mov(1, 2, ib_h)
+@MSAA
+0:0x1399DE t1_mov(1, msaa * 2)
+0:0x139986 t1_mov(1, msaa * 2)

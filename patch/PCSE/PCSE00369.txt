@@ -1,0 +1,7 @@
+# Oddworld: Munch's Oddysee HD [US]
+
+# v1.02
+[PCSE00369, eboot.bin, 0x4761DCC0]
+@FPS
+0:0x10ECEE t1_mov(1, 4 - vblank)
+0:0x269490 t1_mov(0, vblank)

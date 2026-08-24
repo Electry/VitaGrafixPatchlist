@@ -1,0 +1,11 @@
+# Borderlands 2 [JP]
+
+# v1.03
+[PCSG00400, eboot.bin, 0x83B4A1A2]
+@FB
+1:0x24A94 uint32(fb_w) . uint32(fb_h)
+0:0x36C1C0 t2_mov(0, 1, align(fb_w, 64))
+0:0x4A9C44 C2F6EABA r
+0:0x36C21C B8F5347F 00D1 r
+0:0x36C222 t3_mov(0, 768)
+0:0x36C226 00FB03F4 3DF10DBD r

@@ -1,0 +1,6 @@
+# Ys Origin [US]
+
+# v1.02
+[PCSE01033, eboot.bin, 0x77611E13]
+@FPS
+0:0x1C8216 t1_mov(0, vblank)

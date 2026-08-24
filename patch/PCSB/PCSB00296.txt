@@ -1,0 +1,9 @@
+# Dead or Alive 5 Plus [EU]
+
+# v1.01
+[PCSB00296, eboot.bin, 0xA1B33BC8]
+@IB
+0:0x5B0DC4 t2_mov(1, 1, ib_w)
+0:0x5B0DCA t2_mov(1, 1, ib_h)
+0:0x5B0DD0 t2_mov(1, 1, ib_w)
+0:0x5B0DD6 t2_mov(1, 1, ib_h)

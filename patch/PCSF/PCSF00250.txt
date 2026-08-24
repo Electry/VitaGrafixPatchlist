@@ -1,0 +1,7 @@
+# Jak 3 [EU]
+
+# v1.00
+[PCSF00250, eboot.bin, 0x790EBAD9]
+@FB
+0:0x26096 t2_mov(1, 0, fb_w)
+0:0x2609E t2_mov(1, 0, fb_h)

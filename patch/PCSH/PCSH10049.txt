@@ -1,0 +1,6 @@
+# Ys Origin [ASIA]
+
+# v1.00
+[PCSH10049, eboot.bin, 0x145A65BD]
+@FPS
+0:0x1C9092 t1_mov(0, vblank)

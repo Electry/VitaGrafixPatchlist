@@ -1,0 +1,7 @@
+# Fate/EXTELLA [JP]
+
+# v1.03
+[PCSG00600, eboot.bin, 0xB3BD9279]
+@IB
+0:0x4E8B9C t2_mov(0, 0, ib_w)
+0:0x4E8BA2 t2_mov(0, 0, ib_h)

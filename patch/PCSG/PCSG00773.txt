@@ -1,0 +1,9 @@
+# Dead or Alive Xtreme 3: Venus (Free to play) [JP]
+
+# v1.16
+[PCSG00773, eboot.bin, 0x15935EBA]
+@IB
+0:0x217B82 t2_mov(1, 1, ib_wi(0))
+0:0x217B88 t2_mov(1, 1, ib_hi(0))
+0:0x217B8E t2_mov(1, 1, ib_wi(1))
+0:0x217B94 t2_mov(1, 1, ib_hi(1))

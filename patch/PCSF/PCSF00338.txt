@@ -1,0 +1,19 @@
+# Sly Cooper and the Thievius Raccoonus [EU]
+# Sly Cooper 2: Band of Thieves [EU]
+
+# v1.00
+[PCSF00338, Sly1.self, 0x15BCA5BA]
+@FB
+0:0xE0A40 t2_mov(1, 1, fb_w)
+0:0xE0A46 t2_mov(1, 1, fb_h)
+@FPS
+0:0x10C04C t1_mov(0, vblank)
+# Sly Cooper 2: Band of Thieves [EU]
+
+# v1.00
+[PCSF00338, Sly2.self, 0x7288E791]
+@FB
+0:0x1155FC t2_mov(1, 1, fb_w)
+0:0x115602 t2_mov(1, 1, fb_h)
+@FPS
+0:0x12E63C t1_mov(0, vblank)

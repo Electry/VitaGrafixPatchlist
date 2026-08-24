@@ -1,0 +1,7 @@
+# Phantasy Star Nova [ASIA]
+
+# v1.01
+[PCSH00143, eboot.bin, 0xF1E54902]
+@IB
+0:0x42E3EE t2_mov(1, 0, ib_w)
+0:0x42E3F4 t2_mov(1, 2, ib_h)

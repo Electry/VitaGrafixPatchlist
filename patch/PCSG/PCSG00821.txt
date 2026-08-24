@@ -1,0 +1,8 @@
+# Atelier Shallie Plus: Alchemists of the Dusk Sea [JP]
+
+# v1.03
+[PCSG00821, eboot.bin, 0x5DEA3511]
+@IB
+0:0x300670 t2_mov(1, 1, align(ib_w, 32)) . t2_mov(1, 2, ib_h)
+0:0x30059E t2_mov(1, 1, align(ib_w, 32))
+0:0x3005A4 t2_mov(1, 2, ib_h)
