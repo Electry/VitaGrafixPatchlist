@@ -25,12 +25,14 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 ✅ - configurable<br>
 🟡 - configurable - has issues<br>
 ❌ - not configurable - missing support<br>
-⚪ - not configurable - deemed unnecessary (e.g. =FB - scales with framebuffer automatically)<br>
+⚪ - not configurable - deemed not important (e.g. =FB - scales with framebuffer automatically)<br>
+† - some configurations are practical on native hardware, others are not (e.g. due to performance constraints)<br>
+‡ - not practically usable on native hardware at all (e.g. due to performance constraints)<br>
 
 **GAME QUIRKS**<br>
 🎛️ <!-- mem_realloc --> - Memory reallocation required - RAM/VRAM must be freed elsewhere to make room for larger display buffer(s)<br>
-🧩 <!-- res_fixed_modes --> - Fixed resolution modes - Only specific internal resolutions are supported<br>
-📐 <!-- ar_viewport --> - Viewport aspect ratio linked - Using a resolution with a different AR changes the viewport AR<br>
+🧩 <!-- res_fixed_modes --> - Fixed resolution modes - only specific internal resolutions are supported<br>
+📐 <!-- ar_viewport --> - Viewport aspect ratio linked - using a resolution with a different AR changes the viewport AR<br>
 🖼️ <!-- ui_static --> - Static UI element sizing - must be manually resized for different resolutions<br>
 🌤️ <!-- fx_static --> - Baked-in graphics effects - must be manually adjusted to render properly at different resolutions or FPS<br>
 🔐 <!-- fps_lock --> - Internal FPS lock - must be removed or adjusted to allow higher FPS<br>
@@ -38,6 +40,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 👆 <!-- touch_recalc --> - Touch input alignment required - must be adjusted to calculate correct coordinates at different resolutions<br>
 🎮 <!-- button_poll --> - Button polling adjustment required - must be adjusted to not miss button presses at different FPS<br>
 🏁 <!-- msaa_config --> - Experimental MSAA configuration support - supports configuring off/2x/4x MSAA modes<br>
+❔ <!-- unknown --> - Unknown - quirks are not yet documented<br>
 
 ## Patchlist
 
@@ -103,7 +106,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | Hotline Miami | `PCSB00318` EU <br> └ ⚪ v1.01 | ⚪960x544 | ⚪960x544 | ⚪60 | |
 | I am Setsuna | [`PCSG00756`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSG/PCSG00756.txt) JP <br> └ ✅ `0x89B603C7` v1.00 | ⚪960x544 | ⚪960x544 | ✅30 | |
 | Injustice: Gods Among Us | [`PCSB00356`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSB/PCSB00356.txt) EU <br> └ 🟡 `0x9E662913` v1.01 <br> [`PCSE00271`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSE/PCSE00271.txt) US <br> └ 🟡 `0xF48FF509` v1.01 | 🟡720x408 | ⚪=FB | ⚪60 | [#82](https://github.com/Electry/VitaGrafixPatchlist/issues/82) |
-| Jak and Daxter: The Precursor Legacy | [`PCSF00247`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSF/PCSF00247.txt) EU <br> └ ✅ `0x109D6AD5` v1.00 <br> [`PCSF00248`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSF/PCSF00248.txt) EU <br> └ ✅ `0x109D6AD5` v1.00 <br> [`PCSA00080`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSA/PCSA00080.txt) US <br> └ ✅ `0x109D6AD5` v1.00 | ✅720x408 | ⚪=FB | ✅20 | |
+| Jak and Daxter: The Precursor Legacy | [`PCSF00247`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSF/PCSF00247.txt) EU <br> └ ✅ `0x109D6AD5` v1.00 <br> [`PCSF00248`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSF/PCSF00248.txt) EU <br> └ ✅ `0x109D6AD5` v1.00 <br> [`PCSA00080`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSA/PCSA00080.txt) US <br> └ ✅ `0x109D6AD5` v1.00 | ✅720x408 | ⚪=FB | ✅20† <br> | |
 | Jak II | [`PCSF00247`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSF/PCSF00247.txt) EU <br> └ ✅ `0x15059015` v1.00 <br> [`PCSF00249`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSF/PCSF00249.txt) EU <br> └ ✅ `0x15059015` v1.00 <br> [`PCSA00080`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSA/PCSA00080.txt) US <br> └ ✅ `0x15059015` v1.00 | ✅720x408 | ⚪=FB | ❌30 | |
 | Jak 3 | [`PCSF00247`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSF/PCSF00247.txt) EU <br> └ ✅ `0x790EBAD9` v1.00 <br> [`PCSF00250`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSF/PCSF00250.txt) EU <br> └ ✅ `0x790EBAD9` v1.00 <br> [`PCSA00080`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSA/PCSA00080.txt) US <br> └ ✅ `0x790EBAD9` v1.00 | ✅720x408 | ⚪=FB | ❌30 | |
 | J-Stars Victory Vs | [`PCSG00300`](https://raw.githubusercontent.com/Electry/VitaGrafixPatchlist/master/patch/PCSG/PCSG00300.txt) JP <br> └ ✅ `0xA11C13E2` v1.02 | ⚪960x544 | ✅768x448 | ❌30 | |
