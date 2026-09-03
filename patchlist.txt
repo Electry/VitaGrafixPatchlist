@@ -2297,3 +2297,8 @@
 @FPS
 0:0x2AA804 t1_mov(4, vblank - 1) . 002C 04DD r
 0:0x2AA80E 013C 002C FADC r . (nop *3)
+
+# Senran Kagura Bon Appetit
+[PCSE00471, eboot.bin, 0x3EB0EF46] # [US, 1.00]
+@FPS
+0:0x112674 t1_mov(0, vblank)
