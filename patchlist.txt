@@ -1399,6 +1399,33 @@
 0:0xAD958 t1_movt(0, float(ib_w) >> 16)
 0:0xAD986 t1_movt(0, float(ib_h) >> 16)
 
+# Minecraft: PlayStation Vita Edition Updated to 1.84 by devingDev
+# https://discord.gg/GJAhrUsAeg
+[PCSB00560, eboot.bin, 0x50974E2C] # [EU 1.84]
+[PCSE00491, eboot.bin, 0x50974E2C] # [US 1.84]
+[PCSG00302, eboot.bin, 0x50974E2C] # [JP 1.84]
+@FB
+0:0x8E013E t2_mov(1, 1, fb_w) . t2_mov(1, 0, fb_h)
+0:0x8E014E t2_mov(1, 1, 1024)
+0:0x8E01B0 t2_mov(1, 1, fb_w) . t2_mov(1, 2, fb_h) . t2_mov(1, 3, 1024)
+0:0x8E06DC t2_mov(1, 1, fb_w) . t2_mov(1, 2, fb_h) . t2_mov(1, 3, 1024)
+0:0x8F797E t2_mov(1, 1, 0x220000)
+0:0x8F79FA t2_mov(1, 7, fb_w)
+0:0x8F7A1E t2_mov(1, 8, fb_h)
+0:0x8F7A26 t2_mov(1, 1, 1024)
+0:0x8F7A5E t2_mov(1, 3, 1024)
+0:0x8F7AA4 t2_mov(1, 1, 0x440000)
+0:0x8F7AC4 t2_mov(1, 6, fb_h) . t2_mov(1, 1, 1024)
+0:0x8F7AEC t2_mov(1, 0, 1024 * 2 * 4)
+0:0x8F7AFE t2_mov(1, 3, fb_w)
+0:0x8F7B26 t2_mov(1, 5, 0x88000)
+0:0x8F7B2C nop *2
+0:0x8F7B30 t2_mov(0, 8, 1024)
+0:0x8F7C42 t2_mov(1, 2, 1024)
+0:0x8F7C4A t2_mov(1, 5, fb_h)
+@FPS
+>sceDisplaySetFrameBuf_withWait()
+
 # Minecraft: PlayStation Vita Edition
 [PCSB00560, eboot.bin, 0x85DDDE28] # [EU 1.83]
 [PCSE00491, eboot.bin, 0x85DDDE28] # [US 1.83]
