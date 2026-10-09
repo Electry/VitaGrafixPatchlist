@@ -39,7 +39,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | Gundam Breaker 2 | PCSG00412 <br/> PCSH00132 | Internal res. | 720x408 | |
 | ![][PLAYABLE] | Hatsune Miku: Project Diva f | PCSB00419 <br/> PCSE00326 <br/> PCSG00074 | Internal res. <br/> FPS cap | 640x352 <br/> 30 | [#120](https://github.com/Electry/VitaGrafix/issues/120), [#81](https://github.com/Electry/VitaGrafix/issues/81) |
 | ![][PLAYABLE] | Hatsune Miku: Project Diva f 2nd | PCSB00554 <br/> PCSE00434 <br/> PCSG00205 <br/> PCSH00088 | Internal res. <br/> FPS cap | 720x408 <br/> 30 | [#120](https://github.com/Electry/VitaGrafix/issues/120), [#80](https://github.com/Electry/VitaGrafix/issues/80) |
-| ![][NOISSUES] | Hatsune Miku: Project Diva X | PCSB01007 <br/> PCSE00867 <br/> PCSH00176 <br/> PCSG00683 | Internal res. | 720x408 | |
+| ![][NOISSUES] | Hatsune Miku: Project Diva X | PCSB01007 <br/> PCSE00867 <br/> PCSH00176 <br/> PCSG00683 | Internal res. <br/> FPS cap (EU, US) | 720x408 <br/> 30 | |
 | ![][PLAYABLE] | Helldivers | PCSF00465 <br/> PCSA00134 <br/> PCSC00078 <br/> PCSD00086 <br/> PCSD00097 | Framebuffer | 960x544 | [#82](https://github.com/Electry/VitaGrafixPatchlist/issues/82) |
 | ![][NOISSUES] | I am Setsuna | PCSG00756 | FPS cap | 30 | |
 | ![][PLAYABLE] | Injustice: Gods Among Us | PCSB00356 <br/> PCSE00271 | Framebuffer | 720x408 | [#82](https://github.com/Electry/VitaGrafixPatchlist/issues/82) |

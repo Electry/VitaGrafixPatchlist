@@ -382,9 +382,59 @@
 0:0x26096 t2_mov(1, 0, fb_w)
 0:0x2609E t2_mov(1, 0, fb_h)
 
-# Hatsune Miku: Project Diva f
-[PCSB00419, eboot.bin, 0x544807B3] # [EU 1.00]
-[PCSE00326, eboot.bin, 0x1BA9AC18] # [US 1.00]
+# Hatsune Miku: Project Diva f [EU 1.00]
+[PCSB00419, eboot.bin, 0x544807B3]
+@IB
+0:0x2828C4 t2_mov(0, 1, ib_w)
+0:0x2828CA t2_mov(0, 2, ib_h)
+0:0x28207C t2_mov(1, 2, ib_w)
+0:0x282084 t2_mov(1, 3, ib_h)
+@FPS
+# --- 60fps for Project DIVA f [EU 1.00], frame-rate aware (FPS=30 keeps stock timing) ---
+# vsync wait: sceDisplayWaitVblankStartMulti(vblank)
+0:0x136C4 t1_mov(0, vblank)
+# expected fps = refresh / vblank (was refresh * 0.5) + its two 30.0 seeds
+0:0x13948 t2_vmov(1, 1.0 / vblank)
+0:0x15680 t1_movt(0, 60.0 / vblank >> 16)
+0:0x159DA t1_movt(1, 60.0 / vblank >> 16)
+# frame manager target / measured fps init (30.0)
+0:0x15266 t1_movt(2, 60.0 / vblank >> 16)
+# hard-coded 30fps -> 60Hz conversions (x2.0, x60*1/30) -> x vblank
+0:0x4DE850 t2_vmov(1, float(vblank))
+0:0x873C4 mov32(0, vblank / 60.0, 0)
+# chara default motion step when none is set: 2.0 -> vblank (vmov.f32 d2)
+0:0x2B4682 uint32(0x2F10EF80 | ((float(vblank) >> 23) & 7) | (((float(vblank) >> 19) & 15) << 16))
+# hard-coded 1/30 s per-frame timesteps -> vblank / 60
+# anim player fallback, chara wind ramp, countdown timer, menu key repeat (x2)
+0:0x244C mov32(0, vblank / 60.0, 0)
+0:0x2ABBE8 mov32(3, vblank / 60.0, 0)
+0:0x29294 mov32(0, vblank / 60.0, 0)
+0:0x2A9E4 mov32(1, vblank / 60.0, 4)
+0:0x2AA56 mov32(1, vblank / 60.0, 4)
+# counters advanced by GetDelta() in 30Hz frames -> vblank / 2 per frame
+# chara wind clock, effect clocks/steps, long frame counter
+0:0x2ABC50 t2_vmov(0, vblank / 2.0)
+0:0x3610B6 t2_vmov(0, vblank / 2.0)
+0:0x361172 t2_vmov(0, vblank / 2.0)
+0:0x36144C t2_vmov(0, vblank / 2.0)
+0:0x3615FC t2_vmov(0, vblank / 2.0)
+0:0x361EDA t2_vmov(0, vblank / 2.0)
+0:0x1FCA94 t2_vmov(0, vblank / 2.0)
+# UI transition frame counters
+0:0x9FF86 t2_vmov(0, vblank / 2.0)
+0:0xA00BE t2_vmov(0, vblank / 2.0)
+0:0xA0148 t2_vmov(0, vblank / 2.0)
+0:0xA032A t2_vmov(0, vblank / 2.0)
+0:0xA046A t2_vmov(0, vblank / 2.0)
+0:0xA04F8 t2_vmov(0, vblank / 2.0)
+0:0xA0710 t2_vmov(0, vblank / 2.0)
+# input: at 60 fps a frame sometimes gets no new controller sample; the game then
+# read every button as released (broken holds, double presses). Always use the newest sample.
+0:0x12E24 bytes(4FF00008)
+0:0x12E28 bytes(4FF00009)
+
+# Hatsune Miku: Project Diva f [US 1.00]
+[PCSE00326, eboot.bin, 0x1BA9AC18]
 @IB
 0:0x2828C4 t2_mov(0, 1, ib_w)
 0:0x2828CA t2_mov(0, 2, ib_h)
@@ -405,9 +455,63 @@
 0:0x12582 t1_mov(0, vblank)
 0:0x12814 F7EE000A r
 
-# Hatsune Miku: Project Diva f 2nd
-[PCSB00554, eboot.bin, 0xDB737975] # [EU 1.00]
-[PCSE00434, eboot.bin, 0x31DAC716] # [US 1.00]
+# Hatsune Miku: Project Diva f 2nd [EU 1.00]
+[PCSB00554, eboot.bin, 0xDB737975]
+@IB
+0:0x25E34A t2_mov(0, 3, ib_w)
+0:0x25E352 t2_mov(0, 4, ib_h)
+0:0x25D500 t2_mov(1, 5, ib_w)
+0:0x25D508 t2_mov(1, 6, ib_h)
+@FPS
+# --- 60fps for Project DIVA f 2nd [EU 1.00], frame-rate aware (FPS=30 keeps stock timing) ---
+# vsync wait: sceDisplayWaitVblankStartMulti(vblank)
+0:0xA994 t1_mov(0, vblank)
+# expected fps = refresh / vblank (was refresh * 0.5) + its two 30.0 seeds
+0:0xAAF2 t2_vmov(1, 1.0 / vblank)
+0:0xC516 t1_movt(0, 60.0 / vblank >> 16)
+0:0xC75E t1_movt(1, 60.0 / vblank >> 16)
+# frame manager target / measured fps init (30.0)
+0:0xC216 t1_movt(2, 60.0 / vblank >> 16)
+# hard-coded 30fps -> 60Hz conversions (x2.0) -> x vblank: timer, oscillator
+0:0x58E370 t2_vmov(1, float(vblank))
+0:0x25FEE0 t2_vmov(1, float(vblank))
+# chara default motion step when none is set: 2.0 -> vblank (vmov.f32 d2)
+0:0x368960 uint32(0x2F10EF80 | ((float(vblank) >> 23) & 7) | (((float(vblank) >> 19) & 15) << 16))
+# hard-coded 1/30 s per-frame timesteps -> vblank / 60
+# anim player fallback, chara wind ramp, countdown timer, fade timer, smoothing
+0:0x20E6C2 mov32(0, vblank / 60.0, 0)
+0:0x361EE4 mov32(3, vblank / 60.0, 0)
+0:0x23F4A mov32(0, vblank / 60.0, 0)
+0:0x588BC mov32(1, vblank / 60.0, 4)
+0:0x591B8 mov32(0, vblank / 60.0, 0)
+# counters advanced by GetDelta() in 30Hz frames -> vblank / 2 per frame
+# chara wind clock, effect clocks/steps, frame countdowns
+0:0x361F4C t2_vmov(0, vblank / 2.0)
+0:0x26C296 t2_vmov(0, vblank / 2.0)
+0:0x26C3A4 t2_vmov(0, vblank / 2.0)
+0:0x26C57C t2_vmov(0, vblank / 2.0)
+0:0x26CF6E t2_vmov(0, vblank / 2.0)
+0:0x40DEC2 t2_vmov(0, vblank / 2.0)
+0:0x40DF22 t2_vmov(0, vblank / 2.0)
+# UI transition frame counters
+0:0x6B17A t2_vmov(0, vblank / 2.0)
+0:0x6B2A8 t2_vmov(0, vblank / 2.0)
+0:0x6B328 t2_vmov(0, vblank / 2.0)
+0:0x6B524 t2_vmov(0, vblank / 2.0)
+0:0x6B65C t2_vmov(0, vblank / 2.0)
+0:0x6B6DC t2_vmov(0, vblank / 2.0)
+0:0x6B8DC t2_vmov(0, vblank / 2.0)
+0:0x6BA1C t2_vmov(0, vblank / 2.0)
+0:0x6BAAA t2_vmov(0, vblank / 2.0)
+0:0x6BCF4 t2_vmov(0, vblank / 2.0)
+0:0x6DC10 t2_vmov(0, vblank / 2.0)
+# input: at 60 fps a frame sometimes gets no new controller sample; the game then
+# read every button as released (broken holds, double presses). Always use the newest sample.
+0:0x2896F6 bytes(4FF00008)
+0:0x2896FE bytes(4FF00009)
+
+# Hatsune Miku: Project Diva f 2nd [US 1.00]
+[PCSE00434, eboot.bin, 0x31DAC716]
 @IB
 0:0x25E34A t2_mov(0, 3, ib_w)
 0:0x25E352 t2_mov(0, 4, ib_h)
@@ -447,6 +551,33 @@
 0:0x2643C0 t2_mov(1, 3,  ib_h)
 0:0x2653D2 t2_mov(1, 14, ib_w)
 0:0x2653D8 t2_mov(1, 12, ib_h)
+@FPS
+# vsync wait: sceDisplayWaitVblankStartMulti(vblank)
+0:0x420FA t1_mov(0, vblank)
+# GetVsyncInterval() -> vblank (fps = refresh / interval)
+0:0x336E32 t2_vmov(0, float(vblank))
+# expected fps = refresh / vblank (was refresh * 0.5), + its 30.0 seed
+0:0x42BEA t2_vmov(1, 1.0 / vblank)
+0:0x42D08 t1_movt(3, 60.0 / vblank >> 16)
+# frame manager target fps = 60 / vblank
+0:0x56D0 t1_movt(1, 60.0 / vblank >> 16)
+# hard-coded 30fps -> 60Hz conversions (x2.0 -> x vblank): timer, oscillator
+0:0x3DAD38 t2_vmov(1, float(vblank))
+0:0x266EC8 t2_vmov(1, float(vblank))
+# chara wind clock: advance vblank / 2 per frame instead of GetDelta()
+0:0x2E1926 t2_vmov(0, vblank / 2.0)
+# hard-coded 1/30 s per-frame timesteps -> vblank / 60
+# anim player fallback step, chara wind ramp-in, event sequence clock (x2)
+0:0x20F17C mov32(0, vblank / 60.0, 0)
+0:0x2E18E6 mov32(0, vblank / 60.0, 4)
+0:0x114040 mov32(1, vblank / 60.0, 4)
+0:0x1140D8 mov32(0, vblank / 60.0, 0)
+# chara default motion step when none is set: 2.0 -> vblank (vmov.f32 d18, #vblank)
+0:0x2F5F9E uint32(0x2F10EFC0 | ((float(vblank) >> 23) & 7) | (((float(vblank) >> 19) & 15) << 16))
+# input: at 60 fps a frame sometimes gets no new controller sample; the game then
+# read every button as released (broken holds, double presses). Always use the newest sample.
+0:0x283352 bytes(4FF00008)
+0:0x28335A bytes(4FF00009)
 
 # Hatsune Miku: Project Diva X [ASIA 1.00]
 [PCSH00176, eboot.bin, 0x5C1C7A68]
