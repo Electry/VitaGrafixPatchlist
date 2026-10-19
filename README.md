@@ -58,7 +58,7 @@ Collection of patches for [VitaGrafix](https://github.com/Electry/VitaGrafix) - 
 | ![][NOISSUES] | LEGO Ninjago: Shadow of Ronin | PCSB00706 <br/> PCSE00534 | Internal res. | 640x368 | |
 | ![][NOISSUES] | LEGO Star Wars: The Force Awakens | PCSB00877 <br/> PCSE00791 | Internal res. | 640x368 | |
 | ![][NOISSUES] | LEGO The Hobbit | PCSB00503 <br/> PCSE00390 | Internal res. | 640x368 | |
-| ![][PLAYABLE] | LittleBigPlanet | PCSF00021 <br/> PCSA00017 <br/> PCSC00013 <br/> PCSD00006 | Internal res. | 720x408 | [#24](https://github.com/Electry/VitaGrafix/issues/24) |
+| ![][PLAYABLE] | LittleBigPlanet | PCSF00021 <br/> PCSA00017 <br/> PCSC00013 <br/> PCSD00006 <br/> PCSA00549 | Internal res. | 720x408 | Above 720x408 needs [LBPParticleFix](plugins/LBPParticleFix) for particles ([#24](https://github.com/Electry/VitaGrafix/issues/24)) |
 | ![][NOISSUES] | Lumines: Electronic Symphony | PCSB00061 <br/> PCSE00009 <br/> PCSG00014 | FPS cap | 30 | |
 | ![][NOISSUES] | Macross Delta Scramble | PCSG00947 | Internal res. | 800x448 | |
 | ![][NOISSUES] | Mahouka Koukou no Rettousei: Out of Order | PCSG00456 | Internal res. <br/> FPS cap | 720x408 <br/> 30 | |
